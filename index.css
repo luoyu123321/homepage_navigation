@@ -1,0 +1,103 @@
+:root{
+    --Colors: rgba(9, 0, 0, 0.49);
+    --TitleColor: rgba(47, 0, 0, 0.54);
+    --TitleFontSize:18px;
+    --NavColor: rgba(10, 0, 0, 0.89);
+    --BigTitleColor: #888888;
+    --BigTitleSize: 24px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+input{
+    border: none;
+    outline: none;
+}
+button{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 0;
+}
+
+nav{
+    position: sticky;
+    padding: 10px 0;
+    background-color: white;
+    width: 100%;
+    top:0;
+    margin-top: 20px;
+}
+.search{
+    height: 45px;
+    width: 40%;
+    border: 1px solid var(--Colors);
+    border-right: none;
+    padding-left: 12px;
+    font-size: 15px;
+}
+.search+button{
+    height: 45px;
+    padding: 0 20px;
+    font-size: 15px;
+    background: var(--Colors);
+    color: white;
+}
+main{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+main>aside{
+    width: 20%;
+    height: 200px;
+}
+main>section{
+    width: 78%;
+    padding: 20px;
+}
+main h1{
+    font-size: var(--BigTitleSize);
+    color: var(--BigTitleColor);
+    margin-bottom: 20px;
+}
+main h1::before{
+    content:"";
+    display: inline-block;
+    height: 24px;
+    width: 5px;
+    background-color: var(--BigTitleColor);
+    margin-right: 10px;
+    vertical-align: -5px;
+}
+section dl{
+    padding: 20px 0 10px;
+    border-bottom: 1px dashed var(--Colors);
+}
+section dt{
+    font-size: var(--TitleFontSize);
+    color:var(--TitleColor);
+    width: 150px;
+    flex-shrink: 0;
+    font-weight: bold;
+}
+section a{
+    display: inline-block;
+    color:var(--NavColor);
+    text-decoration: none;
+    padding: 0 10px 10px;
+    word-break: break-all;
+    vertical-align: top;
+}
+section a:hover{
+    color: red;
+    text-decoration: underline;
+}
+section a>img{
+    vertical-align: middle;
+    width: 18px;
+    margin-right: 5px;
+}
