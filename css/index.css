@@ -84,18 +84,22 @@ main a{
     display: inline-block;
     color:var(--NavColor);
     text-decoration: none;
-    padding: 0 10px 10px;
+    padding: 5px 10px;
+    margin: 0 10px 10px 0;
     word-break: break-all;
     vertical-align: top;
+    border: 1px solid #c8c8c8;
 }
 main a:hover{
-    color: red;
-    text-decoration: underline;
+    background-color: #dcdcdc;
 }
 main a>img{
     vertical-align: -3px;
     height: 18px;
     margin-right: 5px;
+}
+main section a:visited{
+    color: slateblue;
 }
 
 
@@ -110,7 +114,7 @@ aside{
     position: fixed;
     left: 20px;
     top:200px;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.11);
     width: 100px;
     text-align: center;
 }
