@@ -45,33 +45,29 @@ nav{
     font-size: 15px;
     background: var(--Colors);
     color: white;
+    cursor: pointer;
+}
+.search+button:hover{
+    background-color: #1a0000;
 }
 main{
-    width: 1200px;
+    width: 1100px;
     margin: 0 auto;
 }
 
-main>aside{
-    width: 20%;
-    height: 200px;
-}
 main>section{
-    width: 78%;
+    width: 75%;
     padding: 20px;
 }
-main h1{
-    font-size: var(--BigTitleSize);
-    color: var(--BigTitleColor);
+section>div{
     margin-bottom: 20px;
 }
-main h1::before{
-    content:"";
-    display: inline-block;
-    height: 24px;
-    width: 5px;
-    background-color: var(--BigTitleColor);
-    margin-right: 10px;
-    vertical-align: -5px;
+main h1{
+    background-color: var(--Colors);
+    font-size: var(--BigTitleSize);
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px 0 10px 10px;
 }
 section dl{
     padding: 20px 0 10px;
@@ -84,7 +80,7 @@ section dt{
     flex-shrink: 0;
     font-weight: bold;
 }
-section a{
+main a{
     display: inline-block;
     color:var(--NavColor);
     text-decoration: none;
@@ -92,12 +88,54 @@ section a{
     word-break: break-all;
     vertical-align: top;
 }
-section a:hover{
+main a:hover{
     color: red;
     text-decoration: underline;
 }
-section a>img{
-    vertical-align: middle;
-    width: 18px;
+main a>img{
+    vertical-align: -3px;
+    height: 18px;
     margin-right: 5px;
 }
+
+
+/*侧边栏*/
+aside{
+    width: 25%;
+    border-left: 1px dashed var(--Colors);
+    padding: 20px;
+}
+
+.leftMenu{
+    position: fixed;
+    left: 20px;
+    top:200px;
+    background-color: rgba(0,0,0,0.3);
+    width: 100px;
+    text-align: center;
+}
+.leftMenu>a{
+    display: block;
+    line-height: 50px;
+    text-decoration: none;
+    color: var(--NavColor);
+    cursor: pointer;
+}
+.leftMenu>a:hover{
+    background-color: var(--Colors);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

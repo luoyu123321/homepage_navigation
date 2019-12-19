@@ -1,0 +1,54 @@
+var asideNav = [
+    {
+        title:"sosoApi",
+        link:"http://api.i84.com.cn/",
+        icon:"../icon/sosoapi.png"
+    },
+    {
+        title:"tinypng",
+        link:"https://tinypng.com/",
+        icon:"../icon/tinypng.ico"
+    },
+    {
+        title:"草料二维码",
+        link:"https://cli.im/",
+        icon:"../icon/caoliao.ico"
+    },
+    {
+        title:"GitHub",
+        link:"https://github.com/",
+        icon:"../icon/github.png"
+    },
+    {
+        title:"腾讯翻译君",
+        link:"https://fanyi.qq.com/",
+        icon:"../icon/qq.ico"
+    },
+    {
+        title:"知乎",
+        link:"https://www.zhihu.com/signin?next=%2F",
+        icon:"../icon/zhihu.png"
+    },
+    {
+        title:"微信公众平台",
+        link:"https://mp.weixin.qq.com/",
+        icon:"../icon/weixin.ico"
+    },
+    {
+        title:"码云",
+        link:"https://gitee.com/",
+        icon:"../icon/gitee.ico"
+    },
+    {
+        title:"前端资源库",
+        link:"https://www.awesomes.cn/",
+        icon:"../icon/qdzy.png"
+    },
+    {
+        title:"掘金",
+        link:"https://juejin.im/timeline",
+        icon:"../icon/juejin.ico"
+    },
+
+
+];
