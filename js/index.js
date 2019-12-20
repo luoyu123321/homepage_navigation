@@ -50,7 +50,7 @@ $(function(){
         var aside = $("aside");
         navConfig.forEach(function(item){
             var a = $("<a></a>");
-            a.text(item.title);
+            a.text(item.text);
             if(item.icon){
                 var icon = $("<img>");
                 icon.attr("src",item.icon);
@@ -75,4 +75,21 @@ $(function(){
     $(document).keyup(function(event){
         event.keyCode === 13 && search();
     });
+
+
+    /*滚动滚动条*/
+    var topEl = $('.top');
+    $(window).scroll(function(){
+        var top = $(document).scrollTop();
+        top>300 ? topEl.removeClass('hide') : topEl.addClass('hide');
+    });
+
+    topEl.click(function(){
+        $('html,body').animate({scrollTop:0},200);
+    });
+
+
+
+
+
 });
