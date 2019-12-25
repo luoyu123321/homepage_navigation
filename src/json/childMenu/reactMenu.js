@@ -7,17 +7,17 @@ export let reactMenu =     {
                 {
                     text: "antDesigon Mobile",
                     link: "https://mobile.ant.design/index-cn",
-                    icon:"/icon/antdesign.png"
+                    icon:"./icon/antdesign.png"
                 },
                 {
                     text: "Rsuite 3",
                     link: "https://rsuitejs.com/",
-                    icon:"/icon/rsuitejs.png"
+                    icon:"./icon/rsuitejs.png"
                 },
                 {
                     text: "pile of Reactpile",
                     link: "https://didi.github.io/pile.js/1.x/docs/2017/08/develop-introduction.html",
-                    icon:"/icon/pile.ico"
+                    icon:"./icon/pile.ico"
                 }
             ]
         },
@@ -27,12 +27,12 @@ export let reactMenu =     {
                 {
                     text: "React小书",
                     link: "http://huziketang.mangojuice.top/books/react/",
-                    icon:"/icon/react.ico"
+                    icon:"./icon/react.ico"
                 },
                 {
                     text: "官方文档",
                     link: "https://zh-hans.reactjs.org/",
-                    icon:"/icon/react.ico"
+                    icon:"./icon/react.ico"
                 },
             ]
         },
@@ -42,7 +42,7 @@ export let reactMenu =     {
                 {
                     text: "控制props的类型",
                     link: "https://github.com/facebook/prop-types",
-                    icon:"/icon/github.png"
+                    icon:"./icon/github.png"
                 }
             ]
         },
