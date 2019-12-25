@@ -15,7 +15,7 @@
                         <dt>{{cItem['navType']}}</dt>
                         <dd>
                             <template v-for="(aItem,aIndex) in cItem['nav']">
-                                <a :key="'a'+aIndex" :href="aItem['link']">
+                                <a :key="'a'+aIndex" :href="aItem['link']" target="_blank">
                                     <img v-if="aItem['icon']" :src="aItem['icon']"/>
                                     {{aItem['text']}}
                                 </a>
@@ -26,7 +26,7 @@
             </section>
             <aside>
                 <h1>常用站点</h1>
-                <a v-for="(item,index) in asideNav" :key="'y'+index" :href="item['link']">
+                <a v-for="(item,index) in asideNav" :key="'y'+index" :href="item['link']" target="_blank">
                     <img v-if="item['icon']" :src="item['icon']"/>
                     {{item['text']}}
                 </a>
