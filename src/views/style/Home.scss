@@ -1,0 +1,151 @@
+*{
+  user-select: none;
+}
+/*导航*/
+nav {
+  position: sticky;
+  padding: 10px 0;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  margin-top: 20px;
+  z-index: 999;
+}
+
+.search {
+  height: 45px;
+  width: 40%;
+  border: 1px solid $Colors;
+  border-right: none;
+  padding-left: 12px;
+  font-size: 15px;
+  outline: none;
+  + button {
+    height: 45px;
+    padding: 0 20px;
+    font-size: 15px;
+    background: $Colors;
+    color: white;
+    cursor: pointer;
+    &:hover {
+      background-color: #1a0000;
+    }
+  }
+}
+
+
+/*主体*/
+main {
+  width: 80vw;
+  margin: 0 auto;
+  > section {
+    width: 75%;
+    padding: 20px;
+    > div {
+      margin-bottom: 20px;
+    }
+    dl {
+      padding: 20px 0 10px;
+      border-bottom: 1px dashed $Colors;
+    }
+    dt {
+      font-size: $TitleFontSize;
+      color: $TitleColor;
+      width: 150px;
+      flex-shrink: 0;
+      font-weight: bold;
+    }
+    a{
+      &:hover{
+        background-color: #dedede;
+      }
+      &:visited {
+        color: slateblue;
+      }
+    }
+  }
+  h1 {
+    background-color: $Colors;
+    font-size: $BigTitleSize;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px 0 10px 10px;
+  }
+  a {
+    display: inline-block;
+    color: $NavColor;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 10px 10px 0;
+    word-break: break-all;
+    vertical-align: top;
+    border: 1px solid #c8c8c8;
+    :hover {
+      background-color: #dcdcdc;
+    }
+    > img {
+      vertical-align: -3px;
+      height: 18px;
+      margin-right: 5px;
+    }
+  }
+}
+
+
+/*侧边栏*/
+aside {
+  width: 25%;
+  border-left: 1px dashed $Colors;
+  padding: 20px;
+}
+
+.leftMenu {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.11);
+  width: 100px;
+  text-align: center;
+  transform: translateY(-50%);
+  > a {
+    display: block;
+    line-height: 50px;
+    text-decoration: none;
+    color: $NavColor;
+    cursor: pointer;
+    &:hover {
+      background-color: $Colors;
+      color: white;
+    }
+  }
+}
+
+/*置顶*/
+.top {
+  position: fixed;
+  right: 10%;
+  bottom: 50px;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  &.hide {
+    display: none !important;
+  }
+  &:hover {
+    background-color: #d4d4d4;
+  }
+  > svg {
+    transform: scale(2);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+

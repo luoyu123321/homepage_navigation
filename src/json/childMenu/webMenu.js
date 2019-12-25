@@ -1,4 +1,4 @@
-var webMenu =     {
+export let webMenu =     {
     title: "前端",
     nav: [
         {
@@ -7,12 +7,12 @@ var webMenu =     {
                 {
                     text: "is.js",
                     link: "http://is.js.org/",
-                    icon:"../icon/github.png"
+                    icon:"/icon/github.png"
                 },
                 {
                     text: "math.js",
                     link: "https://mathjs.org/index.html",
-                    icon:"../icon/math.png"
+                    icon:"/icon/math.png"
                 },
                 {
                     text: "TweenMax",
@@ -21,17 +21,17 @@ var webMenu =     {
                 {
                     text: "Lodash",
                     link: "https://www.html.cn/doc/lodash/",
-                    icon:"../icon/lodash.png"
+                    icon:"/icon/lodash.png"
                 },
                 {
                     text: "underscore.js",
                     link: "https://www.html.cn/doc/underscore/#",
-                    icon:"../icon/underscore.ico"
+                    icon:"/icon/underscore.ico"
                 },
                 {
                     text: "js滚动插件",
                     link: "https://www.npmjs.com/package/uos",
-                    icon:"../icon/npm.png"
+                    icon:"/icon/npm.png"
                 },
                 {
                     text: "代码高亮插件",
@@ -40,6 +40,11 @@ var webMenu =     {
                 {
                     text: "滑动隐藏头部小插件",
                     link: "http://wicky.nillia.ms/headroom.js/"
+                },
+                {
+                    text: "PouchDB",
+                    link: "https://pouchdb.com/learn.html",
+                    icon:"/icon/PouchDB.ico"
                 }
             ]
         },
@@ -49,22 +54,22 @@ var webMenu =     {
                 {
                     text: "Mock.js",
                     link: "http://mockjs.com/",
-                    icon:"../icon/mockjs.svg"
+                    icon:"/icon/mockjs.svg"
                 },
                 {
                     text: "Mock使用方法",
                     link: "https://www.jianshu.com/p/f3adb1aab09e",
-                    icon:"../icon/mockjs.svg"
+                    icon:"/icon/mockjs.svg"
                 },
                 {
                     text: "Mock语法规范",
                     link: "https://www.jianshu.com/p/4579f40e6108",
-                    icon:"../icon/mockjs.svg"
+                    icon:"/icon/mockjs.svg"
                 },
                 {
                     text: "随机图片生成",
                     link: "https://source.unsplash.com/",
-                    icon:"../icon/unsplash.png"
+                    icon:"/icon/unsplash.png"
                 },
                 {
                     text: "easyMock",
@@ -78,22 +83,22 @@ var webMenu =     {
                 {
                     text: "V-charts",
                     link: "https://v-charts.js.org/#/",
-                    icon:"../icon/v-charts.ico"
+                    icon:"/icon/v-charts.ico"
                 },
                 {
                     text: "echarts",
                     link: "https://www.echartsjs.com/zh/index.html",
-                    icon:"../icon/echartsjs.png"
+                    icon:"/icon/echartsjs.png"
                 },
                 {
                     text: "DataV",
                     link: "http://datav.jiaminghi.com/",
-                    icon:"../icon/datav.ico"
+                    icon:"/icon/datav.ico"
                 },
                 {
                     text: "蚂蚁F2",
                     link: "https://antv-f2.gitee.io/zh",
-                    icon:"../icon/f2.png"
+                    icon:"/icon/f2.png"
                 },
                 {
                     text: "HighCharts",
@@ -107,12 +112,12 @@ var webMenu =     {
                 {
                     text: "ts.config配置",
                     link: "https://blog.csdn.net/weixin_30758821/article/details/101713657",
-                    icon: "../icon/csdn.ico"
+                    icon: "/icon/csdn.ico"
                 },
                 {
                     text: "阮一峰TS教程",
                     link: "https://ts.xcatliu.com/",
-                    icon: "../icon/ts.ico"
+                    icon: "/icon/ts.ico"
                 },
                 {
                     text: "vue+ts",
@@ -121,7 +126,7 @@ var webMenu =     {
                 {
                     text: "ts错误解读",
                     link: "https://www.tslang.cn/docs/handbook/error.html",
-                    icon: "../icon/ts.ico"
+                    icon: "/icon/ts.ico"
                 },
                 {
                     text: "vue-property-decorator用法",
@@ -143,22 +148,22 @@ var webMenu =     {
                 {
                     text: "Animate.css",
                     link: "http://www.jq22.com/jquery-info819",
-                    icon: "../icon/jq22.ico"
+                    icon: "/icon/jq22.ico"
                 },
                 {
                     text: "20个CSS库集合",
                     link: "http://www.admin10000.com/document/4550.html",
-                    icon: "../icon/web.ico"
+                    icon: "/icon/web.ico"
                 },
                 {
                     text: "magic-CSS",
                     link: "https://github.com/miniMAC/magic",
-                    icon: "../icon/github.png"
+                    icon: "/icon/github.png"
                 },
                 {
                     text: "flex.css",
                     link: "https://github.com/lzxb/flex.css/blob/master/docs/zh-ch.md",
-                    icon: "../icon/github.png"
+                    icon: "/icon/github.png"
                 },
                 {
                     text: "bttn.css",
@@ -167,12 +172,12 @@ var webMenu =     {
                 {
                     text: "按钮hover",
                     link: "https://varin6.github.io/Hover-Buttons/",
-                    icon: "../icon/github.png"
+                    icon: "/icon/github.png"
                 },
                 {
                     text: "CSS悬停视差",
                     link: "https://c7sky.com/how-to-create-direction-aware-css-only-hover-effects.html",
-                    icon: "../icon/c7sky.png"
+                    icon: "/icon/c7sky.png"
                 },
                 {
                     text: "轻量级栅格系统",
@@ -186,7 +191,7 @@ var webMenu =     {
                 {
                     text: "JQ22",
                     link: "http://www.htmleaf.com/",
-                    icon: "../icon/jq22.ico"
+                    icon: "/icon/jq22.ico"
                 },
                 {
                     text: "dowebok",
@@ -195,12 +200,12 @@ var webMenu =     {
                 {
                     text: "17素材",
                     link: "https://www.17sucai.com/",
-                    icon: "../icon/17sucai.ico"
+                    icon: "/icon/17sucai.ico"
                 },
                 {
                     text: "codrops",
                     link: "https://tympanus.net/codrops/",
-                    icon: "../icon/codrops.ico"
+                    icon: "/icon/codrops.ico"
                 }
             ]
         },
@@ -214,7 +219,7 @@ var webMenu =     {
                 {
                     text: "JCanvas",
                     link: "https://projects.calebevans.me/jcanvas/",
-                    icon: "../icon/jcanvas.ico"
+                    icon: "/icon/jcanvas.ico"
                 },
                 {
                     text: "VueCanvas",
@@ -227,7 +232,7 @@ var webMenu =     {
                 {
                     text: "Canvas-to-Blob",
                     link: "https://github.com/blueimp/JavaScript-Canvas-to-Blob",
-                    icon: "../icon/github.png"
+                    icon: "/icon/github.png"
                 }
             ]
         },
@@ -237,12 +242,12 @@ var webMenu =     {
                 {
                     text: "SVG代码优化",
                     link: "https://jakearchibald.github.io/svgomg/?utm_source=next.36kr.com",
-                    icon: "../icon/svgomg.png"
+                    icon: "/icon/svgomg.png"
                 },
                 {
                     text: "SVG图标",
                     link: "https://feathericons.com/",
-                    icon: "../icon/feathericons.png"
+                    icon: "/icon/feathericons.png"
                 }
             ]
         },
@@ -252,12 +257,12 @@ var webMenu =     {
                 {
                     text: "H5播放器",
                     link: "http://chimee.org/",
-                    icon: "../icon/chimee.ico"
+                    icon: "/icon/chimee.ico"
                 },
                 {
                     text: "西瓜播放器",
                     link: "http://h5player.bytedance.com/en/",
-                    icon: "../icon/xg.ico"
+                    icon: "/icon/xg.ico"
                 }
             ]
         },
@@ -267,12 +272,12 @@ var webMenu =     {
                 {
                     text: "ZUI",
                     link: "http://zui.sexy/",
-                    icon: "../icon/zui.ico"
+                    icon: "/icon/zui.ico"
                 },
                 {
                     text: "主题",
                     link: "https://bootswatch.com/",
-                    icon: "../icon/bootswatch.svg"
+                    icon: "/icon/bootswatch.svg"
                 }
             ]
         },
@@ -282,22 +287,22 @@ var webMenu =     {
                 {
                     text: "100行代码提升10倍性能",
                     link: "https://juejin.im/post/5bec223f5188250c102116b5",
-                    icon: "../icon/juejin.ico"
+                    icon: "/icon/juejin.ico"
                 },
                 {
                     text: "内容感知图片裁切",
                     link: "https://github.com/jwagner/smartcrop.js/",
-                    icon: "../icon/github.png"
+                    icon: "/icon/github.png"
                 },
                 {
                     text: "五分钟学算法",
                     link: "https://github.com/MisterBooo/LeetCodeAnimation",
-                    icon: "../icon/github.png"
+                    icon: "/icon/github.png"
                 },
                 {
                     text: "数组分割法",
                     link: "https://blog.csdn.net/fxss5201/article/details/67651904",
-                    icon: "../icon/csdn.ico"
+                    icon: "/icon/csdn.ico"
                 }
             ]
         },
@@ -311,12 +316,12 @@ var webMenu =     {
                 {
                     text: "快速生成正则",
                     link: "https://github.com/Silence520/regexp",
-                    icon: "../icon/github.png"
+                    icon: "/icon/github.png"
                 },
                 {
                     text: "正则大全",
                     link: "https://github.com/any86/any-rule",
-                    icon: "../icon/github.png"
+                    icon: "/icon/github.png"
                 }
             ]
         },
@@ -326,17 +331,17 @@ var webMenu =     {
                 {
                     text: "犸良",
                     link: "https://design.alipay.com/emotion",
-                    icon: "../icon/emotion.png"
+                    icon: "/icon/emotion.png"
                 },
                 {
                     text: "Lottie素材",
                     link: "https://lottiefiles.com/",
-                    icon: "../icon/lottiefiles.png"
+                    icon: "/icon/lottiefiles.png"
                 },
                 {
                     text: "Lottie编辑器",
                     link: "https://editor.lottiefiles.com/",
-                    icon: "../icon/lottiefiles.png"
+                    icon: "/icon/lottiefiles.png"
                 }
             ]
         },

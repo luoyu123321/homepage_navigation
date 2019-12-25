@@ -1,0 +1,39 @@
+html,body,div,span,object,h1,h2,h3,h4,h5,h6,p,a,address,cite,del,em,img,q,u,i,dl,dt,dd,ol,ul,li,form,label,table,tr,th,td,caption,tbody,tfoot,thead,article,aside,details,summary,figure,figcaption,footer,header,menu,nav,section,audio,input,select,textarea{padding:0;margin:0;border:none;box-sizing: border-box;-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+html,.Router{
+  width: 100%;
+  height: 100%;
+}
+body{
+  position: relative;
+  background: white;
+}
+input{
+  -webkit-appearance: none;
+}
+input,button{
+  border: none;
+}
+
+/* 路由样式 */
+.Router {
+  transition: all .3s ease;
+  position: absolute;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  padding: constant(safe-area-inset-top) constant(safe-area-inset-right) constant(safe-area-inset-bottom) constant(safe-area-inset-left);
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
+.slide-{
+  &left-enter,&right-leave-to{
+    transform: translate3d(100%, 0, 0);
+  }
+  &right-enter,&left-leave-to{
+    transform: translate3d(-100%, 0, 0);
+  }
+  &left-enter,&right-leave-to,&right-enter,&left-leave-to{
+    opacity: 0;
+  }
+}
+
+

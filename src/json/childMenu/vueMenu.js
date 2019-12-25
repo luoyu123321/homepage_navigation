@@ -1,4 +1,4 @@
-var vueMenu =     {
+export const vueMenu =  {
     title: "Vue",
     nav: [
         {
@@ -7,57 +7,57 @@ var vueMenu =     {
                 {
                     text: "day.js",
                     link: "https://github.com/iamkun/dayjs",
-                    icon:"../icon/github.png"
+                    icon:"/icon/github.png"
                 },
                 {
                     text: "图片上传",
                     link: "http://vanthink-ued.github.io/vue-core-image-upload/index.html#/cn/home",
-                    icon:"../icon/github.png"
+                    icon:"/icon/github.png"
                 },
                 {
                     text: "上传插件",
                     link: "https://terryz.github.io/vue/#/upload",
-                    icon:"../icon/terryz.ico"
+                    icon:"/icon/terryz.ico"
                 },
                 {
                     text: "v-calendar日历插件",
                     link: "https://vcalendar.netlify.com/",
-                    icon:"../icon/V-Calendar.png"
+                    icon:"/icon/V-Calendar.png"
                 },
                 {
                     text: "better-scroll",
                     link: "https://ustbhuangyi.github.io/better-scroll/doc/#better-scroll%20%E6%98%AF%E4%BB%80%E4%B9%88",
-                    icon:"../icon/gitbook.ico"
+                    icon:"/icon/gitbook.ico"
                 },
                 {
                     text: "loading",
                     link: "https://epic-spinners.epicmax.co/#/",
-                    icon:"../icon/gitbook.ico"
+                    icon:"/icon/gitbook.ico"
                 },
                 {
                     text: "good-storage",
                     link: "https://github.com/ustbhuangyi/storage",
-                    icon:"../icon/github.png"
+                    icon:"/icon/github.png"
                 },
                 {
                     text: "懒加载",
                     link: "https://github.com/subotkevic/vue-lazy-image-loading",
-                    icon:"../icon/github.png"
+                    icon:"/icon/github.png"
                 },
                 {
                     text: "cookie.js",
                     link: "https://github.com/jaywcjlove/cookie.js",
-                    icon:"../icon/github.png"
+                    icon:"/icon/github.png"
                 },
                 {
                     text: "vue-navigation",
                     link: "https://github.com/zack24q/vue-navigation",
-                    icon:"../icon/github.png"
+                    icon:"/icon/github.png"
                 },
                 {
                     text: "手势库",
                     link: "https://github.com/AlloyTeam/AlloyFinger",
-                    icon:"../icon/github.png"
+                    icon:"/icon/github.png"
                 },
                 {
                     text: "复制粘贴",
@@ -66,7 +66,7 @@ var vueMenu =     {
                 {
                     text: "卡片填写",
                     link: "https://github.com/muhammederdem/vue-interactive-paycard",
-                    icon:"../icon/github.png"
+                    icon:"/icon/github.png"
                 },
                 {
                     text: "拖拽支持移动端",
@@ -81,32 +81,32 @@ var vueMenu =     {
                 {
                     text: "Mand Mobile",
                     link: "https://mand-mobile.github.io/2x-doc/#/zh-CN/home",
-                    icon:"../icon/mandMobile.png"
+                    icon:"/icon/mandMobile.png"
                 },
                 {
                     text: "elementUI",
                     link: "https://element.eleme.cn/2.13/#/zh-CN/",
-                    icon:"../icon/element.svg"
+                    icon:"/icon/element.svg"
                 },
                 {
                     text: "vant",
                     link: "https://youzan.github.io/vant/#/zh-CN/",
-                    icon:"../icon/vant.png"
+                    icon:"/icon/vant.png"
                 },
                 {
                     text: "ant Design",
                     link: "https://vue.ant.design/docs/vue/introduce-cn/",
-                    icon:"../icon/antdv.ico"
+                    icon:"/icon/antdv.ico"
                 },
                 {
                     text: "YDUI",
                     link: "http://vue.ydui.org/",
-                    icon:"../icon/ydui.ico"
+                    icon:"/icon/ydui.ico"
                 },
                 {
                     text: "VUX",
                     link: "https://doc.vux.li/zh-CN/",
-                    icon:"../icon/github.png"
+                    icon:"/icon/github.png"
                 },
                 {
                     text: "温泉UI",
@@ -120,27 +120,27 @@ var vueMenu =     {
                 {
                     text: "Axios",
                     link: "https://www.kancloud.cn/yunye/axios/234845",
-                    icon:"../icon/vue.png"
+                    icon:"/icon/vue.png"
                 },
                 {
                     text: "Vue.js",
                     link: "https://cn.vuejs.org/",
-                    icon:"../icon/vue.png"
+                    icon:"/icon/vue.png"
                 },
                 {
                     text: "Vue-Cli",
                     link: "https://cli.vuejs.org/zh/",
-                    icon:"../icon/vue.png"
+                    icon:"/icon/vue.png"
                 },
                 {
                     text: "Vuex",
                     link: "https://vuex.vuejs.org/zh/",
-                    icon:"../icon/vue.png"
+                    icon:"/icon/vue.png"
                 },
                 {
                     text: "Vue-router",
                     link: "https://router.vuejs.org/zh/",
-                    icon:"../icon/vue.png"
+                    icon:"/icon/vue.png"
                 },
             ]
         },
