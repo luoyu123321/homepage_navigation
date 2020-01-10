@@ -5,6 +5,11 @@ export let webMenu =     {
             navType: "常用插件",
             nav: [
                 {
+                    text: "极光IM",
+                    link: "http://is.js.org/",
+                    icon:"./icon/JM.ico"
+                },
+                {
                     text: "is.js",
                     link: "http://is.js.org/",
                     icon:"./icon/github.png"

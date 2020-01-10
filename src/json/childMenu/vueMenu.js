@@ -25,8 +25,8 @@ export const vueMenu =  {
                     icon:"./icon/V-Calendar.png"
                 },
                 {
-                    text: "better-scroll",
-                    link: "https://ustbhuangyi.github.io/better-scroll/doc/#better-scroll%20%E6%98%AF%E4%BB%80%E4%B9%88",
+                    text: "better-scroll2",
+                    link: "https://better-scroll.github.io/docs/zh-CN/",
                     icon:"./icon/gitbook.ico"
                 },
                 {

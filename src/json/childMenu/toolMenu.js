@@ -155,6 +155,11 @@ export let toolMenu =     {
             navType: "其他工具",
             nav: [
                 {
+                    text: "变量声明",
+                    link: "https://unbug.github.io/codelf/",
+                    icon: "./icon/codelf.png"
+                },
+                {
                     text: "浏览器版本查看",
                     link: "https://browserl.ist/?q=defaults",
                     icon: "./icon/browserl.png"
