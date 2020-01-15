@@ -75,10 +75,6 @@ export let webMenu =     {
                     text: "随机图片生成",
                     link: "https://source.unsplash.com/",
                     icon:"./icon/unsplash.png"
-                },
-                {
-                    text: "easyMock",
-                    link: "https://www.easy-mock.com/login"
                 }
             ]
         },

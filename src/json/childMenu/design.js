@@ -64,11 +64,6 @@ export let design = {
                     icon:"./icon/designbase.jpg"
                 },
                 {
-                    text: "花瓣网",
-                    link: "http://huabanpro.com/",
-                    icon:"./icon/huaban.png"
-                },
-                {
                     text: "稀土区",
                     link: "https://xituqu.com/",
                     icon:"./icon/xituqu.png"

@@ -40,9 +40,9 @@ export let asideNav = [
         icon:"./icon/zhihu.png"
     },
     {
-        text: "cube-ui",
-        link: "https://didi.github.io/cube-ui/#/zh-CN",
-        icon:"./icon/cube.ico"
+        text: "Teambition",
+        link: "https://account.teambition.com/login",
+        icon:"./icon/teambition.ico"
     },
     {
         text: "wepy",
@@ -55,16 +55,26 @@ export let asideNav = [
         icon:"./icon/weixin.ico"
     },
     {
-        text:"前端资源库",
-        link:"https://www.awesomes.cn/",
-        icon:"./icon/qdzy.png"
+        text: "花瓣网",
+        link: "http://huabanpro.com/",
+        icon:"./icon/huaban.png"
     },
     {
         text: "看云文档",
         link: "https://www.kancloud.cn/"
     },
     {
-        text: "阿里巴巴矢量图标库",
+        text:"前端资源库",
+        link:"https://www.awesomes.cn/",
+        icon:"./icon/qdzy.png"
+    },
+    {
+        text: "cube-ui",
+        link: "https://didi.github.io/cube-ui/#/zh-CN",
+        icon:"./icon/cube.ico"
+    },
+    {
+        text: "阿里图标库",
         link: "http://www.iconfont.cn/",
         icon: "./icon/iconfont.ico"
     },
