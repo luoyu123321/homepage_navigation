@@ -6,7 +6,7 @@ export let webMenu =     {
             nav: [
                 {
                     text: "极光IM",
-                    link: "http://is.js.org/",
+                    link: "https://docs.jiguang.cn/jmessage/client/im_sdk_js_v2/",
                     icon:"./icon/JM.ico"
                 },
                 {
