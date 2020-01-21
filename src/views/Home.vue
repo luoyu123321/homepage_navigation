@@ -3,7 +3,7 @@
         <!--搜索栏-->
         <nav flex="main:center">
             <input type="text" class="search" placeholder="百度一下，你就知道" v-model="keywords">
-            <button type="button">百度一下</button>
+            <button type="button" @click="search">百度一下</button>
         </nav>
 
         <!--主体-->
