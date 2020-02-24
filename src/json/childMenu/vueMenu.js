@@ -80,7 +80,7 @@ export const vueMenu =  {
 
                 {
                     text: "Mand Mobile",
-                    link: "https://mand-mobile.github.io/2x-doc/#/zh-CN/home",
+                    link: "https://mand-mobile.gitee.io/docs/index.gitee.html#/zh-CN/home",
                     icon:"./icon/mandMobile.png"
                 },
                 {
