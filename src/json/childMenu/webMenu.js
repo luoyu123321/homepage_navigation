@@ -75,6 +75,11 @@ export let webMenu =     {
                     text: "随机图片生成",
                     link: "https://source.unsplash.com/",
                     icon:"./icon/unsplash.png"
+                },
+                {
+                    text: "JSON数据生成器",
+                    link: "https://www.json-generator.com/",
+                    icon:"./icon/json-generator.ico"
                 }
             ]
         },

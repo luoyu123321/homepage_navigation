@@ -71,6 +71,15 @@ export const vueMenu =  {
                 {
                     text: "拖拽支持移动端",
                     link: "http://www.wheelsfactory.cn/#/detail?id=195"
+                },
+                {
+                    text: "无限列表",
+                    link: "https://github.com/Akryum/vue-virtual-scroller",
+                    icon:"./icon/github.png"
+                },
+                {
+                    text: "无限列表文档",
+                    link: "http://www.paosucai.com/t-44734.html"
                 }
             ]
         },

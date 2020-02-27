@@ -188,6 +188,11 @@ export let toolMenu =     {
                     text: "艺术字体转换器",
                     link: "http://www.akuziti.com/"
                 },
+                {
+                    text: "前端单元测试JEST",
+                    link: "https://jestjs.io/zh-Hans/",
+                    icon: "./icon/jest.ico"
+                },
             ]
         },
     ]

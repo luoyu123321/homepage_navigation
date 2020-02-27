@@ -23,6 +23,11 @@ export let course = {
                     link: "https://segmentfault.com/q/1010000007708389",
                     icon:"./icon/segmentfault.ico"
                 },
+                {
+                    text: "webstorm2019",
+                    link: "https://github.com/qqlcx5/editor",
+                    icon:"./icon/newn.gif"
+                },
             ]
         },
         {

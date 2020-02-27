@@ -78,4 +78,9 @@ export let asideNav = [
         link: "http://www.iconfont.cn/",
         icon: "./icon/iconfont.ico"
     },
+    {
+        text: "postWoman",
+        link: "https://postwoman.io/",
+        icon: "./icon/postwoman.png"
+    },
 ];
