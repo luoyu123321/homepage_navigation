@@ -24,8 +24,13 @@ export let course = {
                     icon:"./icon/segmentfault.ico"
                 },
                 {
-                    text: "webstorm2019",
+                    text: "webstorm2019破解",
                     link: "https://github.com/qqlcx5/editor",
+                    icon:"./icon/github.png"
+                },
+                {
+                    text: "webstorm2019激活码",
+                    link: "https://github.com/Henry-626/text",
                     icon:"./icon/newn.gif"
                 },
             ]
