@@ -80,6 +80,11 @@ export const vueMenu =  {
                 {
                     text: "无限列表文档",
                     link: "http://www.paosucai.com/t-44734.html"
+                },
+                {
+                    text: "数字跳动插件",
+                    link: "https://github.com/DakerHub/vue-digital-transform",
+                    icon: "./icon/vdt.png"
                 }
             ]
         },

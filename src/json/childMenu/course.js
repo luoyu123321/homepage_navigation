@@ -33,6 +33,11 @@ export let course = {
                     link: "https://github.com/Henry-626/text",
                     icon:"./icon/newn.gif"
                 },
+                {
+                    text: "webstorm主题插件",
+                    link: "https://www.material-theme.com/",
+                    icon: "./icon/newn.gif"
+                },
             ]
         },
         {
