@@ -83,4 +83,9 @@ export let asideNav = [
         link: "https://postwoman.io/",
         icon: "./icon/postwoman.png"
     },
+    {
+        text: "coding",
+        link: "https://coding.net",
+        icon: "./icon/coding.ico"
+    },
 ];
