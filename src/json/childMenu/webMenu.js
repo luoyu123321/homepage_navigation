@@ -50,6 +50,10 @@ export let webMenu =     {
                     text: "PouchDB",
                     link: "https://pouchdb.com/learn.html",
                     icon:"./icon/PouchDB.ico"
+                },
+                {
+                    text: "产品引导库",
+                    link: "https://introjs.com/"
                 }
             ]
         },
@@ -188,6 +192,11 @@ export let webMenu =     {
                 {
                     text: "轻量级栅格系统",
                     link: "https://www.helloweba.net/javascript/396.html"
+                },
+                {
+                    text: "暗黑模式",
+                    link: "https://github.com/sandoche/Darkmode.js",
+                    icon: "./icon/github.png"
                 }
             ]
         },
@@ -328,7 +337,7 @@ export let webMenu =     {
                     text: "正则大全",
                     link: "https://github.com/any86/any-rule",
                     icon: "./icon/github.png"
-                }
+                },
             ]
         },
         {
