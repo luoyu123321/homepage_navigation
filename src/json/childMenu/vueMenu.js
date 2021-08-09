@@ -27,7 +27,7 @@ export const vueMenu =  {
                 {
                     text: "better-scroll2",
                     link: "https://better-scroll.github.io/docs/zh-CN/",
-                    icon:"./icon/gitbook.ico"
+                    icon:"./icon/bs.ico"
                 },
                 {
                     text: "loading",

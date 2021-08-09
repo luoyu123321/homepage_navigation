@@ -54,6 +54,14 @@ export let webMenu =     {
                 {
                     text: "产品引导库",
                     link: "https://introjs.com/"
+                },
+                {
+                    text: "hover视差",
+                    link: "http://gijsroge.github.io/tilt.js/"
+                },
+                {
+                    text: "滚动动画skrollr.js",
+                    link: "http://prinzhorn.github.io/skrollr/"
                 }
             ]
         },
@@ -113,6 +121,11 @@ export let webMenu =     {
                 {
                     text: "HighCharts",
                     link: "http://www.hcharts.cn/"
+                },
+                {
+                    text: "vue-echarts",
+                    link: "https://github.com/ecomfe/vue-echarts/blob/main/README.zh-Hans.md",
+                    icon:"./icon/vue.png"
                 }
             ]
         },
@@ -248,6 +261,11 @@ export let webMenu =     {
                     text: "Canvas-to-Blob",
                     link: "https://github.com/blueimp/JavaScript-Canvas-to-Blob",
                     icon: "./icon/github.png"
+                },
+                {
+                    text: "konva",
+                    link: "http://konvajs-doc.bluehymn.com/",
+                    icon: "./icon/konva.png"
                 }
             ]
         },
@@ -357,6 +375,15 @@ export let webMenu =     {
                     text: "Lottie编辑器",
                     link: "https://editor.lottiefiles.com/",
                     icon: "./icon/lottiefiles.png"
+                }
+            ]
+        },
+        {
+            navType: "富文本",
+            nav: [
+                {
+                    text: "quilljs",
+                    link: "https://quilljs.com/docs/quickstart/"
                 }
             ]
         },

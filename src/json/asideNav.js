@@ -1,5 +1,10 @@
 export let asideNav = [
     {
+        text:"apiPost",
+        link:"https://www.apipost.cn/",
+        icon:"./icon/apipost.svg"
+    },
+    {
         text:"sosoApi",
         link:"http://api.i84.com.cn/",
         icon:"./icon/sosoapi.png"
@@ -20,8 +25,8 @@ export let asideNav = [
         icon:"./icon/gitee.ico"
     },
     {
-        text:"GitHub",
-        link:"https://github.com/",
+        text:"GitHub镜像",
+        link:"https://hub.fastgit.org/",
         icon:"./icon/github.png"
     },
     {

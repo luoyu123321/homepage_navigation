@@ -49,6 +49,16 @@ export let mapMenu =     {
                     link: "https://www.jianshu.com/p/687386d13a08"
                 }
             ]
+        },
+        {
+            navType: "高德地图",
+            nav: [
+                {
+                    text: "vue-amap",
+                    link: "https://elemefe.github.io/vue-amap/#/",
+                    icon:"./icon/amap.ico"
+                }
+            ]
         }
     ]
 };
