@@ -30,11 +30,6 @@ export let asideNav = [
         icon:"./icon/github.png"
     },
     {
-        text:"掘金",
-        link:"https://juejin.im/timeline",
-        icon:"./icon/juejin.ico"
-    },
-    {
         text:"腾讯翻译君",
         link:"https://fanyi.qq.com/",
         icon:"./icon/qq.ico"
@@ -45,14 +40,13 @@ export let asideNav = [
         icon:"./icon/zhihu.png"
     },
     {
+        text: "看云文档",
+        link: "https://www.kancloud.cn/"
+    },
+    {
         text: "Teambition",
         link: "https://account.teambition.com/login",
         icon:"./icon/teambition.ico"
-    },
-    {
-        text: "wepy",
-        link: "https://tencent.github.io/wepy/",
-        icon:"./icon/github.png"
     },
     {
         text:"微信公众平台",
@@ -60,23 +54,8 @@ export let asideNav = [
         icon:"./icon/weixin.ico"
     },
     {
-        text: "花瓣网",
-        link: "http://huabanpro.com/",
-        icon:"./icon/huaban.png"
-    },
-    {
-        text: "看云文档",
-        link: "https://www.kancloud.cn/"
-    },
-    {
-        text:"前端资源库",
-        link:"https://www.awesomes.cn/",
-        icon:"./icon/qdzy.png"
-    },
-    {
-        text: "cube-ui",
-        link: "https://didi.github.io/cube-ui/#/zh-CN",
-        icon:"./icon/cube.ico"
+        text:"💥 超全的前端选型 💥",
+        link:"https://open.mizhousoft.com/artifact/list.action?cid=3&fid=500&tid=10"
     },
     {
         text: "阿里图标库",
@@ -89,8 +68,8 @@ export let asideNav = [
         icon: "./icon/postwoman.png"
     },
     {
-        text: "coding",
-        link: "https://coding.net",
-        icon: "./icon/coding.ico"
+        text:"掘金",
+        link:"https://juejin.im/timeline",
+        icon:"./icon/juejin.ico"
     },
 ];

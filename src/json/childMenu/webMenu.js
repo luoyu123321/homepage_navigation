@@ -66,6 +66,21 @@ export let webMenu =     {
             ]
         },
         {
+            navType: "富文本",
+            nav: [
+                {
+                    text: "【wangEditor】超级无敌好用 😆",
+                    link: "https://www.wangeditor.com/v5/",
+                    icon:"https://www.wangeditor.com/favicon.ico"
+                },
+                {
+                    text: "quilljs",
+                    link: "https://quilljs.com/docs/quickstart/",
+                    icon:"https://quilljs.com/assets/images/favicon.ico"
+                }
+            ]
+        },
+        {
             navType: "Mock",
             nav: [
                 {
@@ -377,15 +392,6 @@ export let webMenu =     {
                     icon: "./icon/lottiefiles.png"
                 }
             ]
-        },
-        {
-            navType: "富文本",
-            nav: [
-                {
-                    text: "quilljs",
-                    link: "https://quilljs.com/docs/quickstart/"
-                }
-            ]
-        },
+        }
     ]
 };

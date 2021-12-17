@@ -2,20 +2,80 @@ export const vueMenu =  {
     title: "Vue",
     nav: [
         {
+            navType: "Vue3",
+            nav:[
+                {
+                    text: "Naive UI",
+                    link: "https://www.naiveui.com/zh-CN/light",
+                    icon: "https://www.naiveui.com/assets/naivelogo.93278402.svg"
+                },
+                {
+                    text: "Plain UI",
+                    link: "http://plain-pot.gitee.io/plain-ui-doc/#home%2Fintroduce.entire",
+                    icon: "http://plain-pot.gitee.io/plain-ui-doc/favicon.ico"
+                },
+                {
+                    text: "vant",
+                    link: "https://youzan.github.io/vant/v3/#/zh-CN",
+                    icon:"./icon/vant.png"
+                },
+                {
+                    text: "vue3-element-admin",
+                    link: "https://huzhushan.gitee.io/vue3-element-admin/",
+                    icon:"https://huzhushan.gitee.io/vue3-element-admin/favicon.ico"
+                },
+                {
+                    text: "arco-design",
+                    link: "https://arco.design/",
+                    icon:"https://unpkg.byted-static.com/latest/byted/arco-config/assets/favicon.ico"
+                },
+                {
+                    text: "vue3-resource",
+                    link: "https://hu-snail.github.io/vue3-resource/",
+                    icon:"./icon/vue.png"
+                },
+                {
+                    text: "element-plus",
+                    link: "https://element-plus.gitee.io/zh-CN/",
+                    icon:"https://element-plus.gitee.io/images/element-plus-logo-small.svg"
+                },
+                {
+                    text: "ant Design vue3",
+                    link: "https://next.antdv.com/components/overview/",
+                    icon:"//aliyuncdn.antdv.com/favicon.ico"
+                },
+                {
+                    text: "mand-mobile-next",
+                    link: "https://mand-mobile.github.io/mand-mobile-next/zh-CN/",
+                    icon:"https://mand-mobile.github.io/mand-mobile-next/favicon.png"
+                },
+            ]
+        },
+        {
             navType: "Vue插件",
             nav: [
                 {
                     text: "day.js",
-                    link: "https://github.com/iamkun/dayjs",
-                    icon:"./icon/github.png"
+                    link: "https://dayjs.fenxianglu.cn/",
+                    icon:"https://dayjs.fenxianglu.cn/assets/favicon.png"
                 },
                 {
-                    text: "图片上传",
+                    text: "better-scroll2",
+                    link: "https://better-scroll.github.io/docs/zh-CN/",
+                    icon:"./icon/bs.ico"
+                },
+                {
+                    text: "【vue-virtual-scroller】虚拟列表，海量数据渲染不卡",
+                    link: "https://akryum.github.io/vue-virtual-scroller/#/",
+                    icon:"./icon/vue.png"
+                },
+                {
+                    text: "vue2-图片上传",
                     link: "http://vanthink-ued.github.io/vue-core-image-upload/index.html#/cn/home",
                     icon:"./icon/github.png"
                 },
                 {
-                    text: "上传插件",
+                    text: "vue2-上传插件",
                     link: "https://terryz.github.io/vue/#/upload",
                     icon:"./icon/terryz.ico"
                 },
@@ -25,71 +85,51 @@ export const vueMenu =  {
                     icon:"./icon/V-Calendar.png"
                 },
                 {
-                    text: "better-scroll2",
-                    link: "https://better-scroll.github.io/docs/zh-CN/",
-                    icon:"./icon/bs.ico"
+                    text: "✨ good-storage",
+                    link: "https://www.npmjs.com/package/good-storage"
                 },
                 {
-                    text: "loading",
-                    link: "https://epic-spinners.epicmax.co/#/",
-                    icon:"./icon/gitbook.ico"
+                    text: "✋ 拖拽",
+                    link: "https://sortablejs.github.io/vue.draggable.next/#/handle"
                 },
                 {
-                    text: "good-storage",
-                    link: "https://github.com/ustbhuangyi/storage",
-                    icon:"./icon/github.png"
+                    text: "🍪 cookie.js",
+                    link: "https://github.com/jaywcjlove/cookie.js"
                 },
                 {
-                    text: "懒加载",
-                    link: "https://github.com/subotkevic/vue-lazy-image-loading",
-                    icon:"./icon/github.png"
+                    text: "⭐ numeral.js 数字格式化 ⭐",
+                    link: "http://numeraljs.com/"
                 },
                 {
-                    text: "cookie.js",
-                    link: "https://github.com/jaywcjlove/cookie.js",
-                    icon:"./icon/github.png"
-                },
-                {
-                    text: "vue-navigation",
+                    text: "vue2-navigation keep-alive实现",
                     link: "https://github.com/zack24q/vue-navigation",
                     icon:"./icon/github.png"
                 },
                 {
-                    text: "手势库",
-                    link: "https://github.com/AlloyTeam/AlloyFinger",
-                    icon:"./icon/github.png"
-                },
-                {
-                    text: "复制粘贴",
+                    text: "💾 vue-clipboard 复制粘贴",
                     link: "https://vue-clipboard2.inndy.tw/"
                 },
                 {
-                    text: "卡片填写",
-                    link: "https://github.com/muhammederdem/vue-interactive-paycard",
-                    icon:"./icon/github.png"
+                    text: "vue2-digital-transform 数字跳动插件",
+                    link: "https://dakerhub.github.io/vue-digital-transform/",
+                    icon: "https://dakerhub.github.io/vue-digital-transform/img/vdt.c614141f.png"
                 },
                 {
-                    text: "拖拽支持移动端",
-                    link: "http://www.wheelsfactory.cn/#/detail?id=195"
+                    text: "❤️ Cleave.js 输入格式化 ❤️",
+                    link: "https://dakerhub.github.io/vue-digital-transform/"
                 },
                 {
-                    text: "无限列表",
-                    link: "https://github.com/Akryum/vue-virtual-scroller",
-                    icon:"./icon/github.png"
+                    text: "💎 imagemin 图片压缩",
+                    link: "https://hub.fastgit.org/imagemin/imagemin#readme"
                 },
                 {
-                    text: "无限列表文档",
-                    link: "http://www.paosucai.com/t-44734.html"
-                },
-                {
-                    text: "数字跳动插件",
-                    link: "https://github.com/DakerHub/vue-digital-transform",
-                    icon: "./icon/vdt.png"
+                    text: "🚩 ImmortalDB 存储插件",
+                    link: "https://hub.fastgit.org/imagemin/imagemin#readme"
                 }
             ]
         },
         {
-            navType: "Vue-UI",
+            navType: "Vue2-UI",
             nav: [
 
                 {
@@ -103,33 +143,14 @@ export const vueMenu =  {
                     icon:"./icon/element.svg"
                 },
                 {
-                    text: "vant",
-                    link: "https://youzan.github.io/vant/#/zh-CN/",
-                    icon:"./icon/vant.png"
-                },
-                {
                     text: "ant Design",
                     link: "https://vue.ant.design/docs/vue/introduce-cn/",
                     icon:"./icon/antdv.ico"
-                },
-                {
-                    text: "YDUI",
-                    link: "http://vue.ydui.org/",
-                    icon:"./icon/ydui.ico"
-                },
-                {
-                    text: "VUX",
-                    link: "https://doc.vux.li/zh-CN/",
-                    icon:"./icon/github.png"
-                },
-                {
-                    text: "温泉UI",
-                    link: "https://onsen.io/vue/"
                 }
             ]
         },
         {
-            navType: "Vue-文档",
+            navType: "Vue相关文档",
             nav: [
                 {
                     text: "Axios",
@@ -137,8 +158,8 @@ export const vueMenu =  {
                     icon:"./icon/vue.png"
                 },
                 {
-                    text: "Vue.js",
-                    link: "https://cn.vuejs.org/",
+                    text: "Vue3.js",
+                    link: "https://v3.cn.vuejs.org/",
                     icon:"./icon/vue.png"
                 },
                 {
@@ -147,14 +168,34 @@ export const vueMenu =  {
                     icon:"./icon/vue.png"
                 },
                 {
-                    text: "Vuex",
-                    link: "https://vuex.vuejs.org/zh/",
+                    text: "Vuex4",
+                    link: "https://next.vuex.vuejs.org/zh/index.html",
                     icon:"./icon/vue.png"
                 },
                 {
-                    text: "Vue-router",
-                    link: "https://router.vuejs.org/zh/",
+                    text: "Vue-router4",
+                    link: "https://next.router.vuejs.org/zh/",
                     icon:"./icon/vue.png"
+                },
+                {
+                    text: "Pinia",
+                    link: "https://pinia.esm.dev/",
+                    icon:"https://pinia.esm.dev/logo.svg"
+                },
+                {
+                    text: "VueUse",
+                    link: "https://vueuse.org/",
+                    icon:"https://vueuse.org/favicon-32x32.png"
+                },
+                {
+                    text: "Tailwindcss",
+                    link: "https://www.tailwindcss.cn/",
+                    icon:"https://www.tailwindcss.cn/favicon-32x32.png"
+                },
+                {
+                    text: "Vite",
+                    link: "https://cn.vitejs.dev/",
+                    icon:"https://cn.vitejs.dev/logo.svg"
                 },
             ]
         },

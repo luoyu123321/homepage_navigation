@@ -15,7 +15,7 @@ export let mapMenu =     {
                     icon:"./icon/bmap.ico"
                 },
                 {
-                    text: "Vue-BMap",
+                    text: "Vue2-BMap",
                     link: "https://dafrok.github.io/vue-baidu-map/#/",
                     icon:"./icon/vue.png"
                 },
@@ -54,7 +54,7 @@ export let mapMenu =     {
             navType: "高德地图",
             nav: [
                 {
-                    text: "vue-amap",
+                    text: "vue2-amap",
                     link: "https://elemefe.github.io/vue-amap/#/",
                     icon:"./icon/amap.ico"
                 }

@@ -63,7 +63,6 @@
 <script>
     import {vueMenu} from '@/json/childMenu/vueMenu'
     import {mapMenu} from '../json/childMenu/mapMenu'
-    import {reactMenu} from '../json/childMenu/reactMenu'
     import {toolMenu} from '../json/childMenu/toolMenu'
     import {webMenu} from '../json/childMenu/webMenu'
     import {wchart} from '../json/childMenu/wchart'
@@ -97,14 +96,10 @@
             },
 
             toTop() {
-                let top = document.documentElement.scrollTop || document.body.scrollTop;
-                // 实现滚动效果
-                const timeTop = setInterval(() => {
-                    document.body.scrollTop = document.documentElement.scrollTop = top -= 50;
-                    if (top <= 0) {
-                        clearInterval(timeTop);
-                    }
-                }, 10);
+              window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+              })
             }
         },
         mounted() {
@@ -117,7 +112,7 @@
             })
         },
         created() {
-            this.mainNav = [].concat(vueMenu, mapMenu, reactMenu, toolMenu, webMenu, wchart, design, other, course);
+            this.mainNav = [].concat(vueMenu, mapMenu, toolMenu, webMenu, wchart, design, other, course);
             this.asideNav = asideNav;
         }
     }
