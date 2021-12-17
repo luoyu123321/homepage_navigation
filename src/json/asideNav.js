@@ -58,6 +58,10 @@ export let asideNav = [
         link:"https://open.mizhousoft.com/artifact/list.action?cid=3&fid=500&tid=10"
     },
     {
+        text:"💥 超全的前端选型2【推荐】 💥",
+        link:"https://hu-snail.github.io/vue3-resource/platform/introduction.html"
+    },
+    {
         text: "阿里图标库",
         link: "http://www.iconfont.cn/",
         icon: "./icon/iconfont.ico"
