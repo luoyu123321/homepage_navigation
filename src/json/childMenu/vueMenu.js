@@ -124,7 +124,7 @@ export const vueMenu =  {
                 },
                 {
                     text: "🚩 ImmortalDB 存储插件",
-                    link: "https://hub.fastgit.org/imagemin/imagemin#readme"
+                    link: "https://github.com/gruns/ImmortalDB"
                 }
             ]
         },
