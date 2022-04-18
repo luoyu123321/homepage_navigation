@@ -116,7 +116,7 @@ export const vueMenu =  {
                 },
                 {
                     text: "❤️ Cleave.js 输入格式化 ❤️",
-                    link: "https://dakerhub.github.io/vue-digital-transform/"
+                    link: "https://nosir.github.io/cleave.js/"
                 },
                 {
                     text: "💎 imagemin 图片压缩",
