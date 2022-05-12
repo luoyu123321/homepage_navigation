@@ -112,6 +112,11 @@ export let design = {
                     text: "交互赏析",
                     link: "https://uimovement.com/?tdsourcetag=s_pctim_aiomsg",
                     icon:"./icon/uimovement.ico"
+                },
+                {
+                    text:'',
+                    link:'https://3dicons.co/',
+                    icon:'https://3dicons.co/3dicons.png'
                 }
             ]
         },

@@ -67,8 +67,6 @@
     import {webMenu} from '../json/childMenu/webMenu'
     import {wchart} from '../json/childMenu/wchart'
     import {design} from '../json/childMenu/design'
-    import {other} from '../json/childMenu/other'
-    import {course} from '../json/childMenu/course'
     import {asideNav} from '../json/asideNav'
 
     export default {
@@ -83,7 +81,7 @@
         },
         methods: {
             scrollTo(id){
-                document.getElementById(id).scrollIntoView();
+                document.getElementById(id).scrollIntoView({behavior:'smooth'});
             },
 
             search() {
@@ -112,7 +110,7 @@
             })
         },
         created() {
-            this.mainNav = [].concat(vueMenu, mapMenu, toolMenu, webMenu, wchart, design, other, course);
+            this.mainNav = [].concat(vueMenu, webMenu, mapMenu, wchart, design, toolMenu);
             this.asideNav = asideNav;
         }
     }

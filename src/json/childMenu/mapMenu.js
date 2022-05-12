@@ -5,19 +5,14 @@ export let mapMenu =     {
             navType: "百度地图",
             nav: [
                 {
-                    text: "API",
-                    link: "http://lbsyun.baidu.com/index.php?title=jspopular",
+                    text: "API（3.0）",
+                    link: "https://lbsyun.baidu.com/index.php?title=jspopular3.0",
                     icon:"./icon/bmap.ico"
                 },
                 {
                     text: "拾取坐标",
                     link: "http://api.map.baidu.com/lbsapi/getpoint/index.html",
                     icon:"./icon/bmap.ico"
-                },
-                {
-                    text: "Vue2-BMap",
-                    link: "https://dafrok.github.io/vue-baidu-map/#/",
-                    icon:"./icon/vue.png"
                 },
                 {
                     text: "百度地图生成器",
@@ -36,17 +31,13 @@ export let mapMenu =     {
                 },
                 {
                     text: "API",
-                    link: "https://lbs.qq.com/javascript_v2/index.html",
+                    link: "https://lbs.qq.com/webApi/javascriptV2/jsGuide/jsOverview",
                     icon:"./icon/txdt.png"
                 },
                 {
                     text: "坐标拾取器",
                     link: "https://lbs.qq.com/tool/getpoint/index.html",
                     icon:"./icon/txdt.png"
-                },
-                {
-                    text: "百度地图和腾讯地图坐标转换",
-                    link: "https://www.jianshu.com/p/687386d13a08"
                 }
             ]
         },
@@ -54,11 +45,20 @@ export let mapMenu =     {
             navType: "高德地图",
             nav: [
                 {
-                    text: "vue2-amap",
-                    link: "https://elemefe.github.io/vue-amap/#/",
-                    icon:"./icon/amap.ico"
+                    text: "API",
+                    link: "https://lbs.amap.com/api/jsapi-v2/summary/",
+                    icon:"//a.amap.com/pc/static/favicon.ico"
                 }
             ]
-        }
+        },
+        {
+            navType: "其他工具",
+            nav: [
+                {
+                    text: "🔃 百度地图-----腾讯地图坐标互转",
+                    link: "https://www.jianshu.com/p/687386d13a08"
+                }
+            ]
+        },
     ]
 };

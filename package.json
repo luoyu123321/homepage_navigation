@@ -1,6 +1,8 @@
 {
   "name": "bookmarker",
-  "version": "2.0.2",
+  "version": "2.1.0",
+  "license": "MIT",
+  "author": "robin901118(303278055@qq.com)",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",

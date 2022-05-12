@@ -1,18 +1,13 @@
 export let webMenu =     {
-    title: "前端",
+    title: "前端资源库",
     nav: [
         {
-            navType: "常用插件",
+            navType: "工具类",
             nav: [
                 {
-                    text: "极光IM",
-                    link: "https://docs.jiguang.cn/jmessage/client/im_sdk_js_v2/",
-                    icon:"./icon/JM.ico"
-                },
-                {
-                    text: "is.js",
-                    link: "http://is.js.org/",
-                    icon:"./icon/github.png"
+                    text: "day.js",
+                    link: "https://dayjs.fenxianglu.cn/",
+                    icon:"https://dayjs.fenxianglu.cn/assets/favicon.png"
                 },
                 {
                     text: "math.js",
@@ -20,31 +15,99 @@ export let webMenu =     {
                     icon:"./icon/math.png"
                 },
                 {
-                    text: "TweenMax",
-                    link: "https://www.tweenmax.com.cn/",
-                },
-                {
                     text: "Lodash",
                     link: "https://www.html.cn/doc/lodash/",
                     icon:"./icon/lodash.png"
                 },
                 {
-                    text: "underscore.js",
-                    link: "https://www.html.cn/doc/underscore/#",
-                    icon:"./icon/underscore.ico"
+                    text: "is.js",
+                    link: "http://is.js.org/",
+                    icon:"http://is.js.org/assets/img/is-js-logo.png"
                 },
                 {
-                    text: "js滚动插件",
-                    link: "https://www.npmjs.com/package/uos",
-                    icon:"./icon/npm.png"
+                    text: "hammerJS",
+                    link: "http://hammerjs.github.io/getting-started/",
+                    icon:"./icon/hammerjs.ico"
+                },
+            ]
+        },
+        {
+            navType: "CSS工具",
+            nav: [
+                {
+                    text: "渐变在线生成",
+                    link: "http://www.colorzilla.com/gradient-editor/",
+                    icon: "./icon/colorzilla.png"
                 },
                 {
-                    text: "代码高亮插件",
-                    link: "https://prismjs.com/#plugins"
+                    text: "渐变生成（新）",
+                    link: "https://www.grabient.com/",
+                    icon: "./icon/grabient.ico"
                 },
                 {
-                    text: "滑动隐藏头部小插件",
-                    link: "http://wicky.nillia.ms/headroom.js/"
+                    text: "投影生成",
+                    link: "https://www.html.cn/tool/css3Preview/Box-Shadow.html",
+                    icon: "./icon/img.ico"
+                },
+                {
+                    text: "动画工具",
+                    link: "https://www.w3cways.com/css3-animation-tool",
+                    icon: "./icon/w3cways.ico"
+                },
+                {
+                    text: "🚀 CSS集合，很多实用小技能",
+                    link: "https://qishaoxuan.github.io/css_tricks/createTriangle/"
+                },
+                {
+                    text: "动画贝塞尔",
+                    link: "https://cubic-bezier.com/#0,.95,0,.97",
+                    icon: "./icon/newn.gif"
+                },
+                {
+                    text: "loading",
+                    link: "https://loading.io/",
+                    icon: "./icon/loading.ico"
+                },
+                {
+                    text: "背景平铺",
+                    link: "https://leaverou.github.io/css3patterns/#"
+                },
+                {
+                    text: "形状生成",
+                    link: "http://tools.jb51.net/code/css3path"
+                },
+                {
+                    text: "文本绕排",
+                    link: "http://csswarp.eleqtriq.com/"
+                },
+                {
+                    text:"网格在线生成工具",
+                    link:'https://cssgrid-generator.netlify.app/',
+                    icon:"https://cssgrid-generator.netlify.app/favicon.ico"
+                },
+                {
+                    text:"grid-layout",
+                    link:'https://grid.layoutit.com/',
+                    icon:"https://grid.layoutit.com/favicon.ico"
+                },
+                {
+                    text:"flex-box学习",
+                    link:'https://darekkay.com/flexbox-cheatsheet/',
+                    icon:"https://darekkay.com/favicon.ico"
+                },
+
+            ]
+        },
+        {
+            navType: "前端存储",
+            nav:[
+                {
+                    text: "✨ good-storage",
+                    link: "https://www.npmjs.com/package/good-storage"
+                },
+                {
+                    text: "🍪 cookie.js",
+                    link: "https://github.com/jaywcjlove/cookie.js"
                 },
                 {
                     text: "PouchDB",
@@ -52,16 +115,141 @@ export let webMenu =     {
                     icon:"./icon/PouchDB.ico"
                 },
                 {
-                    text: "产品引导库",
-                    link: "https://introjs.com/"
+                    text: "🚩 ImmortalDB 存储插件",
+                    link: "https://github.com/gruns/ImmortalDB"
+                },
+            ]
+        },
+        {
+            navType: "数据可视化",
+            nav: [
+                {
+                    text: "",
+                    link: "https://echarts.apache.org/zh/index.html",
+                    icon:"https://cdn.jsdelivr.net/gh/apache/echarts-website@asf-site/zh/images/logo.png?_v_=20200710_1"
+                },
+                {
+                    text: "ant-v",
+                    link: "https://antv.vision/",
+                    icon:"https://antv.vision/icons/icon-48x48.png?v=9772447a8d07a8fe19894b5176c6cb0d"
+                },
+                {
+                    text: "highcharts",
+                    link: "http://www.hcharts.cn/",
+                    icon:'https://s1.jscdn.com.cn/highcharts/images/favicon.ico'
+                },
+                {
+                    text:'echarts图例',
+                    link:'http://www.ppchart.com/#/',
+                    icon:'http://www.ppchart.com/favicon.ico'
+                },
+                {
+                    text:'',
+                    link:'https://www.makeapie.cn/echarts',
+                    icon:'https://www.makeapie.cn/logo.png'
+                }
+            ]
+        },
+        {
+            navType: "动画、特效",
+            nav:[
+                {
+                    text: "TweenMax，超强的动画库",
+                    link: "https://www.tweenmax.com.cn/",
+                },
+                {
+                    text: "滚动动画skrollr.js",
+                    link: "http://prinzhorn.github.io/skrollr/"
+                },
+                {
+                    text: "Granim.js",
+                    link: "https://sarcadass.github.io/granim.js/index.html"
                 },
                 {
                     text: "hover视差",
                     link: "http://gijsroge.github.io/tilt.js/"
                 },
                 {
-                    text: "滚动动画skrollr.js",
-                    link: "http://prinzhorn.github.io/skrollr/"
+                    text: "滑动隐藏头部小插件",
+                    link: "http://wicky.nillia.ms/headroom.js/"
+                },
+                {
+                    text: "产品引导库",
+                    link: "https://introjs.com/",
+                    icon:'https://introjs.com/img/logo.svg'
+                },
+                {
+                    text: "Animate.css",
+                    link: "http://www.jq22.com/jquery-info819",
+                    icon: "./icon/jq22.ico"
+                },
+                {
+                    text: "按钮hover",
+                    link: "https://varin6.github.io/Hover-Buttons/",
+                    icon: "./icon/github.png"
+                },
+                {
+                    text: "magic-CSS",
+                    link: "https://www.minimamente.com/project/magic/",
+                    icon: "./icon/github.png"
+                },
+                {
+                    text: "bttn.css",
+                    link: "https://bttn.surge.sh/"
+                },
+                {
+                    text: "Swiper",
+                    link: "http://www.swiper.com.cn/",
+                    icon:"./icon/swiper.png"
+                },
+            ]
+        },
+        {
+            navType: "Canvas/webGL",
+            nav: [
+                {
+                    text: "Fabric",
+                    link: "http://fabricjs.com/"
+                },
+                {
+                    text: "threeJS",
+                    link: "https://threejs.org/",
+                    icon:"https://threejs.org/files/favicon.ico"
+                },
+                {
+                    text: "konva",
+                    link: "http://konvajs-doc.bluehymn.com/",
+                    icon: "./icon/konva.png"
+                }
+            ]
+        },
+        {
+            navType: "TypeScript",
+            nav: [
+                {
+                    text: "ts.config配置",
+                    link: "https://blog.csdn.net/weixin_30758821/article/details/101713657",
+                    icon: "./icon/csdn.ico"
+                },
+                {
+                    text: "阮一峰TS教程",
+                    link: "https://ts.xcatliu.com/",
+                    icon: "./icon/ts.ico"
+                },
+                {
+                    text: "ts错误解读",
+                    link: "https://www.tslang.cn/docs/handbook/error.html",
+                    icon: "./icon/ts.ico"
+                },
+                {
+                    text: "ts演练场",
+                    link: "https://www.typescriptlang.org/zh/play/",
+                    icon: "./icon/ts.ico"
+                },
+                {
+                    text:'ts最新知识学习',
+                    link:'https://github.com/any86/ts-log-cn',
+                    icon: "./icon/ts.ico"
                 }
             ]
         },
@@ -111,124 +299,6 @@ export let webMenu =     {
             ]
         },
         {
-            navType: "数据可视化",
-            nav: [
-                {
-                    text: "V-charts",
-                    link: "https://v-charts.js.org/#/",
-                    icon:"./icon/v-charts.ico"
-                },
-                {
-                    text: "echarts",
-                    link: "https://www.echartsjs.com/zh/index.html",
-                    icon:"./icon/echartsjs.png"
-                },
-                {
-                    text: "DataV",
-                    link: "http://datav.jiaminghi.com/",
-                    icon:"./icon/datav.ico"
-                },
-                {
-                    text: "蚂蚁F2",
-                    link: "https://antv-f2.gitee.io/zh",
-                    icon:"./icon/f2.png"
-                },
-                {
-                    text: "HighCharts",
-                    link: "http://www.hcharts.cn/"
-                },
-                {
-                    text: "vue-echarts",
-                    link: "https://github.com/ecomfe/vue-echarts/blob/main/README.zh-Hans.md",
-                    icon:"./icon/vue.png"
-                }
-            ]
-        },
-        {
-            navType: "TypeScript",
-            nav: [
-                {
-                    text: "ts.config配置",
-                    link: "https://blog.csdn.net/weixin_30758821/article/details/101713657",
-                    icon: "./icon/csdn.ico"
-                },
-                {
-                    text: "阮一峰TS教程",
-                    link: "https://ts.xcatliu.com/",
-                    icon: "./icon/ts.ico"
-                },
-                {
-                    text: "vue+ts",
-                    link: "http://www.zhufengpeixun.cn/train/vue-info/vue+ts.html#%E4%B8%80-%E6%9B%B4%E6%96%B0ts%E8%B7%AF%E7%94%B1%E6%96%87%E4%BB%B6"
-                },
-                {
-                    text: "ts错误解读",
-                    link: "https://www.tslang.cn/docs/handbook/error.html",
-                    icon: "./icon/ts.ico"
-                },
-                {
-                    text: "vue-property-decorator用法",
-                    link: "https://www.jianshu.com/p/d8ed3aa76e9b"
-                }
-            ]
-        },
-        {
-            navType: "CSS",
-            nav: [
-                {
-                    text: "Family.scss",
-                    link: "http://lukyvj.github.io/family.scss/"
-                },
-                {
-                    text: "网格布局",
-                    link: "https://www.zcfy.cc/article/learn-css-grid-a-guide-to-learning-css-grid-jonathan-suh"
-                },
-                {
-                    text: "Animate.css",
-                    link: "http://www.jq22.com/jquery-info819",
-                    icon: "./icon/jq22.ico"
-                },
-                {
-                    text: "20个CSS库集合",
-                    link: "http://www.admin10000.com/document/4550.html",
-                    icon: "./icon/web.ico"
-                },
-                {
-                    text: "magic-CSS",
-                    link: "https://github.com/miniMAC/magic",
-                    icon: "./icon/github.png"
-                },
-                {
-                    text: "flex.css",
-                    link: "https://github.com/lzxb/flex.css/blob/master/docs/zh-ch.md",
-                    icon: "./icon/github.png"
-                },
-                {
-                    text: "bttn.css",
-                    link: "https://bttn.surge.sh/"
-                },
-                {
-                    text: "按钮hover",
-                    link: "https://varin6.github.io/Hover-Buttons/",
-                    icon: "./icon/github.png"
-                },
-                {
-                    text: "CSS悬停视差",
-                    link: "https://c7sky.com/how-to-create-direction-aware-css-only-hover-effects.html",
-                    icon: "./icon/c7sky.png"
-                },
-                {
-                    text: "轻量级栅格系统",
-                    link: "https://www.helloweba.net/javascript/396.html"
-                },
-                {
-                    text: "暗黑模式",
-                    link: "https://github.com/sandoche/Darkmode.js",
-                    icon: "./icon/github.png"
-                }
-            ]
-        },
-        {
             navType: "素材网站",
             nav: [
                 {
@@ -253,35 +323,22 @@ export let webMenu =     {
             ]
         },
         {
-            navType: "Canvas",
+            navType: "Video",
             nav: [
                 {
-                    text: "Fabric",
-                    link: "http://fabricjs.com/"
+                    text: "H5播放器",
+                    link: "http://chimee.org/",
+                    icon: "./icon/chimee.ico"
                 },
                 {
-                    text: "JCanvas",
-                    link: "https://projects.calebevans.me/jcanvas/",
-                    icon: "./icon/jcanvas.ico"
+                    text: "西瓜播放器",
+                    link: "http://h5player.bytedance.com/en/",
+                    icon: "./icon/xg.ico"
                 },
                 {
-                    text: "VueCanvas",
-                    link: "https://konvajs.github.io/docs/vue/"
+                    text: "videoJS",
+                    link: "https://www.cnblogs.com/alicePanZ/articles/5676915.html"
                 },
-                {
-                    text: "html2Canvas",
-                    link: "https://html2canvas.hertzen.com/"
-                },
-                {
-                    text: "Canvas-to-Blob",
-                    link: "https://github.com/blueimp/JavaScript-Canvas-to-Blob",
-                    icon: "./icon/github.png"
-                },
-                {
-                    text: "konva",
-                    link: "http://konvajs-doc.bluehymn.com/",
-                    icon: "./icon/konva.png"
-                }
             ]
         },
         {
@@ -296,80 +353,24 @@ export let webMenu =     {
                     text: "SVG图标",
                     link: "https://feathericons.com/",
                     icon: "./icon/feathericons.png"
-                }
-            ]
-        },
-        {
-            navType: "Video",
-            nav: [
-                {
-                    text: "H5播放器",
-                    link: "http://chimee.org/",
-                    icon: "./icon/chimee.ico"
                 },
                 {
-                    text: "西瓜播放器",
-                    link: "http://h5player.bytedance.com/en/",
-                    icon: "./icon/xg.ico"
-                }
-            ]
-        },
-        {
-            navType: "Bootstrap",
-            nav: [
-                {
-                    text: "ZUI",
-                    link: "http://zui.sexy/",
-                    icon: "./icon/zui.ico"
+                    text: "SVG压缩",
+                    link: "https://www.zhangxinxu.com/sp/svgo/"
                 },
-                {
-                    text: "主题",
-                    link: "https://bootswatch.com/",
-                    icon: "./icon/bootswatch.svg"
-                }
-            ]
-        },
-        {
-            navType: "算法",
-            nav: [
-                {
-                    text: "100行代码提升10倍性能",
-                    link: "https://juejin.im/post/5bec223f5188250c102116b5",
-                    icon: "./icon/juejin.ico"
-                },
-                {
-                    text: "内容感知图片裁切",
-                    link: "https://github.com/jwagner/smartcrop.js/",
-                    icon: "./icon/github.png"
-                },
-                {
-                    text: "五分钟学算法",
-                    link: "https://github.com/MisterBooo/LeetCodeAnimation",
-                    icon: "./icon/github.png"
-                },
-                {
-                    text: "数组分割法",
-                    link: "https://blog.csdn.net/fxss5201/article/details/67651904",
-                    icon: "./icon/csdn.ico"
-                }
             ]
         },
         {
             navType: "正则",
             nav: [
                 {
-                    text: "JSVerbal",
-                    link: "https://verbalexpressions.github.io/JSVerbalExpressions/"
-                },
-                {
                     text: "快速生成正则",
                     link: "https://github.com/Silence520/regexp",
                     icon: "./icon/github.png"
                 },
                 {
-                    text: "正则大全",
-                    link: "https://github.com/any86/any-rule",
-                    icon: "./icon/github.png"
+                    text: "🦕 any-rule",
+                    link: "https://any86.github.io/any-rule/"
                 },
             ]
         },
