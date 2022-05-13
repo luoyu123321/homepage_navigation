@@ -1,0 +1,104 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+html,
+body,
+div,
+span,
+object,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+address,
+cite,
+del,
+em,
+img,
+q,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+label,
+table,
+tr,
+th,
+td,
+caption,
+tbody,
+tfoot,
+thead,
+article,
+aside,
+details,
+summary,
+figure,
+figcaption,
+footer,
+header,
+menu,
+nav,
+section,
+audio,
+input,
+select,
+textarea,
+sub,
+sup,
+button {
+	padding: 0;
+	margin: 0;
+	border: none;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-font-smoothing: antialiased;
+	outline: none;
+	/* line-height: 1; */
+}
+html {
+	width: 100%;
+	height: 100%;
+}
+body {
+	position: relative;
+	min-height: 100%;
+}
+input {
+	-webkit-appearance: none;
+}
+//美化滚动条
+.beautyScroll {
+	&::-webkit-scrollbar-track-piece {
+		//滚动条凹槽的颜色，还可以设置边框属性
+		background-color: #ededed;
+		border-radius: 500px;
+	}
+
+	&::-webkit-scrollbar {
+		//滚动条的宽度
+		width: 8px;
+		height: 8px;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		//滚动条的设置
+		background-color: #c9cdd4;
+		background-clip: padding-box;
+		border-radius: 500px;
+	}
+
+	&::-webkit-scrollbar-thumb:hover {
+		background: #7c7e86;
+	}
+}
