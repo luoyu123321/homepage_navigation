@@ -7,16 +7,16 @@
 				<span class="BM-text-26 BM-text-333">
 					<b class="BM-text-main BM-font-bold">BM</b>
 					<span class="BM-font-thin dark:BM-text-white">快捷导航</span>
-					<sub class="BM-text-main BM-text-12 BM-ml-[0.5em]">v3.0.0</sub>
+					<sub class="BM-text-main BM-text-12 BM-ml-[0.5em]">v{{packageJson.version}}</sub>
 				</span>
 			</div>
 
 			<!--aside-->
 			<ul class="BM-text-18 BM-list-none dark:BM-text-darktextwhite">
 				<template v-for="(item, index) in slide" :key="item">
-					<li :class="['BM-h-60 BM-cursor-pointer hover:BM-bg-1f hover:BM-text-main hover:dark:BM-bg-dark1f BM-flex BM-items-center  BM-pl-30 BM-rounded-[30px_0_0_30px] BM-mb-[0.5em]', { 'BM-text-main BM-bg-1f dark:BM-bg-dark1f': aside_active === index }]" @click="onCheckType(index)">
-						<i :class="['BM-w-6 BM-h-6 BM-rounded-full BM-bg-333 BM-inline-block BM-mr-[1em] dark:BM-bg-darktextwhite', { '!BM-bg-main': aside_active === index }]"></i>
-						{{ item }}
+					<li :class="['BM-h-60 BM-cursor-pointer hover:BM-bg-1f hover:BM-text-main hover:dark:BM-bg-dark1f BM-flex BM-items-center BM-pl-20 BM-rounded-[30px_0_0_30px] BM-mb-[0.5em]', { 'BM-text-main BM-bg-1f dark:BM-bg-dark1f': aside_active === index }]" @click="onCheckType(index)">
+						<img :src="item.icon" class="BM-w-32 BM-h-32 BM-mr-[1em] BM-object-cover" />
+						{{ item.label }}
 					</li>
 				</template>
 			</ul>
@@ -68,7 +68,7 @@
 			<main class="BM-bg-white BM-rounded-[20px_20px_0_0] BM-grid BM-grid-cols-8 BM-gap-20 BM-grid-rows-auto BM-p-20 BM-auto-rows-[176px] BM-overflow-y-auto beautyScroll BM-overflow-x-hidden dark:BM-bg-darkwhite" style="height: calc(100vh - 160px)">
 				<transition-group @enter="enter" @before-enter="beforeEnter">
 					<a target="_blank" :href="item.link" class="poptip BM-h-full BM-bg-1f BM-rounded-20 BM-cursor-pointer BM-flex BM-items-center BM-justify-center BM-flex-col hover:BM-drop-shadow-[0_10px_10px_rgba(0,0,0,0.1)] BM-no-underline dark:BM-bg-darkitem dark:hover:BM-drop-shadow-[0_10px_10px_rgba(15,23,42,0.8)]" v-for="(item, index) in list" :key="index" :data-index="index">
-						<img :src="item.icon" v-if="item.icon" class="BM-h-40 BM-rounded-10 object-cover" />
+						<img :src="item.icon" v-if="item.icon" class="BM-h-40 BM-rounded-10 BM-object-cover" />
 						<template v-else>
 							<svg t="1652408473354" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3814" width="40" height="40">
 								<path d="M123.648 178.346667C361.642667-98.602667 802.986667-43.946667 967.936 279.68h-396.501333c-71.424 0-117.546667-1.621333-167.509334 24.661333-58.709333 30.933333-102.997333 88.234667-118.485333 155.52L123.648 178.389333z" fill="#EA4335" p-id="3815"></path>
@@ -91,7 +91,9 @@ import logo from '@/assets/logo.svg'
 import gsap from 'gsap'
 import nav from '@/assets/json/childMenu'
 import { useDark, useToggle } from '@vueuse/core'
-
+import random from 'lodash.random'
+import icon3ds from '@/assets/img'
+import packageJson from '/package.json'
 const isDark = useDark({ valueDark: 'BM-dark' })
 const toggleDark = useToggle(isDark)
 const aside_active = ref(0)
@@ -101,8 +103,14 @@ const searchKey = ref('')
 
 onMounted(() => {
 	const slide_item = []
+	const clone_icons = JSON.parse(JSON.stringify(icon3ds))
+
 	nav.forEach(item => {
-		slide_item.push(item.title)
+		const rd = clone_icons.splice(random(0, clone_icons.length - 1), 1)
+		slide_item.push({
+			label: item.title,
+			icon: rd[0]
+		})
 	})
 	slide.value = slide_item
 	list.value = nav[0].nav
