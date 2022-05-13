@@ -8,7 +8,7 @@ import AutoImport from 'unplugin-auto-import/vite'
 const pathResolve = (dir) => resolve(__dirname, '.', dir)
 
 export default defineConfig({
-    base:'/',
+    base:'./',
     plugins: [
         vue(),
         AutoImport({
