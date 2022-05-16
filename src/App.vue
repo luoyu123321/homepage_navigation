@@ -1,18 +1,25 @@
 <template>
-	<div class="BM-grid BM-grid-cols-[300px_1fr] BM-h-[100vh] BM-bg-1f BM-select-none dark:BM-bg-dark1f">
-		<aside class="BM-pl-2em BM-bg-white BM-text-666 BM-rounded-[0_20px_0_0] BM-relative dark:BM-bg-darkwhite">
+	<div class="lg:BM-grid lg:BM-grid-cols-[300px_1fr] BM--min-h-[100vh] BM-bg-1f BM-select-none dark:BM-bg-dark1f">
+		<aside class="BM-pl-2em BM-bg-white BM-text-666 BM-relative dark:BM-bg-darkwhite lg:BM-rounded-[0_20px_0_0]">
 			<!--logo-->
-			<div class="BM-h-60 BM-flex BM-items-center BM-rounded-[0_20px_0_0]">
+			<div class="BM-h-60 BM-flex BM-items-center BM-rounded-[0_20px_0_0] BM-justify-center lg:BM-justify-start BM-relative">
 				<img :src="logo" class="BM-w-30 BM-mr-10" />
 				<span class="BM-text-26 BM-text-333">
 					<b class="BM-text-main BM-font-bold">BM</b>
 					<span class="BM-font-thin dark:BM-text-white">快捷导航</span>
-					<sub class="BM-text-main BM-text-12 BM-ml-[0.5em]">v{{packageJson.version}}</sub>
+					<sub class="BM-text-main BM-text-12 BM-ml-[0.5em]">v{{ packageJson.version }}</sub>
 				</span>
+				<div class="BM-absolute BM-left-20 BM-top-2/4 BM-translate-y-[-50%] lg:BM-hidden" @click="showSide = true">
+					<svg t="1652664295306" class="BM-fill-999 BM-cursor-pointer dark:BM-fill-darktextwhite" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5076" width="32" height="32">
+						<path d="M120.259456 512.001023m-117.92376 0a115.238 115.238 0 1 0 235.847519 0 115.238 115.238 0 1 0-235.847519 0Z" p-id="5077"></path>
+						<path d="M511.999488 512.001023m-117.921713 0a115.236 115.236 0 1 0 235.843426 0 115.236 115.236 0 1 0-235.843426 0Z" p-id="5078"></path>
+						<path d="M903.739521 512.001023m-117.92376 0a115.238 115.238 0 1 0 235.847519 0 115.238 115.238 0 1 0-235.847519 0Z" p-id="5079"></path>
+					</svg>
+				</div>
 			</div>
 
-			<!--aside-->
-			<ul class="BM-text-18 BM-list-none dark:BM-text-darktextwhite">
+			<!--aside(lg)-->
+			<ul class="BM-text-18 BM-list-none dark:BM-text-darktextwhite BM-hidden lg:BM-block">
 				<template v-for="(item, index) in slide" :key="item">
 					<li :class="['BM-h-60 BM-cursor-pointer hover:BM-bg-1f hover:BM-text-main hover:dark:BM-bg-dark1f BM-flex BM-items-center BM-pl-20 BM-rounded-[30px_0_0_30px] BM-mb-[0.5em]', { 'BM-text-main BM-bg-1f dark:BM-bg-dark1f': aside_active === index }]" @click="onCheckType(index)">
 						<img :src="item.icon" class="BM-w-32 BM-h-32 BM-mr-[1em] BM-object-cover" />
@@ -21,7 +28,22 @@
 				</template>
 			</ul>
 
-			<a class="BM-absolute BM-bottom-20 BM-left-20 BM-right-20 BM-h-60 BM-bg-1f BM-rounded-full BM-flex BM-items-center BM-px-30 BM-no-underline BM-text-666 dark:BM-bg-dark1f dark:BM-text-darktextwhite" href="mailto:303278055@qq.com">
+			<!--aside(md)-->
+			<div class="BM-fixed BM-left-0 BM-right-0 BM-top-0 BM-bottom-0 BM-z-10 BM-bg-[rgba(0,0,0,.3)] BM-backdrop-blur-sm dark:BM-bg-[rgba(255,255,255,0.3)] lg:!BM-hidden" v-show="showSide">
+				<ul class="BM-text-18 BM-h-full BM-list-none dark:BM-text-darktextwhite dark:BM-bg-darkwhite BM-w-[300px] BM-bg-white BM-pl-20 BM-pt-50">
+					<template v-for="(item, index) in slide" :key="item">
+						<li :class="['BM-h-60 BM-cursor-pointer hover:BM-bg-1f hover:BM-text-main hover:dark:BM-bg-dark1f BM-flex BM-items-center BM-pl-20 BM-rounded-[30px_0_0_30px] BM-mb-[0.5em]', { 'BM-text-main BM-bg-1f dark:BM-bg-dark1f': aside_active === index }]" @click="onCheckType(index)">
+							<img :src="item.icon" class="BM-w-32 BM-h-32 BM-mr-[1em] BM-object-cover" />
+							{{ item.label }}
+						</li>
+					</template>
+				</ul>
+				<a href="javascript:void(0)" class="BM-absolute BM-right-20 BM-top-20" @click="showSide = false">
+					<svg t="1652664975828" class="BM-fill-white" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5889" width="26" height="26"><path d="M925.468404 822.294069 622.19831 512.00614l303.311027-310.331931c34.682917-27.842115 38.299281-75.80243 8.121981-107.216907-30.135344-31.369452-82.733283-34.259268-117.408013-6.463202L512.000512 399.25724 207.776695 87.993077c-34.675754-27.796066-87.272669-24.90625-117.408013 6.463202-30.178323 31.414477-26.560936 79.375815 8.121981 107.216907l303.311027 310.331931L98.531596 822.294069c-34.724873 27.820626-38.341237 75.846432-8.117888 107.195418 30.135344 31.43699 82.72919 34.326806 117.408013 6.485715l304.178791-311.219137 304.177767 311.219137c34.678824 27.841092 87.271646 24.951275 117.408013-6.485715C963.808618 898.140501 960.146205 850.113671 925.468404 822.294069z" p-id="5890"></path></svg>
+				</a>
+			</div>
+
+			<a class="BM-absolute BM-bottom-20 BM-left-20 BM-right-20 BM-h-60 BM-bg-1f BM-rounded-full BM-items-center BM-px-30 BM-no-underline BM-text-666 dark:BM-bg-dark1f dark:BM-text-darktextwhite BM-hidden lg:BM-flex" href="mailto:303278055@qq.com">
 				<svg t="1652424922581" class="icon" viewBox="0 0 1040 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="17150" width="40" height="40">
 					<path d="M472.55082 10.911475C459.960656-0.839344 440.655738 0 428.065574 10.911475 352.52459 73.862295 7.554098 362.596721 7.554098 362.596721v506.963935c0 11.75082 10.072131 21.822951 21.822951 21.822951h842.70164c11.75082 0 21.822951-10.072131 21.82295-21.822951V362.596721C882.15082 352.52459 468.354098 6.714754 472.55082 10.911475z" fill="#2767F4" p-id="17151"></path>
 					<path d="M719.318033 108.27541c29.377049 0 52.878689 23.501639 52.878688 52.878688v277.822951L440.655738 637.062295 129.259016 441.495082V161.154098c0-29.377049 23.501639-52.878689 52.878689-52.878688h537.180328z" fill="#DFECFD" p-id="17152"></path>
@@ -46,7 +68,7 @@
 					<input type="text" placeholder="百度一下" class="BM-bg-transparent BM-flex-1 BM-h-full dark:BM-caret-main dark:BM-text-darktextwhite dark:placeholder:BM-text-darktextwhite" v-model="searchKey" @keyup.enter="onSearch" />
 					<button class="BM-h-full BM-rounded-full BM-w-[100px] BM-bg-main BM-text-white BM-cursor-pointer hover:BM-bg-mhover" @click="onSearch">搜索</button>
 				</div>
-				<div class="BM-w-60 BM-h-60 BM-bg-white BM-mx-[1em] BM-rounded-full BM-flex BM-items-center BM-justify-center BM-cursor-pointer dark:BM-bg-darkwhite" @click="toggleDark()">
+				<div class="BM-w-60 BM-h-60 BM-bg-white BM-mx-[1em] BM-rounded-full BM-flex BM-items-center BM-justify-center BM-cursor-pointer BM-shrink-0 dark:BM-bg-darkwhite" @click="toggleDark()">
 					<template v-if="isDark">
 						<svg t="1652423018246" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="4811" width="40" height="40">
 							<path d="M611.370667 167.082667a445.013333 445.013333 0 0 1-38.4 161.834666 477.824 477.824 0 0 1-244.736 244.394667 445.141333 445.141333 0 0 1-161.109334 38.058667 85.077333 85.077333 0 0 0-65.066666 135.722666A462.08 462.08 0 1 0 747.093333 102.058667a85.077333 85.077333 0 0 0-135.722666 65.024z" fill="#FFB531" p-id="4812"></path>
@@ -65,9 +87,9 @@
 					</template>
 				</div>
 			</header>
-			<main class="BM-bg-white BM-rounded-[20px_20px_0_0] BM-grid BM-grid-cols-8 BM-gap-20 BM-grid-rows-auto BM-p-20 BM-auto-rows-[176px] BM-overflow-y-auto beautyScroll BM-overflow-x-hidden dark:BM-bg-darkwhite" style="height: calc(100vh - 160px)">
+			<main class="BM-bg-white BM-rounded-[20px_20px_0_0] BM-grid BM-gap-20 BM-grid-rows-auto BM-p-20 BM-auto-rows-[176px] BM-overflow-y-auto beautyScroll BM-overflow-x-hidden dark:BM-bg-darkwhite 2xl:BM-grid-cols-8 xl:BM-grid-cols-7 lg:BM-grid-cols-5 md:BM-grid-cols-4 sm:BM-grid-cols-2" style="height: calc(100vh - 160px)">
 				<transition-group @enter="enter" @before-enter="beforeEnter">
-					<a target="_blank" :href="item.link" class="poptip BM-h-full BM-bg-1f BM-rounded-20 BM-cursor-pointer BM-flex BM-items-center BM-justify-center BM-flex-col hover:BM-drop-shadow-[0_10px_10px_rgba(0,0,0,0.1)] BM-no-underline dark:BM-bg-darkitem dark:hover:BM-drop-shadow-[0_10px_10px_rgba(15,23,42,0.8)]" v-for="(item, index) in list" :key="index" :data-index="index">
+					<a target="_blank" :href="item.link" class="poptip BM-h-full BM-bg-1f BM-rounded-20 BM-cursor-pointer BM-flex BM-items-center BM-justify-center BM-flex-col BM-overflow-hidden hover:BM-drop-shadow-[0_10px_10px_rgba(0,0,0,0.1)] BM-no-underline dark:BM-bg-darkitem dark:hover:BM-drop-shadow-[0_10px_10px_rgba(15,23,42,0.8)]" v-for="(item, index) in list" :key="index" :data-index="index">
 						<img :src="item.icon" v-if="item.icon" class="BM-h-40 BM-rounded-10 BM-object-cover" />
 						<template v-else>
 							<svg t="1652408473354" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3814" width="40" height="40">
@@ -100,6 +122,7 @@ const aside_active = ref(0)
 const slide = ref([])
 const list = ref([])
 const searchKey = ref('')
+const showSide = ref(false)
 
 onMounted(() => {
 	const slide_item = []
@@ -117,6 +140,7 @@ onMounted(() => {
 })
 
 function onCheckType(idx) {
+	showSide.value = false
 	aside_active.value = idx
 	list.value = []
 	setTimeout(() => {
