@@ -90,14 +90,9 @@
 			<main class="BM-bg-white BM-rounded-[20px_20px_0_0] BM-grid BM-gap-20 BM-grid-rows-auto BM-p-20 BM-auto-rows-[176px] BM-overflow-y-auto beautyScroll BM-overflow-x-hidden dark:BM-bg-darkwhite 2xl:BM-grid-cols-8 xl:BM-grid-cols-7 lg:BM-grid-cols-5 md:BM-grid-cols-4 sm:BM-grid-cols-2" style="height: calc(100vh - 160px)">
 				<transition-group @enter="enter" @before-enter="beforeEnter">
 					<a target="_blank" :href="item.link" class="poptip BM-h-full BM-bg-1f BM-rounded-20 BM-cursor-pointer BM-flex BM-items-center BM-justify-center BM-flex-col BM-overflow-hidden hover:BM-drop-shadow-[0_10px_10px_rgba(0,0,0,0.1)] BM-no-underline dark:BM-bg-darkitem dark:hover:BM-drop-shadow-[0_10px_10px_rgba(15,23,42,0.8)]" v-for="(item, index) in list" :key="index" :data-index="index">
-						<img :src="item.icon" v-if="item.icon" class="BM-h-40 BM-rounded-10 BM-object-cover" />
+						<img :src="item.icon" v-if="item.icon" class="BM-h-40 BM-rounded-10 BM-object-cover" @error="imgError" />
 						<template v-else>
-							<svg t="1652408473354" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="3814" width="40" height="40">
-								<path d="M123.648 178.346667C361.642667-98.602667 802.986667-43.946667 967.936 279.68h-396.501333c-71.424 0-117.546667-1.621333-167.509334 24.661333-58.709333 30.933333-102.997333 88.234667-118.485333 155.52L123.648 178.389333z" fill="#EA4335" p-id="3815"></path>
-								<path d="M341.674667 512c0 93.866667 76.330667 170.24 170.154666 170.24 93.866667 0 170.154667-76.373333 170.154667-170.24s-76.330667-170.24-170.154667-170.24c-93.866667 0-170.154667 76.373333-170.154666 170.24z" fill="#4285F4" p-id="3816"></path>
-								<path d="M577.877333 734.848c-95.530667 28.373333-207.274667-3.114667-268.501333-108.8-46.762667-80.64-170.24-295.765333-226.346667-393.557333-196.565333 301.226667-27.136 711.808 329.685334 781.866666l165.12-279.509333z" fill="#34A853" p-id="3817"></path>
-								<path d="M669.866667 341.76a233.130667 233.130667 0 0 1 43.008 286.634667c-40.576 69.973333-170.154667 288.682667-232.96 394.581333 367.658667 22.656 635.733333-337.664 514.645333-681.258667H669.866667z" fill="#FBBC05" p-id="3818"></path>
-							</svg>
+							<img :src="logo" class="BM-w-40" />
 						</template>
 
 						<h1 class="BM-text-333 BM-pt-[1em] BM-text-20 dark:BM-text-darktextwhite">{{ item.text }}</h1>
@@ -165,5 +160,10 @@ function enter(el, done) {
 
 function onSearch() {
 	window.open(`https://www.baidu.com/s?wd=${searchKey.value}`, '_blank')
+}
+
+function imgError({ target }) {
+	target.setAttribute('src', logo)
+	target.style.width = '40px'
 }
 </script>
