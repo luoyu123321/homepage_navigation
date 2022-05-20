@@ -43,8 +43,8 @@
 				</a>
 			</div>
 
-			<a class="BM-absolute BM-bottom-20 BM-left-20 BM-right-20 BM-h-60 BM-bg-1f BM-rounded-full BM-items-center BM-px-30 BM-no-underline BM-text-666 dark:BM-bg-dark1f dark:BM-text-darktextwhite BM-hidden lg:BM-flex" href="mailto:303278055@qq.com">
-        <img :src="connect">
+			<a class="BM-absolute BM-bottom-20 BM-left-20 BM-right-20 BM-h-60 BM-bg-1f BM-rounded-full BM-items-center BM-px-30 BM-text-666 dark:BM-bg-dark1f dark:BM-text-darktextwhite BM-hidden lg:BM-flex" href="mailto:303278055@qq.com">
+				<img :src="connect" />
 				<div class="BM-ml-[0.5em]">
 					<span class="BM-text-16">联系作者</span>
 					<p class="BM-text-14 BM-mt-5">303278055@qq.com</p>
@@ -53,12 +53,29 @@
 		</aside>
 		<div class="BM-px-10 BM-flex BM-flex-col BM-gap-30 BM-pt-30 md:BM-px-20 lg:BM-px-30 xl:BM-px-30 2xl:BM-px-30">
 			<header class="BM-flex BM-justify-center">
-				<div class="BM-h-60 BM-bg-white BM-rounded-full BM-flex BM-items-center BM-justify-center BM-flex-1 BM-p-[0.5em] dark:BM-bg-darkwhite">
+				<div class="BM-h-60 BM-bg-white BM-relative BM-rounded-full BM-flex BM-items-center BM-justify-center BM-flex-1 BM-p-[0.5em] dark:BM-bg-darkwhite">
 					<svg t="1652344224036" class="BM-px-[1em] BM-hidden md:BM-block" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5693" width="25" height="25">
 						<path d="M474.453333 884.053333c-225.28 0-409.6-184.32-409.6-409.6s184.32-409.6 409.6-409.6 409.6 184.32 409.6 409.6-184.32 409.6-409.6 409.6z m0-68.266666c187.733333 0 341.333333-153.6 341.333334-341.333334s-153.6-341.333333-341.333334-341.333333-341.333333 153.6-341.333333 341.333333 153.6 341.333333 341.333333 341.333334z m252.586667 54.613333c-13.653333-13.653333-10.24-37.546667 3.413333-47.786667s37.546667-10.24 47.786667 3.413334l64.853333 78.506666c13.653333 13.653333 10.24 37.546667-3.413333 47.786667s-37.546667 10.24-47.786667-3.413333l-64.853333-78.506667z" p-id="5694" fill="#666666" class="dark:BM-fill-darktextwhite"></path>
 					</svg>
-					<input type="text" placeholder="百度一下" class="BM-pl-[1em] BM-bg-transparent BM-flex-1 BM-h-full dark:BM-caret-main dark:BM-text-darktextwhite dark:placeholder:BM-text-darktextwhite" v-model="searchKey" @keyup.enter="onSearch" />
+					<input type="text" placeholder="百度一下" class="BM-pl-[1em] BM-bg-transparent BM-flex-1 BM-h-full dark:BM-caret-main dark:BM-text-darktextwhite dark:placeholder:BM-text-darktextwhite" v-model="searchKey" @keyup.enter="onSearch" @focus="showHistory = true" @click.stop />
 					<button class="BM-h-full BM-rounded-full BM-w-[5em] BM-bg-main BM-text-white BM-cursor-pointer hover:BM-bg-mhover" @click="onSearch">搜索</button>
+					<!-- 历史记录 -->
+					<dl class="BM-absolute BM-left-0 BM-top-[120%] BM-rounded-20 BM-bg-white BM-w-full BM-z-10 BM-shadow-lg BM-p-20 dark:BM-bg-darkwhite" v-show="showHistory && history.length">
+						<dt class="BM-text-999 dark:BM-text-darktextwhite dark:BM-border-dark1f BM-text-14 BM-mb-10 BM-pb-10 BM-border-[1px] BM-border-solid BM-border-gray-200 BM-border-r-0 BM-border-t-0 BM-border-l-0 BM-flex BM-justify-between BM-items-center">
+							最近搜索
+							<svg t="1653035289085" class="BM-fill-999 BM-cursor-pointer dark:BM-fill-darktextwhite" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="9549" width="20" height="20" @click.stop="onChearHistory">
+								<path
+									d="M896 196.923077H649.846154V118.153846c0-43.323077-35.446154-78.769231-78.769231-78.769231h-118.153846c-43.323077 0-78.769231 35.446154-78.769231 78.769231v78.769231H128c-15.753846 0-29.538462 13.784615-29.538462 29.538461v59.076924c0 15.753846 13.784615 29.538462 29.538462 29.538461h768c15.753846 0 29.538462-13.784615 29.538462-29.538461v-59.076924c0-15.753846-13.784615-29.538462-29.538462-29.538461zM452.923077 137.846154c0-11.815385 7.876923-19.692308 19.692308-19.692308h78.76923c11.815385 0 19.692308 7.876923 19.692308 19.692308v59.076923h-118.153846V137.846154z m364.307692 256h-610.461538c-15.753846 0-29.538462 13.784615-29.538462 29.538461V886.153846c0 55.138462 43.323077 98.461538 98.461539 98.461539h472.615384c55.138462 0 98.461538-43.323077 98.461539-98.461539V423.384615c0-15.753846-13.784615-29.538462-29.538462-29.538461zM452.923077 827.076923c0 11.815385-7.876923 19.692308-19.692308 19.692308h-39.384615c-11.815385 0-19.692308-7.876923-19.692308-19.692308V551.384615c0-11.815385 7.876923-19.692308 19.692308-19.692307h39.384615c11.815385 0 19.692308 7.876923 19.692308 19.692307v275.692308z m196.923077 0c0 11.815385-7.876923 19.692308-19.692308 19.692308h-39.384615c-11.815385 0-19.692308-7.876923-19.692308-19.692308V551.384615c0-11.815385 7.876923-19.692308 19.692308-19.692307h39.384615c11.815385 0 19.692308 7.876923 19.692308 19.692307v275.692308z"
+									p-id="9550"
+								></path>
+							</svg>
+						</dt>
+						<dd class="BM-text-666 BM-flex BM-flex-wrap BM-text-16 BM-gap-10 BM-max-h-[400px] BM-overflow-y-auto beautyScroll">
+							<template v-for="(item, index) in history" :key="index">
+								<a href="javascript:void(0)" class="BM-p-[5px_15px] BM-bg-slate-100 BM-whitespace-nowrap BM-rounded-full hover:BM-bg-slate-200 dark:BM-bg-darkitem dark:BM-text-white dark:hover:BM-bg-dark1f" @click.stop="onSearchByHistory(item)">{{ item }}</a>
+							</template>
+						</dd>
+					</dl>
 				</div>
 				<div class="BM-w-60 BM-h-60 BM-bg-white BM-mx-[1em] BM-rounded-full BM-flex BM-items-center BM-justify-center BM-cursor-pointer BM-shrink-0 dark:BM-bg-darkwhite" @click="toggleDark()">
 					<template v-if="isDark">
@@ -79,9 +96,9 @@
 					</template>
 				</div>
 			</header>
-      <main class="BM-bg-white BM-rounded-[20px_20px_0_0] BM-grid BM-gap-20 BM-grid-rows-auto BM-p-20 BM-auto-rows-[176px] BM-grid-cols-[repeat(auto-fit,minmax(160px,1fr))] BM-overflow-y-auto beautyScroll BM-overflow-x-hidden dark:BM-bg-darkwhite" style="height: calc(100vh - 160px)">
+			<main class="BM-bg-white BM-rounded-[20px_20px_0_0] BM-grid BM-gap-20 BM-grid-rows-auto BM-p-20 BM-auto-rows-[176px] BM-grid-cols-[repeat(auto-fit,minmax(160px,1fr))] BM-overflow-y-auto beautyScroll BM-overflow-x-hidden dark:BM-bg-darkwhite" style="height: calc(100vh - 160px)">
 				<transition-group @enter="enter" @before-enter="beforeEnter">
-					<a target="_blank" :href="item.link" class="poptip item hover:BM-drop-shadow-[0_10px_10px_rgba(0,0,0,0.1)] dark:hover:BM-drop-shadow-[0_10px_10px_rgba(15,23,42,0.8)]" v-for="(item, index) in list" :key="index" :data-index="index">
+					<a target="_blank" :href="item.link" class="item hover:BM-drop-shadow-[0_10px_10px_rgba(0,0,0,0.1)] dark:hover:BM-drop-shadow-[0_10px_10px_rgba(15,23,42,0.8)]" v-for="(item, index) in list" :key="index" :data-index="index">
 						<img :src="item.icon" v-if="item.icon" class="BM-h-40 BM-rounded-10 BM-object-cover" @error="imgError" />
 						<template v-else>
 							<img :src="logo" class="BM-w-40" />
@@ -104,6 +121,7 @@ import { useDark, useToggle } from '@vueuse/core'
 import random from 'lodash.random'
 import icon3ds from '@/assets/img'
 import packageJson from '/package.json'
+import { nextTick } from 'vue'
 const isDark = useDark({ valueDark: 'BM-dark' })
 const toggleDark = useToggle(isDark)
 const aside_active = ref(0)
@@ -111,6 +129,8 @@ const slide = ref([])
 const list = ref([])
 const searchKey = ref('')
 const showSide = ref(false)
+const showHistory = ref(false)
+const history = ref([])
 
 onMounted(() => {
 	const slide_item = []
@@ -125,6 +145,10 @@ onMounted(() => {
 	})
 	slide.value = slide_item
 	list.value = nav[0].nav
+
+	history.value = JSON.parse(localStorage.getItem('BM-history')) || []
+
+	document.addEventListener('click', () => (showHistory.value = false))
 })
 
 function onCheckType(idx) {
@@ -152,7 +176,22 @@ function enter(el, done) {
 }
 
 function onSearch() {
+	if (history.value) {
+		history.value.push(searchKey.value.trim())
+		localStorage.setItem('BM-history', JSON.stringify(history.value))
+	}
+
 	window.open(`https://www.baidu.com/s?wd=${searchKey.value}`, '_blank')
+	nextTick(() => (searchKey.value = ''))
+}
+
+function onSearchByHistory(keyword) {
+	window.open(`https://www.baidu.com/s?wd=${keyword}`, '_blank')
+}
+
+function onChearHistory() {
+	localStorage.removeItem('BM-history')
+	history.value = []
 }
 
 function imgError({ target }) {
@@ -162,13 +201,16 @@ function imgError({ target }) {
 </script>
 
 <style lang="scss">
-.item{
-  @apply BM-h-full BM-bg-1f BM-rounded-20 BM-cursor-pointer BM-flex BM-items-center BM-justify-center BM-flex-col BM-overflow-hidden BM-no-underline dark:BM-bg-darkitem;
+a {
+	@apply BM-no-underline BM-text-inherit;
 }
-aside>ul{
-  @apply BM-text-18 BM-list-none dark:BM-text-darktextwhite BM-hidden lg:BM-block;
-  >li{
-    @apply BM-h-60 BM-cursor-pointer hover:BM-bg-1f hover:BM-text-main hover:dark:BM-bg-dark1f BM-flex BM-items-center BM-pl-20;
-  }
+.item {
+	@apply BM-h-full BM-bg-1f BM-rounded-20 BM-cursor-pointer BM-flex BM-items-center BM-justify-center BM-flex-col BM-overflow-hidden BM-no-underline dark:BM-bg-darkitem;
+}
+aside > ul {
+	@apply BM-text-18 BM-list-none dark:BM-text-darktextwhite BM-hidden lg:BM-block;
+	> li {
+		@apply BM-h-60 BM-cursor-pointer hover:BM-bg-1f hover:BM-text-main hover:dark:BM-bg-dark1f BM-flex BM-items-center BM-pl-20;
+	}
 }
 </style>
