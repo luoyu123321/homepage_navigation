@@ -17,7 +17,7 @@ export const vueMenu = {
 			icon: 'https://pinia.esm.dev/logo.svg'
 		},
 		{
-			text: 'Vue-router4',
+			text: 'Vue-router',
 			link: 'https://router.vuejs.org/zh/',
 			icon: 'https://staging-cn.vuejs.org/logo.svg'
 		},

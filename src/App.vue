@@ -2,14 +2,14 @@
 	<div class="lg:BM-grid lg:BM-grid-cols-[300px_1fr] BM--min-h-[100vh] BM-bg-1f BM-select-none dark:BM-bg-dark1f">
 		<aside class="BM-pl-2em BM-bg-white BM-text-666 BM-relative dark:BM-bg-darkwhite lg:BM-rounded-[0_20px_0_0]">
 			<!--logo-->
-			<div class="BM-h-60 BM-flex BM-items-center BM-rounded-[0_20px_0_0] BM-justify-center lg:BM-justify-start BM-relative">
+			<div class="BM-h-60 BM-flex BM-items-center BM-rounded-[0_20px_0_0] BM-justify-center lg:BM-justify-start BM-sticky BM-top-0">
 				<img :src="logo" class="BM-w-30 BM-mr-10" />
 				<span class="BM-text-26 BM-text-333">
 					<b class="BM-text-main BM-font-bold">BM</b>
 					<span class="BM-font-thin dark:BM-text-white">快捷导航</span>
 					<sub class="BM-text-main BM-text-12 BM-ml-[0.5em]">v{{ packageJson.version }}</sub>
 				</span>
-				<div class="BM-absolute BM-left-20 BM-top-2/4 BM-translate-y-[-50%] lg:BM-hidden" @click="showSide = true">
+				<div class="BM-absolute BM-left-5 BM-top-2/4 BM-translate-y-[-50%] lg:BM-hidden" @click="showSide = true">
 					<svg t="1652664295306" class="BM-fill-999 BM-cursor-pointer dark:BM-fill-darktextwhite" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5076" width="32" height="32">
 						<path d="M120.259456 512.001023m-117.92376 0a115.238 115.238 0 1 0 235.847519 0 115.238 115.238 0 1 0-235.847519 0Z" p-id="5077"></path>
 						<path d="M511.999488 512.001023m-117.921713 0a115.236 115.236 0 1 0 235.843426 0 115.236 115.236 0 1 0-235.843426 0Z" p-id="5078"></path>
@@ -19,9 +19,9 @@
 			</div>
 
 			<!--aside(lg)-->
-			<ul class="BM-text-18 BM-list-none dark:BM-text-darktextwhite BM-hidden lg:BM-block">
+			<ul>
 				<template v-for="(item, index) in slide" :key="item">
-					<li :class="['BM-h-60 BM-cursor-pointer hover:BM-bg-1f hover:BM-text-main hover:dark:BM-bg-dark1f BM-flex BM-items-center BM-pl-20 BM-rounded-[30px_0_0_30px] BM-mb-[0.5em]', { 'BM-text-main BM-bg-1f dark:BM-bg-dark1f': aside_active === index }]" @click="onCheckType(index)">
+					<li :class="['BM-rounded-[30px_0_0_30px] BM-mb-[0.5em]', { 'BM-text-main BM-bg-1f dark:BM-bg-dark1f': aside_active === index }]" @click="onCheckType(index)">
 						<img :src="item.icon" class="BM-w-32 BM-h-32 BM-mr-[1em] BM-object-cover" />
 						{{ item.label }}
 					</li>
@@ -44,29 +44,21 @@
 			</div>
 
 			<a class="BM-absolute BM-bottom-20 BM-left-20 BM-right-20 BM-h-60 BM-bg-1f BM-rounded-full BM-items-center BM-px-30 BM-no-underline BM-text-666 dark:BM-bg-dark1f dark:BM-text-darktextwhite BM-hidden lg:BM-flex" href="mailto:303278055@qq.com">
-				<svg t="1652424922581" class="icon" viewBox="0 0 1040 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="17150" width="40" height="40">
-					<path d="M472.55082 10.911475C459.960656-0.839344 440.655738 0 428.065574 10.911475 352.52459 73.862295 7.554098 362.596721 7.554098 362.596721v506.963935c0 11.75082 10.072131 21.822951 21.822951 21.822951h842.70164c11.75082 0 21.822951-10.072131 21.82295-21.822951V362.596721C882.15082 352.52459 468.354098 6.714754 472.55082 10.911475z" fill="#2767F4" p-id="17151"></path>
-					<path d="M719.318033 108.27541c29.377049 0 52.878689 23.501639 52.878688 52.878688v277.822951L440.655738 637.062295 129.259016 441.495082V161.154098c0-29.377049 23.501639-52.878689 52.878689-52.878688h537.180328z" fill="#DFECFD" p-id="17152"></path>
-					<path d="M657.206557 249.285246H228.301639c-6.714754 0-12.590164-5.87541-12.590164-12.590164s5.87541-12.590164 12.590164-12.590164h428.904918c6.714754 0 12.590164 5.87541 12.590164 12.590164s-5.036066 12.590164-12.590164 12.590164zM471.711475 363.436066h-243.409836c-6.714754 0-12.590164-5.87541-12.590164-12.590164s5.87541-12.590164 12.590164-12.590164h243.409836c6.714754 0 12.590164 5.87541 12.590164 12.590164s-5.87541 12.590164-12.590164 12.590164z" fill="#4988FD" p-id="17153"></path>
-					<path d="M893.062295 362.596721V872.918033c0 9.232787-5.87541 16.786885-13.429508 19.304918-2.518033 0.839344-5.036066 1.678689-7.554098 1.678688H27.698361c-11.75082 0-20.983607-9.232787-20.983607-20.983606V363.436066l370.15082 231.659016c36.931148 23.501639 83.934426 23.501639 121.704918 1.678688l394.491803-234.177049z" fill="#4988FD" p-id="17154"></path>
-					<path d="M876.27541 662.242623v228.301639c-2.518033 0.839344-5.036066 1.678689-7.554099 1.678689H612.721311c-5.036066-16.786885-7.554098-34.413115-7.554098-52.878689 0-106.596721 86.452459-193.04918 193.04918-193.04918 28.537705 0 54.557377 5.036066 78.059017 15.947541z" fill="#2767F4" p-id="17155"></path>
-					<path d="M679.868852 936.708197c-20.144262-30.216393-31.895082-67.147541-31.895082-105.757377 0-106.596721 86.452459-193.04918 193.049181-193.049181s193.04918 86.452459 193.04918 193.049181-86.452459 193.04918-193.04918 193.04918c-67.147541 0-126.740984-35.252459-161.154099-87.291803" fill="#21D3AC" p-id="17156"></path>
-					<path d="M937.547541 817.521311l-57.07541-57.075409c-6.714754-6.714754-18.465574-6.714754-26.019672 0-6.714754 6.714754-6.714754 18.465574 0 26.019672l26.019672 26.019672H757.088525c-10.072131 0-18.465574 8.393443-18.465574 18.465574 0 10.072131 8.393443 18.465574 18.465574 18.465573h123.383606l-26.019672 26.019673c-6.714754 6.714754-6.714754 18.465574 0 26.019672 3.357377 3.357377 8.393443 5.036066 12.590164 5.036065 5.036066 0 9.232787-1.678689 12.590164-5.036065l57.07541-57.07541c3.357377-3.357377 5.036066-8.393443 5.036065-12.590164s-0.839344-10.911475-4.196721-14.268853z" fill="#FFFFFF" p-id="17157"></path>
-				</svg>
+        <img :src="connect">
 				<div class="BM-ml-[0.5em]">
 					<span class="BM-text-16">联系作者</span>
 					<p class="BM-text-14 BM-mt-5">303278055@qq.com</p>
 				</div>
 			</a>
 		</aside>
-		<div class="BM-px-30 BM-pt-30 BM-flex BM-flex-col">
-			<header class="BM-flex BM-justify-center BM-mb-30">
+		<div class="BM-px-10 BM-flex BM-flex-col BM-gap-30 BM-pt-30 md:BM-px-20 lg:BM-px-30 xl:BM-px-30 2xl:BM-px-30">
+			<header class="BM-flex BM-justify-center">
 				<div class="BM-h-60 BM-bg-white BM-rounded-full BM-flex BM-items-center BM-justify-center BM-flex-1 BM-p-[0.5em] dark:BM-bg-darkwhite">
-					<svg t="1652344224036" class="BM-px-[1em]" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5693" width="25" height="25">
+					<svg t="1652344224036" class="BM-px-[1em] BM-hidden md:BM-block" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5693" width="25" height="25">
 						<path d="M474.453333 884.053333c-225.28 0-409.6-184.32-409.6-409.6s184.32-409.6 409.6-409.6 409.6 184.32 409.6 409.6-184.32 409.6-409.6 409.6z m0-68.266666c187.733333 0 341.333333-153.6 341.333334-341.333334s-153.6-341.333333-341.333334-341.333333-341.333333 153.6-341.333333 341.333333 153.6 341.333333 341.333333 341.333334z m252.586667 54.613333c-13.653333-13.653333-10.24-37.546667 3.413333-47.786667s37.546667-10.24 47.786667 3.413334l64.853333 78.506666c13.653333 13.653333 10.24 37.546667-3.413333 47.786667s-37.546667 10.24-47.786667-3.413333l-64.853333-78.506667z" p-id="5694" fill="#666666" class="dark:BM-fill-darktextwhite"></path>
 					</svg>
-					<input type="text" placeholder="百度一下" class="BM-bg-transparent BM-flex-1 BM-h-full dark:BM-caret-main dark:BM-text-darktextwhite dark:placeholder:BM-text-darktextwhite" v-model="searchKey" @keyup.enter="onSearch" />
-					<button class="BM-h-full BM-rounded-full BM-w-[100px] BM-bg-main BM-text-white BM-cursor-pointer hover:BM-bg-mhover" @click="onSearch">搜索</button>
+					<input type="text" placeholder="百度一下" class="BM-pl-[1em] BM-bg-transparent BM-flex-1 BM-h-full dark:BM-caret-main dark:BM-text-darktextwhite dark:placeholder:BM-text-darktextwhite" v-model="searchKey" @keyup.enter="onSearch" />
+					<button class="BM-h-full BM-rounded-full BM-w-[5em] BM-bg-main BM-text-white BM-cursor-pointer hover:BM-bg-mhover" @click="onSearch">搜索</button>
 				</div>
 				<div class="BM-w-60 BM-h-60 BM-bg-white BM-mx-[1em] BM-rounded-full BM-flex BM-items-center BM-justify-center BM-cursor-pointer BM-shrink-0 dark:BM-bg-darkwhite" @click="toggleDark()">
 					<template v-if="isDark">
@@ -87,9 +79,9 @@
 					</template>
 				</div>
 			</header>
-			<main class="BM-bg-white BM-rounded-[20px_20px_0_0] BM-grid BM-gap-20 BM-grid-rows-auto BM-p-20 BM-auto-rows-[176px] BM-overflow-y-auto beautyScroll BM-overflow-x-hidden dark:BM-bg-darkwhite 2xl:BM-grid-cols-8 xl:BM-grid-cols-7 lg:BM-grid-cols-5 md:BM-grid-cols-4 sm:BM-grid-cols-2" style="height: calc(100vh - 160px)">
+      <main class="BM-bg-white BM-rounded-[20px_20px_0_0] BM-grid BM-gap-20 BM-grid-rows-auto BM-p-20 BM-auto-rows-[176px] BM-grid-cols-[repeat(auto-fit,minmax(160px,1fr))] BM-overflow-y-auto beautyScroll BM-overflow-x-hidden dark:BM-bg-darkwhite" style="height: calc(100vh - 160px)">
 				<transition-group @enter="enter" @before-enter="beforeEnter">
-					<a target="_blank" :href="item.link" class="poptip BM-h-full BM-bg-1f BM-rounded-20 BM-cursor-pointer BM-flex BM-items-center BM-justify-center BM-flex-col BM-overflow-hidden hover:BM-drop-shadow-[0_10px_10px_rgba(0,0,0,0.1)] BM-no-underline dark:BM-bg-darkitem dark:hover:BM-drop-shadow-[0_10px_10px_rgba(15,23,42,0.8)]" v-for="(item, index) in list" :key="index" :data-index="index">
+					<a target="_blank" :href="item.link" class="poptip item hover:BM-drop-shadow-[0_10px_10px_rgba(0,0,0,0.1)] dark:hover:BM-drop-shadow-[0_10px_10px_rgba(15,23,42,0.8)]" v-for="(item, index) in list" :key="index" :data-index="index">
 						<img :src="item.icon" v-if="item.icon" class="BM-h-40 BM-rounded-10 BM-object-cover" @error="imgError" />
 						<template v-else>
 							<img :src="logo" class="BM-w-40" />
@@ -105,6 +97,7 @@
 
 <script setup>
 import logo from '@/assets/logo.svg'
+import connect from '@/assets/img/connect.svg'
 import gsap from 'gsap'
 import nav from '@/assets/json/childMenu'
 import { useDark, useToggle } from '@vueuse/core'
@@ -167,3 +160,15 @@ function imgError({ target }) {
 	target.style.width = '40px'
 }
 </script>
+
+<style lang="scss">
+.item{
+  @apply BM-h-full BM-bg-1f BM-rounded-20 BM-cursor-pointer BM-flex BM-items-center BM-justify-center BM-flex-col BM-overflow-hidden BM-no-underline dark:BM-bg-darkitem;
+}
+aside>ul{
+  @apply BM-text-18 BM-list-none dark:BM-text-darktextwhite BM-hidden lg:BM-block;
+  >li{
+    @apply BM-h-60 BM-cursor-pointer hover:BM-bg-1f hover:BM-text-main hover:dark:BM-bg-dark1f BM-flex BM-items-center BM-pl-20;
+  }
+}
+</style>
