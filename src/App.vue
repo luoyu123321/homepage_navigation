@@ -96,7 +96,7 @@
 					</template>
 				</div>
 			</header>
-			<main class="BM-bg-white BM-rounded-[20px_20px_0_0] BM-grid BM-gap-20 BM-grid-rows-auto BM-p-20 BM-auto-rows-[176px] BM-grid-cols-[repeat(auto-fit,minmax(160px,1fr))] BM-overflow-y-auto beautyScroll BM-overflow-x-hidden dark:BM-bg-darkwhite" style="height: calc(100vh - 160px)">
+			<main class="BM-bg-white BM-rounded-[20px_20px_0_0] BM-grid BM-gap-20 BM-grid-rows-auto BM-p-20 BM-auto-rows-[176px] BM-grid-cols-[repeat(auto-fill,minmax(160px,1fr))] BM-overflow-y-auto beautyScroll BM-overflow-x-hidden dark:BM-bg-darkwhite" style="height: calc(100vh - 160px)">
 				<transition-group @enter="enter" @before-enter="beforeEnter">
 					<a target="_blank" :href="item.link" class="item hover:BM-drop-shadow-[0_10px_10px_rgba(0,0,0,0.1)] dark:hover:BM-drop-shadow-[0_10px_10px_rgba(15,23,42,0.8)]" v-for="(item, index) in list" :key="index" :data-index="index">
 						<img :src="item.icon" v-if="item.icon" class="BM-h-40 BM-rounded-10 BM-object-cover" @error="imgError" />
@@ -104,7 +104,8 @@
 							<img :src="logo" class="BM-w-40" />
 						</template>
 
-						<h1 class="BM-text-333 BM-pt-[1em] BM-text-20 dark:BM-text-darktextwhite">{{ item.text }}</h1>
+						<h1 class="BM-text-333 BM-py-[1em] BM-text-20 dark:BM-text-white">{{ item.text }}</h1>
+            <p class="BM-text-12 BM-text-999 dark:BM-text-darktextwhite" :style="{'height':item.desc ? 'auto' : '1em'}">{{item.desc}}</p>
 					</a>
 				</transition-group>
 			</main>
@@ -121,7 +122,7 @@ import { useDark, useToggle } from '@vueuse/core'
 import random from 'lodash.random'
 import icon3ds from '@/assets/img'
 import packageJson from '/package.json'
-import { nextTick } from 'vue'
+
 const isDark = useDark({ valueDark: 'BM-dark' })
 const toggleDark = useToggle(isDark)
 const aside_active = ref(0)
@@ -144,7 +145,7 @@ onMounted(() => {
 		})
 	})
 	slide.value = slide_item
-	list.value = nav[0].nav
+	list.value = nav[aside_active.value].nav
 
 	history.value = JSON.parse(localStorage.getItem('BM-history')) || []
 

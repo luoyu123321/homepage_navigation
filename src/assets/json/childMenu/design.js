@@ -11,6 +11,11 @@ export const design = {
 			icon: 'https://www.pexels.com/assets/icons/pexels-icon-644533b609157fd990b1a6675626d63077ae1fb81e819c83f81dc2242877d413.png'
 		},
 		{
+			text: '视频素材',
+			link: 'https://coverr.co/',
+			icon: 'https://coverr.co/favicon-32x32.png'
+		},
+		{
 			text: '图翼网',
 			link: 'http://www.tuyiyi.com/',
 			icon: 'http://www.tuyiyi.com/favicon.ico'
@@ -78,6 +83,11 @@ export const design = {
 			text: '3D图标',
 			link: 'https://3dicons.co/',
 			icon: 'https://3dicons.co/favicon-32x32.png?v=12288f6c71cf1a278192e2017538975d'
+		},
+		{
+			text:'图片素材',
+			link:'https://wallhaven.cc/',
+			icon:'https://wallhaven.cc/favicon.ico'
 		}
 	]
 }

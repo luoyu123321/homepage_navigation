@@ -4,32 +4,109 @@ export const webMenu = {
 		{
 			text: 'day.js',
 			link: 'https://dayjs.fenxianglu.cn/',
-			icon: 'https://dayjs.fenxianglu.cn/assets/favicon.png'
+			icon: 'https://dayjs.fenxianglu.cn/assets/favicon.png',
+			desc:'前端日期处理工具'
 		},
 		{
 			text: 'math.js',
 			link: 'https://mathjs.org/index.html',
-			icon: 'https://mathjs.org/css/img/mathjs_330x100.png'
+			icon: 'https://mathjs.org/css/img/mathjs_330x100.png',
+			desc:'数学库'
 		},
 		{
 			text: 'Lodash',
 			link: 'https://www.html.cn/doc/lodash/',
-			icon: 'https://www.html.cn/doc/lodash/assets/img/lodash.svg'
+			icon: 'https://www.html.cn/doc/lodash/assets/img/lodash.svg',
+			desc:'一款实用的工具类'
+		},
+		{
+			text: 'better-scroll',
+			link: 'https://better-scroll.github.io/docs/zh-CN/',
+			icon: 'https://dpubstatic.udache.com/static/dpubimg/t_L6vAgQ-E/logo.svg',
+			desc:'移动端滚动插件'
+		},
+		{
+			text: 'numeraljs',
+			link: 'http://numeraljs.com/',
+			desc:'数字格式化'
+		},
+		{
+			text: 'Cleave.js',
+			link: 'https://nosir.github.io/cleave.js/',
+			desc:'输入框格式化插件'
 		},
 		{
 			text: 'is.js',
 			link: 'http://is.js.org/',
-			icon: 'http://is.js.org/assets/img/is-js-logo.png'
+			icon: 'http://is.js.org/assets/img/is-js-logo.png',
+			desc:'好用的判断类'
 		},
 		{
 			text: 'hammerJS',
 			link: 'http://hammerjs.github.io/getting-started/',
-			icon: 'http://hammerjs.github.io/assets/img/favicon.ico'
+			icon: 'http://hammerjs.github.io/assets/img/favicon.ico',
+			desc:'移动端手势处理库'
 		},
 		{
-			text: '渐变生成',
+			text: 'imagemin',
+			link: 'https://hub.fastgit.org/imagemin/imagemin#readme',
+			desc:'图片压缩'
+		},
+		{
+			text: 'logic-flow',
+			link: 'http://logic-flow.org/',
+			icon: 'http://logic-flow.org/new-logo.svg',
+			desc:'流程图插件'
+		},
+		{
+			text: 'sheetjs',
+			link: 'https://sheetjs.com/',
+			icon: 'https://sheetjs.com/favico/favicon-32x32.png'
+		},
+		{
+			text: 'x-spread',
+			link: 'https://hondrytravis.com/x-spreadsheet-doc/',
+			desc:'快速构建 Web Excel'
+		},
+		{
+			text: 'pnpm',
+			link: 'https://pnpm.io/zh/',
+			icon: 'https://pnpm.io/zh/img/favicon.png',
+			desc:'包管理工具'
+		},
+		{
+			text: 'Node',
+			link: 'https://nodejs.org/en/',
+			icon: 'https://nodejs.org/static/images/favicons/favicon-32x32.png'
+		},
+		{
+			text: 'prettier',
+			link: 'https://prettier.io/',
+			icon: 'https://prettier.io/icon.png',
+			desc:'代码格式化工具'
+		},
+		{
+			text: '100px',
+			link: 'https://100px.net/',
+			icon: 'https://100px.net/logo.png',
+			desc:'H5各类抽奖插件'
+		},
+		{
+			text: 'rrweb',
+			link: 'https://www.rrweb.io/',
+			icon: 'https://www.rrweb.io/favicon.png',
+			desc:'前端录屏工具'
+		},
+		{
+			text: 'tinypng',
+			link: 'https://tinypng.com/',
+			desc:'图片压缩'
+		},
+		{
+			text: 'grabient',
 			link: 'https://www.grabient.com/',
-			icon: 'https://www.grabient.com/favicon-32x32.png'
+			icon: 'https://www.grabient.com/favicon-32x32.png',
+			desc:'渐变生成'
 		},
 		{
 			text: '投影生成',
@@ -40,17 +117,30 @@ export const webMenu = {
 			link: 'https://www.w3cways.com/css3-animation-tool'
 		},
 		{
+			text: 'Animista',
+			link: 'https://animista.net/',
+			icon:'https://animista.net/favicon-32x32.png',
+			desc:'一个动画工具'
+		},
+		{
 			text: 'CSS集合',
 			link: 'https://qishaoxuan.github.io/css_tricks/createTriangle/'
 		},
 		{
-			text: '动画贝塞尔',
+			text: 'cubic-bezier',
 			link: 'https://cubic-bezier.com/#0,.95,0,.97',
-			icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAMNJREFUOE9jZFi5s4GBkamegRzw/18jI8Oq3f/J0QvTAzdgjaUeQ8O1ewz8LCwMfKzMDGZC/AzR8hIMAqwsDOxMTAzszExgGgQefP3BoLjtCJgNN6BeS4mh8do9hjf+9gyz7j1lmHLnMcOz7z8JOg5uQIKCFMN8Uy0GxtV7CGpCVgA3IEVRmuHOl28MB16/J8+AO57WDCrbj5KkGSUMvgU5MXCt20e+Af9DXUj2P4oLRg1gYLjvZQNPnqREBRUyE4XZGQD2VmFNx8CBbwAAAABJRU5ErkJggg=='
+			icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAMNJREFUOE9jZFi5s4GBkamegRzw/18jI8Oq3f/J0QvTAzdgjaUeQ8O1ewz8LCwMfKzMDGZC/AzR8hIMAqwsDOxMTAzszExgGgQefP3BoLjtCJgNN6BeS4mh8do9hjf+9gyz7j1lmHLnMcOz7z8JOg5uQIKCFMN8Uy0GxtV7CGpCVgA3IEVRmuHOl28MB16/J8+AO57WDCrbj5KkGSUMvgU5MXCt20e+Af9DXUj2P4oLRg1gYLjvZQNPnqREBRUyE4XZGQD2VmFNx8CBbwAAAABJRU5ErkJggg==',
+			desc:'动画贝塞尔'
 		},
 		{
 			text: 'loading',
-			link: 'https://loading.io/'
+			link: 'https://loading.io/',
+			desc:'各种loading示例'
+		},
+		{
+			text: 'good-storage',
+			link: 'https://www.npmjs.com/package/good-storage',
+			desc:'前端存储库'
 		},
 		{
 			text: '背景平铺',
@@ -80,26 +170,26 @@ export const webMenu = {
 			icon: 'https://darekkay.com/favicon.ico'
 		},
 		{
-			text: 'good-storage',
-			link: 'https://www.npmjs.com/package/good-storage'
-		},
-		{
 			text: '🍪 cookie.js',
-			link: 'https://github.com/jaywcjlove/cookie.js'
+			link: 'https://github.com/jaywcjlove/cookie.js',
+			desc:'cookie插件'
 		},
 		{
 			text: 'PouchDB',
 			link: 'https://pouchdb.com/learn.html',
-			icon: 'https://pouchdb.com/static/img/logo.svg'
+			icon: 'https://pouchdb.com/static/img/logo.svg',
+			desc:'indexDB库'
 		},
 		{
 			text: 'ImmortalDB',
-			link: 'https://github.com/gruns/ImmortalDB'
+			link: 'https://github.com/gruns/ImmortalDB',
+			desc:'前端存储库'
 		},
 		{
 			text: 'echarts',
 			link: 'https://echarts.apache.org/zh/index.html',
-			icon: 'https://fastly.jsdelivr.net/gh/apache/echarts-website@asf-site/zh/images/favicon.png?_v_=20200710_1'
+			icon: 'https://fastly.jsdelivr.net/gh/apache/echarts-website@asf-site/zh/images/favicon.png?_v_=20200710_1',
+			desc:'图表库'
 		},
 		{
 			text: 'ant-v',
@@ -123,15 +213,18 @@ export const webMenu = {
 		},
 		{
 			text: 'TweenMax',
-			link: 'https://www.tweenmax.com.cn/'
+			link: 'https://www.tweenmax.com.cn/',
+			desc:'动画插件'
 		},
 		{
 			text: 'skrollr.js',
-			link: 'http://prinzhorn.github.io/skrollr/'
+			link: 'http://prinzhorn.github.io/skrollr/',
+			desc:'滚动效果插件'
 		},
 		{
 			text: 'Granim.js',
-			link: 'https://sarcadass.github.io/granim.js/index.html'
+			link: 'https://sarcadass.github.io/granim.js/index.html',
+			desc:'渐变动画插件'
 		},
 		{
 			text: 'hover视差',
@@ -142,9 +235,10 @@ export const webMenu = {
 			link: 'http://wicky.nillia.ms/headroom.js/'
 		},
 		{
-			text: '产品引导库',
+			text: 'introjs',
 			link: 'https://introjs.com/',
-			icon: 'https://introjs.com/img/logo.svg'
+			icon: 'https://introjs.com/img/logo.svg',
+			desc:'产品引导库'
 		},
 		{
 			text: 'Animate.css',
@@ -171,17 +265,13 @@ export const webMenu = {
 		},
 		{
 			text: 'Fabric',
-			link: 'http://fabricjs.com/'
+			link: 'http://fabricjs.com/',
+			desc:'canvas工具'
 		},
 		{
 			text: 'threeJS',
 			link: 'https://threejs.org/',
 			icon: 'https://threejs.org/files/favicon.ico'
-		},
-		{
-			text: 'konva',
-			link: 'http://konvajs-doc.bluehymn.com/',
-			icon: 'http://konvajs-doc.bluehymn.com/css/images/logo.png'
 		},
 		{
 			text: 'ts.config配置',
@@ -211,7 +301,8 @@ export const webMenu = {
 		{
 			text: 'wangEditor',
 			link: 'https://www.wangeditor.com/v5/',
-			icon: 'https://www.wangeditor.com/favicon.ico'
+			icon: 'https://www.wangeditor.com/favicon.ico',
+			desc:'好用的富文本插件'
 		},
 		{
 			text: 'quilljs',
@@ -221,7 +312,8 @@ export const webMenu = {
 		{
 			text: 'Mock.js',
 			link: 'http://mockjs.com/',
-			icon: 'http://mockjs.com/assets/img/logo-2.svg'
+			icon: 'http://mockjs.com/assets/img/logo-2.svg',
+			desc:'数据模拟'
 		},
 		{
 			text: 'Mock使用方法',
@@ -288,7 +380,8 @@ export const webMenu = {
 		{
 			text: '🦕 any-rule',
 			link: 'https://any86.github.io/any-rule/',
-			icon: 'https://any86.github.io/any-rule/favicon.ico'
+			icon: 'https://any86.github.io/any-rule/favicon.ico',
+			desc:'很多实用的正则'
 		},
 		{
 			text: '犸良',
@@ -304,6 +397,11 @@ export const webMenu = {
 			text: 'Lottie编辑器',
 			link: 'https://editor.lottiefiles.com/',
 			icon: 'https://lottiefiles.com/favicons-new/apple-icon-57x57.png'
+		},
+		{
+			text:'一行js代码',
+			link:'https://1loc.dev/',
+			icon:'https://1loc.dev/favicon.svg'
 		}
 	]
 }
