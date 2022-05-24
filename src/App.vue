@@ -99,13 +99,17 @@
 			<main class="BM-bg-white BM-rounded-[20px_20px_0_0] BM-grid BM-gap-20 BM-grid-rows-auto BM-p-20 BM-auto-rows-[176px] BM-grid-cols-[repeat(auto-fill,minmax(160px,1fr))] BM-overflow-y-auto beautyScroll BM-overflow-x-hidden dark:BM-bg-darkwhite" style="height: calc(100vh - 160px)">
 				<transition-group @enter="enter" @before-enter="beforeEnter">
 					<a target="_blank" :href="item.link" class="item hover:BM-drop-shadow-[0_10px_10px_rgba(0,0,0,0.1)] dark:hover:BM-drop-shadow-[0_10px_10px_rgba(15,23,42,0.8)]" v-for="(item, index) in list" :key="index" :data-index="index">
-						<img :src="item.icon" v-if="item.icon" class="BM-h-40 BM-rounded-10 BM-object-cover" @error="imgError" />
-						<template v-else>
-							<img :src="logo" class="BM-w-40" />
-						</template>
+            <el-image :src="item.icon" fit="cover" class="BM-h-40 BM-rounded-10">
+              <template #error>
+                <img :src="logo" class="BM-w-40" />
+              </template>
+              <template #placeholder>
+                <img :src="img_loading" class="BM-h-40 BM-object-cover"/>
+              </template>
+            </el-image>
 
 						<h1 class="BM-text-333 BM-py-[1em] BM-text-20 dark:BM-text-white">{{ item.text }}</h1>
-            <p class="BM-text-12 BM-text-999 dark:BM-text-darktextwhite" :style="{'height':item.desc ? 'auto' : '1em'}">{{item.desc}}</p>
+            <p class="BM-text-12 BM-text-999 BM-px-[1em] BM-leading-[1.2em] dark:BM-text-darktextwhite" :style="{'height':item.desc ? 'auto' : '1em'}">{{item.desc}}</p>
 					</a>
 				</transition-group>
 			</main>
@@ -115,6 +119,7 @@
 
 <script setup>
 import logo from '@/assets/logo.svg'
+import img_loading from '@/assets/img/img-loading.svg'
 import connect from '@/assets/img/connect.svg'
 import gsap from 'gsap'
 import nav from '@/assets/json/childMenu'
@@ -122,6 +127,7 @@ import { useDark, useToggle } from '@vueuse/core'
 import random from 'lodash.random'
 import icon3ds from '@/assets/img'
 import packageJson from '/package.json'
+import {ElImage} from 'element-plus'
 
 const isDark = useDark({ valueDark: 'BM-dark' })
 const toggleDark = useToggle(isDark)
@@ -193,11 +199,6 @@ function onSearchByHistory(keyword) {
 function onChearHistory() {
 	localStorage.removeItem('BM-history')
 	history.value = []
-}
-
-function imgError({ target }) {
-	target.setAttribute('src', logo)
-	target.style.width = '40px'
 }
 </script>
 

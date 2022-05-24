@@ -59,7 +59,7 @@ export const commonly = {
 		},
 		{
 			text: 'Tailwindcss',
-			link: 'https://www.tailwindcss.cn/',
+			link: 'https://tailwindcss.com/',
 			icon: 'https://www.tailwindcss.cn/favicon-32x32.png',
 			desc:'超好用的css框架'
 		},

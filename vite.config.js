@@ -4,6 +4,7 @@ import tailwindcss from 'tailwindcss'
 import autoprefixer from 'autoprefixer'
 import {resolve} from 'path'
 import AutoImport from 'unplugin-auto-import/vite'
+import ElementPlus from 'unplugin-element-plus/vite'
 
 const pathResolve = (dir) => resolve(__dirname, '.', dir)
 
@@ -14,6 +15,7 @@ export default defineConfig({
         AutoImport({
             imports: ['vue']
         }),
+        ElementPlus()
     ],
     server: {
         host: '0.0.0.0',
