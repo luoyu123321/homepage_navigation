@@ -42,6 +42,12 @@ export const webMenu = {
 			desc:'好用的判断类'
 		},
 		{
+			text: 'egjs',
+			link: 'https://naver.github.io/egjs/',
+			icon: 'https://naver.github.io/egjs/img/logotype1_black.svg',
+			desc:'动态元素合集'
+		},
+		{
 			text: 'hammerJS',
 			link: 'http://hammerjs.github.io/getting-started/',
 			icon: 'http://hammerjs.github.io/assets/img/favicon.ico',
@@ -274,6 +280,33 @@ export const webMenu = {
 			icon: 'https://threejs.org/files/favicon.ico'
 		},
 		{
+			text: 'barba',
+			link: 'https://barba.js.org/',
+			icon: 'https://barba.js.org/favicons/apple-touch-icon.png?rev=1',
+			desc:'页面平滑过渡'
+		},
+		{
+			text: 'RELLAX.js',
+			link: 'https://dixonandmoe.com/rellax/',
+			desc:'轻量级滚动视差'
+		},
+		{
+			text: 'Scrollissimo',
+			link: 'https://promo.github.io/scrollissimo/',
+			desc:'滚动动效设计工具'
+		},
+		{
+			text: 'matter.js',
+			link: 'https://brm.io/matter-js/',
+			desc:'2D物理动效库',
+			icon:'https://brm.io/img/icon/favicon-32x32.png'
+		},
+		{
+			text: 'favico.js',
+			link: 'http://lab.ejci.net/favico.js/',
+			desc:'让你的favico动起来'
+		},
+		{
 			text: 'ts.config配置',
 			link: 'https://blog.csdn.net/weixin_30758821/article/details/101713657',
 			icon: 'https://www.typescriptlang.org/icons/icon-96x96.png?v=8944a05a8b601855de116c8a56d3b3ae'
@@ -402,6 +435,11 @@ export const webMenu = {
 			text:'一行js代码',
 			link:'https://1loc.dev/',
 			icon:'https://1loc.dev/favicon.svg'
+		},
+		{
+			text:'icon动画',
+			link:'http://bitshadow.github.io/iconate/',
+			icon:'https://s.cn.bing.net/th?id=ODLS.5a431bb9-ae72-4284-bad7-7360f84fad0d&w=40&h=40&o=6&pid=1.2'
 		}
 	]
 }

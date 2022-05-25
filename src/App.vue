@@ -72,7 +72,7 @@
 						</dt>
 						<dd class="BM-text-666 BM-flex BM-flex-wrap BM-text-16 BM-gap-10 BM-max-h-[400px] BM-overflow-y-auto beautyScroll">
 							<template v-for="(item, index) in history" :key="index">
-								<a href="javascript:void(0)" class="BM-p-[5px_15px] BM-bg-slate-100 BM-whitespace-nowrap BM-rounded-full hover:BM-bg-slate-200 dark:BM-bg-darkitem dark:BM-text-white dark:hover:BM-bg-dark1f" @click.stop="onSearchByHistory(item)">{{ item }}</a>
+                <el-tag round closable @click.stop="onSearchByHistory(item)" @close="onRemoveHistory(item)" class="BM-cursor-pointer">{{ item }}</el-tag>
 							</template>
 						</dd>
 					</dl>
@@ -127,7 +127,7 @@ import { useDark, useToggle } from '@vueuse/core'
 import random from 'lodash.random'
 import icon3ds from '@/assets/img'
 import packageJson from '/package.json'
-import {ElImage} from 'element-plus'
+import {ElImage,ElTag} from 'element-plus'
 
 const isDark = useDark({ valueDark: 'BM-dark' })
 const toggleDark = useToggle(isDark)
@@ -184,7 +184,9 @@ function enter(el, done) {
 
 function onSearch() {
 	if (history.value) {
-		history.value.push(searchKey.value.trim())
+	  const setItem = new Set([...history.value])
+    setItem.add(searchKey.value.trim())
+		history.value = [...setItem]
 		localStorage.setItem('BM-history', JSON.stringify(history.value))
 	}
 
@@ -199,6 +201,14 @@ function onSearchByHistory(keyword) {
 function onChearHistory() {
 	localStorage.removeItem('BM-history')
 	history.value = []
+}
+
+function onRemoveHistory(item){
+  const valIndex = history.value.findIndex(val=>val === item)
+ if(valIndex !== -1){
+   history.value.splice(valIndex,1)
+   localStorage.setItem('BM-history', JSON.stringify(history.value))
+ }
 }
 </script>
 
