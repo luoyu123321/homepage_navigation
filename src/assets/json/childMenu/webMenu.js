@@ -54,11 +54,6 @@ export const webMenu = {
 			desc:'移动端手势处理库'
 		},
 		{
-			text: 'imagemin',
-			link: 'https://hub.fastgit.org/imagemin/imagemin#readme',
-			desc:'图片压缩'
-		},
-		{
 			text: 'logic-flow',
 			link: 'http://logic-flow.org/',
 			icon: 'http://logic-flow.org/new-logo.svg',

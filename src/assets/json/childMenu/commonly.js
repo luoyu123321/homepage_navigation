@@ -63,5 +63,10 @@ export const commonly = {
 			icon: 'https://www.tailwindcss.cn/favicon-32x32.png',
 			desc:'超好用的css框架'
 		},
+		{
+			text: 'FontEditor',
+			link: 'https://kekee000.github.io/fonteditor/#/',
+			desc:'字体编辑器'
+		},
 	]
 }

@@ -24,7 +24,8 @@ export default defineConfig({
     },
     resolve: {
         alias: {
-            '@': pathResolve('./src/')
+            '@': pathResolve('./src/'),
+            '~img': pathResolve('./src/assets/img'),
         }
     },
     css: {
