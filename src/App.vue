@@ -3,7 +3,7 @@
     <aside class="BM-pl-2em BM-bg-white BM-text-666 BM-relative dark:BM-bg-darkwhite lg:BM-rounded-[0_20px_0_0]">
       <!--logo-->
       <div
-          class="BM-h-60 BM-flex BM-items-center BM-rounded-[0_20px_0_0] BM-justify-center lg:BM-justify-start BM-sticky BM-top-0">
+          class="BM-h-80 BM-flex BM-items-center BM-rounded-[0_20px_0_0] BM-justify-center lg:BM-justify-start BM-sticky BM-top-0 BM-pb-10">
         <img :src="logo" class="BM-w-30 BM-mr-10"/>
         <span class="BM-text-26 BM-text-333">
 					<b class="BM-text-main BM-font-bold BM-align-bottom DIN">BM</b>
