@@ -20,13 +20,13 @@ export const wchart = {
 			text: 'TaroUI',
 			link: 'https://b2nil.github.io/taro-ui-vue3/',
 			icon: 'https://taro-docs.jd.com/taro/img/taroLogo180.png',
-			desc:'支持vue3的跨平台UI'
+			desc: '支持vue3的跨平台UI'
 		},
 		{
 			text: 'Vant Weapp',
 			link: 'https://youzan.github.io/vant-weapp/#/intro',
 			icon: 'https://img.yzcdn.cn/public_files/2017/12/18/fd78cf6bb5d12e2a119d0576bedfd230.png',
-			desc:'vant的小程序版本'
+			desc: 'vant的小程序版本'
 		},
 		{
 			text: '小程序转icon',

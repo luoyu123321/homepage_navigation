@@ -85,9 +85,9 @@ export const design = {
 			icon: 'https://3dicons.co/favicon-32x32.png?v=12288f6c71cf1a278192e2017538975d'
 		},
 		{
-			text:'图片素材',
-			link:'https://wallhaven.cc/',
-			icon:'https://wallhaven.cc/favicon.ico'
+			text: '图片素材',
+			link: 'https://wallhaven.cc/',
+			icon: 'https://wallhaven.cc/favicon.ico'
 		}
 	]
 }
