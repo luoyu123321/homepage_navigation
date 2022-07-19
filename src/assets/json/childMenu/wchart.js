@@ -17,12 +17,6 @@ export const wchart = {
 			icon: 'https://vkceyugu.cdn.bspapp.com/VKCEYUGU-a90b5f95-90ba-4d30-a6a7-cd4d057327db/d23e842c-58fc-4574-998d-17fdc7811cc3.png?v=1556263038788'
 		},
 		{
-			text: 'TaroUI',
-			link: 'https://b2nil.github.io/taro-ui-vue3/',
-			icon: 'https://taro-docs.jd.com/taro/img/taroLogo180.png',
-			desc: '支持vue3的跨平台UI'
-		},
-		{
 			text: 'Vant Weapp',
 			link: 'https://youzan.github.io/vant-weapp/#/intro',
 			icon: 'https://img.yzcdn.cn/public_files/2017/12/18/fd78cf6bb5d12e2a119d0576bedfd230.png',

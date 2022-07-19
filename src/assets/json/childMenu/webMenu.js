@@ -13,6 +13,12 @@ export const webMenu = {
 			desc: '跨端UI'
 		},
 		{
+			text: 'daisyUI',
+			link: 'https://daisyui.com/?from=thosefree.com&lang=zh_cn',
+			desc: '跨端UI',
+			icon:'https://daisyui.com/images/default.jpg'
+		},
+		{
 			text: 'day.js',
 			link: 'https://dayjs.fenxianglu.cn/',
 			icon: 'https://dayjs.fenxianglu.cn/assets/favicon.png',
@@ -23,6 +29,17 @@ export const webMenu = {
 			link: 'https://mathjs.org/index.html',
 			icon: 'https://mathjs.org/css/img/mathjs_330x100.png',
 			desc: '数学库'
+		},
+		{
+			text: 'Driver.js',
+			link: 'https://kamranahmed.info/driver.js/',
+			icon: 'https://kamranahmed.info/driver.js/images/driver.png',
+			desc: '交互引导工具'
+		},
+		{
+			text: 'lulu UI',
+			link: 'https://l-ui.com/',
+			desc: 'webComponent组件库'
 		},
 		{
 			text: 'Lodash',
