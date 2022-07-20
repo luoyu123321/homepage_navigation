@@ -207,7 +207,7 @@ function enter(el, done) {
 }
 
 function onSearch() {
-	if (history.value) {
+	if (history.value && searchKey.value) {
 		const setItem = new Set([searchKey.value.trim(), ...history.value])
 		history.value = [...setItem]
 		localStorage.setItem('BM-history', JSON.stringify(history.value))

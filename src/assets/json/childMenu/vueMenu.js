@@ -44,6 +44,12 @@ export const vueMenu = {
 			desc: '请求工具'
 		},
 		{
+			text: 'mitt',
+			link: 'https://www.npmjs.com/package/mitt',
+			icon: 'https://camo.githubusercontent.com/9ad02d3d760df07fe6ed0428acd937ad8ffb871e4d825e4c435c4f195e872755/68747470733a2f2f692e696d6775722e636f6d2f42717358394e542e706e67',
+			desc: '组件通信库'
+		},
+		{
 			text: 'Vue-Cli',
 			link: 'https://cli.vuejs.org/zh/',
 			icon: 'https://staging-cn.vuejs.org/logo.svg',

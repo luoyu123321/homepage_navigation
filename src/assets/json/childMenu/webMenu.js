@@ -2,10 +2,10 @@ export const webMenu = {
 	title: '前端资源库',
 	nav: [
 		{
-			text:'prelineUI',
-			link:'https://preline.co/',
-			icon:'https://preline.co/preline-logo.svg',
-			desc:'tailwind全响应UI'
+			text: 'prelineUI',
+			link: 'https://preline.co/',
+			icon: 'https://preline.co/preline-logo.svg',
+			desc: 'tailwind全响应UI'
 		},
 		{
 			text: 'xy-ui',
@@ -16,7 +16,7 @@ export const webMenu = {
 			text: 'daisyUI',
 			link: 'https://daisyui.com/?from=thosefree.com&lang=zh_cn',
 			desc: '跨端UI',
-			icon:'https://daisyui.com/images/default.jpg'
+			icon: 'https://daisyui.com/images/default.jpg'
 		},
 		{
 			text: 'day.js',
