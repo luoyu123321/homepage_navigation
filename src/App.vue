@@ -120,10 +120,10 @@
 					<a target="_blank" :href="item.link" class="item hover:BM-drop-shadow-[0_10px_10px_rgba(0,0,0,0.1)] dark:hover:BM-drop-shadow-[0_10px_10px_rgba(15,23,42,0.8)]" v-for="(item, index) in list" :key="index" :data-index="index">
 						<el-image :src="item.icon" fit="cover" class="BM-h-40 BM-rounded-10">
 							<template #error>
-								<img :src="logo" class="BM-w-40" />
+								<img :src="logo" class="BM-w-40 BM-block" />
 							</template>
 							<template #placeholder>
-								<img :src="img_loading" class="BM-h-40 BM-object-cover" />
+								<img :src="img_loading" class="BM-h-40 BM-object-cover BM-block" />
 							</template>
 						</el-image>
 
@@ -235,7 +235,7 @@ function onRemoveHistory(item) {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 a {
 	@apply BM-no-underline BM-text-inherit;
 }

@@ -4,7 +4,7 @@ specifiers:
   '@vitejs/plugin-vue': ^2.3.3
   '@vueuse/core': ^8.9.4
   autoprefixer: ^10.4.7
-  element-plus: ^2.2.9
+  element-plus: 2.2.2
   gsap: ^3.10.4
   lodash.random: ^3.2.0
   normalize.css: ^8.0.1
@@ -20,7 +20,7 @@ specifiers:
 
 dependencies:
   '@vueuse/core': 8.9.4_vue@3.2.37
-  element-plus: 2.2.9_vue@3.2.37
+  element-plus: 2.2.2_vue@3.2.37
   gsap: 3.10.4
   lodash.random: 3.2.0
   normalize.css: 8.0.1
@@ -67,8 +67,8 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /@element-plus/icons-vue/2.0.6_vue@3.2.37:
-    resolution: {integrity: sha512-lPpG8hYkjL/Z97DH5Ei6w6o22Z4YdNglWCNYOPcB33JCF2A4wye6HFgSI7hEt9zdLyxlSpiqtgf9XcYU+m5mew==}
+  /@element-plus/icons-vue/1.1.4_vue@3.2.37:
+    resolution: {integrity: sha512-Iz/nHqdp1sFPmdzRwHkEQQA3lKvoObk8azgABZ81QUOpW9s/lUyQVUSh0tNtEPZXQlKwlSh7SPgoVxzrE0uuVQ==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
@@ -396,13 +396,13 @@ packages:
     resolution: {integrity: sha512-vefjEh0sk871xNmR5whJf9TEngX+KTKS3hOHpjoMpauKkwlGwtMz1H8IaIjAT/GNnX0TbGwAdmVoXCAzXf+PPg==}
     dev: true
 
-  /element-plus/2.2.9_vue@3.2.37:
-    resolution: {integrity: sha512-jYbL0JkCdv95rkT6trZJjCAizLPySa0qcd2cgq+57SKQnCZAcNDDq4GbTuFRnNavdoeCJnuM3HIficTIUpsMOQ==}
+  /element-plus/2.2.2_vue@3.2.37:
+    resolution: {integrity: sha512-yGcj2Ayb0jZO1WbI51tHJ4efhlfWKlBqqGtWbzhq+tcpfaKzJZN+IHRouuFasqn0ZV3tWCDu1jggDR1+9y7XfQ==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
       '@ctrl/tinycolor': 3.4.1
-      '@element-plus/icons-vue': 2.0.6_vue@3.2.37
+      '@element-plus/icons-vue': 1.1.4_vue@3.2.37
       '@floating-ui/dom': 0.5.4
       '@popperjs/core': /@sxzz/popperjs-es/2.11.7
       '@types/lodash': 4.14.182
