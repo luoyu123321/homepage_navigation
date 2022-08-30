@@ -2,8 +2,18 @@ export const mapMenu = {
 	title: '地图',
 	nav: [
 		{
-			text: '百度API',
+			text: '百度JSAPI',
 			link: 'https://lbsyun.baidu.com/index.php?title=jspopular3.0',
+			icon: 'https://lbsyun.baidu.com/skins/MySkin/resources/img/icon/lbsyunlogo_icon.ico'
+		},
+		{
+			text: '百度GL',
+			link: 'https://lbsyun.baidu.com/index.php?title=jspopularGL',
+			icon: 'https://lbsyun.baidu.com/skins/MySkin/resources/img/icon/lbsyunlogo_icon.ico'
+		},
+		{
+			text: '百度mapV',
+			link: 'https://lbsyun.baidu.com/solutions/mapvdata',
 			icon: 'https://lbsyun.baidu.com/skins/MySkin/resources/img/icon/lbsyunlogo_icon.ico'
 		},
 		{
