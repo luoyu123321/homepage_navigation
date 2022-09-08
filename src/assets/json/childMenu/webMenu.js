@@ -2,6 +2,12 @@ export const webMenu = {
 	title: '前端资源库',
 	nav: [
 		{
+			text: 'Vite',
+			link: 'https://cn.vitejs.dev/',
+			icon: 'https://cn.vitejs.dev/logo.svg',
+			desc: '下一代前端开发与构建工具'
+		},
+		{
 			text: 'prelineUI',
 			link: 'https://preline.co/',
 			icon: 'https://preline.co/preline-logo.svg',

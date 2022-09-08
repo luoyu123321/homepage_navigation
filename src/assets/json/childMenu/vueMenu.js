@@ -8,12 +8,6 @@ export const vueMenu = {
 			desc: 'Vue官方文档'
 		},
 		{
-			text: 'Vite',
-			link: 'https://cn.vitejs.dev/',
-			icon: 'https://cn.vitejs.dev/logo.svg',
-			desc: '下一代前端开发与构建工具'
-		},
-		{
 			text: 'Pinia',
 			link: 'https://pinia.esm.dev/',
 			icon: 'https://pinia.esm.dev/logo.svg',
@@ -50,10 +44,10 @@ export const vueMenu = {
 			desc: '组件通信库'
 		},
 		{
-			text: 'Vue-Cli',
-			link: 'https://cli.vuejs.org/zh/',
-			icon: 'https://staging-cn.vuejs.org/logo.svg',
-			desc: 'vue开发构建工具'
+			text: 'TDesign',
+			link: 'https://tdesign.tencent.com/',
+			icon: 'https://static.tdesign.tencent.com/favicon.ico',
+			desc: '腾讯UI'
 		},
 		{
 			text: 'Vue-demi',
@@ -159,6 +153,12 @@ export const vueMenu = {
 			text: 'Revue-drag',
 			link: 'https://revue-draggable.vercel.app/',
 			desc: '基于vue的拖拽工具'
+		},
+		{
+			text: 'Vue-Cli',
+			link: 'https://cli.vuejs.org/zh/',
+			icon: 'https://staging-cn.vuejs.org/logo.svg',
+			desc: 'vue开发构建工具'
 		}
 	]
 }
