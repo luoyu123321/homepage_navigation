@@ -5,5 +5,6 @@ import { vueMenu } from './vueMenu'
 import { wchart } from './wchart'
 import { webMenu } from './webMenu'
 import { commonly } from './commonly'
+import {microFrontend} from './microFrontend'
 
-export default [commonly, vueMenu, webMenu, mapMenu, wchart, design, toolMenu]
+export default [commonly, vueMenu, webMenu, microFrontend, mapMenu, wchart, design, toolMenu]

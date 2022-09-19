@@ -5,7 +5,6 @@ import autoprefixer from 'autoprefixer'
 import {resolve} from 'path'
 import AutoImport from 'unplugin-auto-import/vite'
 import ElementPlus from 'unplugin-element-plus/vite'
-
 const pathResolve = (dir) => resolve(__dirname, '.', dir)
 
 export default defineConfig({
