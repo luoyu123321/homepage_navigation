@@ -1,5 +1,6 @@
-export const vueMenu = {
+export default {
 	title: 'Vue（3.x）',
+	sort:2,
 	nav: [
 		{
 			text: 'Vue.js',

@@ -1,5 +1,6 @@
-export const toolMenu = {
+export default {
 	title: '其他',
+	sort:9,
 	nav: [
 		{
 			text: '代码片段图片',

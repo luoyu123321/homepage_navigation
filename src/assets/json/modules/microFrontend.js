@@ -1,5 +1,6 @@
-export const microFrontend = {
+export default {
     title: '微前端',
+    sort:6,
     nav:[
         {
             text: '无界',

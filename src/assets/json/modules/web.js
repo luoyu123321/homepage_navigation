@@ -1,5 +1,6 @@
-export const webMenu = {
+export default {
 	title: '前端资源库',
+	sort:3,
 	nav: [
 		{
 			text: 'Vite',
@@ -25,18 +26,6 @@ export const webMenu = {
 			icon: 'https://daisyui.com/images/default.jpg'
 		},
 		{
-			text: 'day.js',
-			link: 'https://dayjs.fenxianglu.cn/',
-			icon: 'https://dayjs.fenxianglu.cn/assets/favicon.png',
-			desc: '前端日期处理工具'
-		},
-		{
-			text: 'math.js',
-			link: 'https://mathjs.org/index.html',
-			icon: 'https://mathjs.org/css/img/mathjs_330x100.png',
-			desc: '数学库'
-		},
-		{
 			text: 'Driver.js',
 			link: 'https://kamranahmed.info/driver.js/',
 			icon: 'https://kamranahmed.info/driver.js/images/driver.png',
@@ -48,21 +37,10 @@ export const webMenu = {
 			desc: 'webComponent组件库'
 		},
 		{
-			text: 'Lodash',
-			link: 'https://www.html.cn/doc/lodash/',
-			icon: 'https://www.html.cn/doc/lodash/assets/img/lodash.svg',
-			desc: '一款实用的工具类'
-		},
-		{
 			text: 'better-scroll',
 			link: 'https://better-scroll.github.io/docs/zh-CN/',
 			icon: 'https://dpubstatic.udache.com/static/dpubimg/t_L6vAgQ-E/logo.svg',
 			desc: '移动端滚动插件'
-		},
-		{
-			text: 'numeraljs',
-			link: 'http://numeraljs.com/',
-			desc: '数字格式化'
 		},
 		{
 			text: 'Cleave.js',
@@ -80,12 +58,6 @@ export const webMenu = {
 			link: 'https://naver.github.io/egjs/',
 			icon: 'https://naver.github.io/egjs/img/logotype1_black.svg',
 			desc: '动态元素合集'
-		},
-		{
-			text: 'hammerJS',
-			link: 'http://hammerjs.github.io/getting-started/',
-			icon: 'http://hammerjs.github.io/assets/img/favicon.ico',
-			desc: '移动端手势处理库'
 		},
 		{
 			text: 'logic-flow',
@@ -203,17 +175,6 @@ export const webMenu = {
 			text: 'flex-box学习',
 			link: 'https://darekkay.com/flexbox-cheatsheet/',
 			icon: 'https://darekkay.com/favicon.ico'
-		},
-		{
-			text: '🍪 cookie.js',
-			link: 'https://github.com/jaywcjlove/cookie.js',
-			desc: 'cookie插件'
-		},
-		{
-			text: 'PouchDB',
-			link: 'https://pouchdb.com/learn.html',
-			icon: 'https://pouchdb.com/static/img/logo.svg',
-			desc: 'indexDB库'
 		},
 		{
 			text: 'ImmortalDB',

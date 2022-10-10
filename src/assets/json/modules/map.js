@@ -1,5 +1,6 @@
-export const mapMenu = {
+export default {
 	title: '地图',
+	sort:7,
 	nav: [
 		{
 			text: '百度JSAPI',

@@ -1,5 +1,6 @@
-export const wchart = {
-	title: '小程序',
+export default {
+	title: '微信',
+	sort:4,
 	nav: [
 		{
 			text: '开发文档',

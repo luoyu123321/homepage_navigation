@@ -1,5 +1,6 @@
-export const commonly = {
+export default {
 	title: '推荐',
+	sort:1,
 	nav: [
 		{
 			text: 'svelte',

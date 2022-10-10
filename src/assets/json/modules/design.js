@@ -1,5 +1,6 @@
-export const design = {
+export default {
 	title: '设计',
+	sort:8,
 	nav: [
 		{
 			text: 'banner设计',

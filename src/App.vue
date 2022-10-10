@@ -141,7 +141,7 @@ import logo from '@/assets/logo.svg'
 import img_loading from '@/assets/img/img-loading.svg'
 import connect from '@/assets/img/connect.svg'
 import gsap from 'gsap'
-import nav from '@/assets/json/childMenu'
+import nav from '@/assets/json/'
 import { useDark, useToggle } from '@vueuse/core'
 import random from 'lodash.random'
 import icon3ds from '@/assets/img'
@@ -172,9 +172,7 @@ onMounted(() => {
 	})
 	slide.value = slide_item
 	list.value = nav[aside_active.value].nav
-
 	history.value = JSON.parse(localStorage.getItem('BM-history')) || []
-
 	document.addEventListener('click', () => (showHistory.value = false))
 	document.addEventListener('visibilitychange', () => {
 		searchInput.value?.blur()
