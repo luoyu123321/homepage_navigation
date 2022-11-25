@@ -37,12 +37,12 @@ module.exports = {
 				999: '#999',
 				"1f":'#F0F4F7',
 				"main":'#5354EE',
-				"mhover":'#4345d9',
+				"mHover":'#4345d9',
 				"w50":'rgba(255,255,255,0.5)',
 				'dark1f':'#0F172A',
-				'darkwhite':'#1E293B',
-				'darktextwhite':'#8C9AAF',
-				'darkitem':'#2D4258'
+				'darkWhite':'#1E293B',
+				'darkTextWhite':'#8C9AAF',
+				'darkItem':'#2D4258'
 			},
 			fontSize: () => cloneDeep(PresetFontSizeConfig),
 			borderRadius: () => cloneDeep(PresetRadiusConfig),

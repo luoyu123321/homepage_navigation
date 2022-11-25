@@ -80,6 +80,12 @@ export default {
 			desc: 'vant主题设置'
 		},
 		{
+			text: 'kingCloudDesign',
+			link: 'https://design.ksyun.com/',
+			icon: 'https://damife.ks3-cn-beijing.ksyuncs.com/kpc/fonts/header_logo.fbb0da19b5ac7c683e512bfb4588c6a5.png',
+			desc: '金山出品的一个vue3-UI'
+		},
+		{
 			text: 'NutUI',
 			link: 'https://nutui.jd.com/#/',
 			icon: 'https://img14.360buyimg.com/imagetools/jfs/t1/167902/2/8762/791358/603742d7E9b4275e3/e09d8f9a8bf4c0ef.png',
@@ -156,10 +162,9 @@ export default {
 			desc: '基于vue的拖拽工具'
 		},
 		{
-			text: 'Vue-Cli',
-			link: 'https://cli.vuejs.org/zh/',
-			icon: 'https://staging-cn.vuejs.org/logo.svg',
-			desc: 'vue开发构建工具'
+			text: 'TroisJS',
+			link: 'https://troisjs.github.io/',
+			desc: 'vue3+three.js'
 		}
 	]
 }
