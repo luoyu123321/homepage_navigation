@@ -1,6 +1,6 @@
 export default {
 	title: 'Vue（3.x）',
-	sort:2,
+	sort:3,
 	nav: [
 		{
 			text: 'Vue.js',
