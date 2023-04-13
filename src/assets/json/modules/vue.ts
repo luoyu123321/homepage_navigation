@@ -22,7 +22,7 @@ export default {
 		},
 		{
 			text: 'Vue-request',
-			link: 'https://www.attojs.com/',
+			link: 'https://next.attojs.com/',
 			icon: 'https://www.attojs.com/logo.png',
 			desc: 'vue3请求库'
 		},

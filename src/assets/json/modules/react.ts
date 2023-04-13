@@ -15,11 +15,6 @@ export default {
 			desc: 'React路由'
 		},
 		{
-			text: 'create-react-app',
-			link: 'https://create-react-app.dev/',
-			desc: 'React官方脚手架'
-		},
-		{
 			text: 'Ant-design5',
 			link: 'https://ant.design/index-cn',
 			icon: 'https://gw.alipayobjects.com/zos/antfincdn/UmVnt3t4T0/antd.png',
@@ -76,7 +71,13 @@ export default {
 		{
 			text: 'react-spring',
 			link: 'https://www.react-spring.dev/',
+			icon:'https://camo.githubusercontent.com/973c99d17e4ce72d08c4433449045d8391948711f11ac5f328a585e2a7bc8663/68747470733a2f2f692e696d6775722e636f6d2f515a6f776e68672e706e67',
 			desc: '动画库'
+		},
+		{
+			text: 'react-use',
+			link: 'https://streamich.github.io/react-use/?path=/story/components-usekey--demo',
+			desc: '好用的Hooks库'
 		}
 	]
 } as JsonList

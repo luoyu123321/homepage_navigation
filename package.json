@@ -1,5 +1,5 @@
 {
-	"name": "BM",
+	"name": "bm_navigate",
 	"version": "4.0.0",
 	"type": "module",
 	"scripts": {
@@ -8,6 +8,7 @@
 		"prettier": "npx prettier --write ./src"
 	},
 	"dependencies": {
+		"@react-spring/web": "^9.7.2",
 		"antd": "^5.4.1",
 		"lodash.random": "^3.2.0",
 		"nanoid": "^4.0.2",
