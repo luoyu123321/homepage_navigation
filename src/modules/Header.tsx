@@ -2,6 +2,7 @@ import React, { useEffect, useState, useCallback, useRef } from 'react'
 import { Tag, Space } from 'antd'
 import { nanoid } from 'nanoid'
 const cacheKey = 'BM-history'
+const baiduLink = 'https://www.baidu.com/s?wd='
 
 const DarkIcon = () => {
 	return (
@@ -41,7 +42,7 @@ const SearchBar = () => {
 				setHistory(newHistory)
 				localStorage.setItem(cacheKey, JSON.stringify(newHistory))
 			}
-			window.open(`https://www.baidu.com/s?wd=${val}`, '_blank')
+			window.open(baiduLink + val, '_blank')
 		}
 	}, [])
 
@@ -54,7 +55,7 @@ const SearchBar = () => {
 			setHistory(newHistory)
 			localStorage.setItem(cacheKey, JSON.stringify(newHistory))
 		}
-		window.open(`https://www.baidu.com/s?wd=${val}`, '_blank')
+		window.open(baiduLink + val, '_blank')
 	}, [])
 
 	//清空历史
@@ -72,7 +73,7 @@ const SearchBar = () => {
 	}
 
 	useEffect(() => {
-		let cacheHistory = localStorage.getItem('BM-history')
+		let cacheHistory = localStorage.getItem(cacheKey)
 		if (cacheHistory) {
 			setHistory(JSON.parse(cacheHistory))
 		}
@@ -116,7 +117,14 @@ const SearchBar = () => {
 				<dd className='BM-text-666 BM-text-16 BM-max-h-[400px] BM-overflow-y-auto beautyScroll'>
 					<Space size={[0, 8]} wrap color='blue'>
 						{history.map((item, index) => (
-							<Tag closable key={nanoid()} onClose={() => removeHistoryByIndex(index)}>
+							<Tag
+								closable
+								key={nanoid()}
+								onClick={() => {
+									window.open(baiduLink + item, '__blank')
+								}}
+								onClose={() => removeHistoryByIndex(index)}
+							>
 								{item}
 							</Tag>
 						))}
