@@ -71,7 +71,7 @@ export default {
 		{
 			text: 'react-spring',
 			link: 'https://www.react-spring.dev/',
-			icon:'https://camo.githubusercontent.com/973c99d17e4ce72d08c4433449045d8391948711f11ac5f328a585e2a7bc8663/68747470733a2f2f692e696d6775722e636f6d2f515a6f776e68672e706e67',
+			icon: 'https://camo.githubusercontent.com/973c99d17e4ce72d08c4433449045d8391948711f11ac5f328a585e2a7bc8663/68747470733a2f2f692e696d6775722e636f6d2f515a6f776e68672e706e67',
 			desc: '动画库'
 		},
 		{
