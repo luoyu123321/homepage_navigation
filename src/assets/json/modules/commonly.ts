@@ -1,6 +1,6 @@
 export default {
 	title: '推荐',
-	sort:1,
+	sort: 1,
 	nav: [
 		{
 			text: 'svelte',
@@ -76,4 +76,4 @@ export default {
 			desc: '字体编辑器'
 		}
 	]
-}
+} as JsonList

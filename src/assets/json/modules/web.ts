@@ -1,6 +1,6 @@
 export default {
 	title: '前端资源库',
-	sort:3,
+	sort: 3,
 	nav: [
 		{
 			text: 'Vite',
@@ -432,4 +432,4 @@ export default {
 			icon: 'https://s.cn.bing.net/th?id=ODLS.5a431bb9-ae72-4284-bad7-7360f84fad0d&w=40&h=40&o=6&pid=1.2'
 		}
 	]
-}
+} as JsonList

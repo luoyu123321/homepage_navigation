@@ -1,6 +1,6 @@
 export default {
 	title: '设计',
-	sort:8,
+	sort: 8,
 	nav: [
 		{
 			text: 'banner设计',
@@ -91,4 +91,4 @@ export default {
 			icon: 'https://wallhaven.cc/favicon.ico'
 		}
 	]
-}
+} as JsonList

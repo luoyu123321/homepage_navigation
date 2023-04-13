@@ -1,6 +1,6 @@
 export default {
 	title: '微信',
-	sort:4,
+	sort: 4,
 	nav: [
 		{
 			text: '开发文档',
@@ -28,4 +28,4 @@ export default {
 			link: 'https://transfonter.org/'
 		}
 	]
-}
+} as JsonList

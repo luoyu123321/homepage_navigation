@@ -1,6 +1,6 @@
 export default {
 	title: '其他',
-	sort:10,
+	sort: 10,
 	nav: [
 		{
 			text: '代码片段图片',
@@ -52,4 +52,4 @@ export default {
 			link: 'https://tool.lu/imageholder/'
 		}
 	]
-}
+} as JsonList

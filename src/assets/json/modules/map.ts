@@ -1,6 +1,6 @@
 export default {
 	title: '地图',
-	sort:7,
+	sort: 7,
 	nav: [
 		{
 			text: '百度JSAPI',
@@ -52,4 +52,4 @@ export default {
 			link: 'https://www.jianshu.com/p/687386d13a08'
 		}
 	]
-}
+} as JsonList

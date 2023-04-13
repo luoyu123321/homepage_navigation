@@ -1,6 +1,6 @@
 export default {
 	title: 'Vue（3.x）',
-	sort:3,
+	sort: 3,
 	nav: [
 		{
 			text: 'Vue.js',
@@ -22,7 +22,7 @@ export default {
 		},
 		{
 			text: 'Vue-request',
-			link: 'https://www.attojs.com/',
+			link: 'https://next.attojs.com/',
 			icon: 'https://www.attojs.com/logo.png',
 			desc: 'vue3请求库'
 		},
@@ -167,4 +167,4 @@ export default {
 			desc: 'vue3+three.js'
 		}
 	]
-}
+} as JsonList
