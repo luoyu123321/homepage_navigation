@@ -28,7 +28,11 @@ const Menus: React.FC<Props> = props => {
 	}, [])
 
 	useEffect(() => {
-		props.setItemData(nav[active].nav)
+		const itemsData = nav[active].nav
+		props.setItemData([])
+		setTimeout(()=>{
+			props.setItemData(itemsData)
+		},0)
 	}, [active])
 
 	return (

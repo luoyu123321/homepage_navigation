@@ -1,6 +1,5 @@
 import React, { useEffect, useState, useCallback, useRef } from 'react'
 import { Tag, Space } from 'antd'
-import { nanoid } from 'nanoid'
 const cacheKey = 'BM-history'
 const baiduLink = 'https://www.baidu.com/s?wd='
 
@@ -119,7 +118,7 @@ const SearchBar = () => {
 						{history.map((item, index) => (
 							<Tag
 								closable
-								key={nanoid()}
+								key={item}
 								onClick={() => {
 									window.open(baiduLink + item, '__blank')
 								}}
