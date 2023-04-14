@@ -52,4 +52,4 @@ export default {
 			link: 'https://tool.lu/imageholder/'
 		}
 	]
-} as JsonList
+} as BM.JsonList

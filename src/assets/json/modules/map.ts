@@ -52,4 +52,4 @@ export default {
 			link: 'https://www.jianshu.com/p/687386d13a08'
 		}
 	]
-} as JsonList
+} as BM.JsonList

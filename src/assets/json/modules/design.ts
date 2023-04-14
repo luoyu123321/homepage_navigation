@@ -91,4 +91,4 @@ export default {
 			icon: 'https://wallhaven.cc/favicon.ico'
 		}
 	]
-} as JsonList
+} as BM.JsonList

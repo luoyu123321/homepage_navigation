@@ -80,4 +80,4 @@ export default {
 			desc: '好用的Hooks库'
 		}
 	]
-} as JsonList
+} as BM.JsonList

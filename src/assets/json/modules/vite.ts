@@ -8,4 +8,4 @@ export default {
 			desc: '给入口文件添加变量'
 		}
 	]
-} as JsonList
+} as BM.JsonList

@@ -3,11 +3,7 @@ import logo from '@/assets/logo.svg'
 //@ts-ignore
 import packageJson from '/package.json'
 
-interface Props {
-	setSideVisible: React.Dispatch<React.SetStateAction<boolean>>
-}
-
-const Logo: React.FC<Props> = props => {
+const Logo: React.FC<BM.LogoProps> = props => {
 	return (
 		<div className='BM-h-80 BM-flex BM-items-center BM-rounded-[0_20px_0_0] BM-justify-center lg:BM-justify-start BM-sticky BM-top-0 BM-pb-10'>
 			<img src={logo} className='BM-w-30 BM-mr-10' alt='' />

@@ -15,4 +15,4 @@ export default {
 			desc: '阿里微前端解决方案'
 		}
 	]
-} as JsonList
+} as BM.JsonList

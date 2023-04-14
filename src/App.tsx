@@ -8,7 +8,7 @@ import logo from '@/assets/logo.svg'
 import imgLoading from '@/assets/img/img-loading.svg'
 import { useTransition, animated } from '@react-spring/web'
 
-function Items({ itemData }: { itemData: Array<MenuItem> }) {
+function Items({ itemData }: { itemData: Array<BM.MenuItem> }) {
 	const transition = useMemo(() => {
 		return useTransition(itemData, {
 			trail: 400 / itemData.length,
@@ -37,7 +37,7 @@ function Items({ itemData }: { itemData: Array<MenuItem> }) {
 }
 
 function App() {
-	const [itemData, setItemData] = useState<Array<MenuItem>>([])
+	const [itemData, setItemData] = useState<Array<BM.MenuItem>>([])
 	const [sideVisible, setSideVisible] = useState(false)
 
 	return (

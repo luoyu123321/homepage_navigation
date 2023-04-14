@@ -28,4 +28,4 @@ export default {
 			link: 'https://transfonter.org/'
 		}
 	]
-} as JsonList
+} as BM.JsonList

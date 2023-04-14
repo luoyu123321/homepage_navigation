@@ -76,4 +76,4 @@ export default {
 			desc: '字体编辑器'
 		}
 	]
-} as JsonList
+} as BM.JsonList

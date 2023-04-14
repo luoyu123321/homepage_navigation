@@ -167,4 +167,4 @@ export default {
 			desc: 'vue3+three.js'
 		}
 	]
-} as JsonList
+} as BM.JsonList

@@ -3,13 +3,8 @@ import icon3ds from '@/assets/img'
 import nav from '@/assets/json'
 import random from 'lodash.random'
 type NavItem = { label: string; icon: string }
-interface Props {
-	setItemData: React.Dispatch<React.SetStateAction<MenuItem[]>>
-	sideVisible: boolean
-	setSideVisible: React.Dispatch<React.SetStateAction<boolean>>
-}
 
-const Menus: React.FC<Props> = props => {
+const Menus: React.FC<BM.MenusProps> = props => {
 	const [navData, setNavData] = useState<Array<NavItem>>([])
 	const [active, setActive] = useState<number>(0)
 
@@ -30,9 +25,9 @@ const Menus: React.FC<Props> = props => {
 	useEffect(() => {
 		const itemsData = nav[active].nav
 		props.setItemData([])
-		setTimeout(()=>{
+		setTimeout(() => {
 			props.setItemData(itemsData)
-		},0)
+		}, 0)
 	}, [active])
 
 	return (

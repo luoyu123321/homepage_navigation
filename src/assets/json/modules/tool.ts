@@ -48,4 +48,4 @@ export default {
 			desc: 'indexDB库'
 		}
 	]
-} as JsonList
+} as BM.JsonList
