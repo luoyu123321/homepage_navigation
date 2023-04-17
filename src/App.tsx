@@ -1,7 +1,7 @@
 import Logo from './modules/Logo'
 import Menus from './modules/Menus'
 import Header from './modules/Header'
-import { useState, useMemo } from 'react'
+import { useState } from 'react'
 import connect from '@/assets/img/connect.svg'
 import { Image } from 'antd'
 import logo from '@/assets/logo.svg'
@@ -9,17 +9,15 @@ import imgLoading from '@/assets/img/img-loading.svg'
 import { useTransition, animated } from '@react-spring/web'
 
 function Items({ itemData }: { itemData: Array<BM.MenuItem> }) {
-	const transition = useMemo(() => {
-		return useTransition(itemData, {
-			trail: 400 / itemData.length,
-			from: { opacity: 0, transform: 'scale3d(0,0,0)' },
-			enter: { opacity: 1, transform: 'scale3d(1,1,1)' },
-			config: {
-				tension: 500,
-				friction: 50
-			}
-		})
-	}, [itemData])
+	const transition = useTransition(itemData, {
+		trail: 400 / itemData.length,
+		from: { opacity: 0, transform: 'scale3d(0,0,0)' },
+		enter: { opacity: 1, transform: 'scale3d(1,1,1)' },
+		config: {
+			tension: 500,
+			friction: 50
+		}
+	})
 
 	return (
 		<main className='BM-bg-white BM-rounded-[20px_20px_0_0] BM-grid BM-gap-20 BM-grid-rows-auto BM-p-20 BM-auto-rows-[176px] BM-grid-cols-[repeat(auto-fill,minmax(160px,1fr))] BM-overflow-y-auto beautyScroll BM-overflow-x-hidden dark:BM-bg-darkWhite' style={{ height: 'calc(100vh - 160px)' }}>
