@@ -1,5 +1,5 @@
 export default {
-	title: 'React 18',
+	title: 'React',
 	sort: 2,
 	nav: [
 		{
@@ -15,7 +15,7 @@ export default {
 			desc: 'React路由'
 		},
 		{
-			text: 'Ant-design5',
+			text: 'Ant-design',
 			link: 'https://ant.design/index-cn',
 			icon: 'https://gw.alipayobjects.com/zos/antfincdn/UmVnt3t4T0/antd.png',
 			desc: '蚂蚁UI'
@@ -49,12 +49,6 @@ export default {
 			link: 'https://arco.design/mobile/react',
 			icon: 'https://unpkg.byted-static.com/latest/byted/arco-config/assets/favicon.ico',
 			desc: '字节移动端-UI'
-		},
-		{
-			text: 'ant-motion',
-			link: 'https://motion.ant.design/index-cn',
-			icon: 'https://zos.alipayobjects.com/rmsportal/HzvPfCGNCtvGrdk.png',
-			desc: 'react-动画框架'
 		},
 		{
 			text: 'Umi',

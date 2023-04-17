@@ -1,29 +1,23 @@
 export default {
-	title: '前端资源库',
-	sort: 3,
+	title: 'H5资源',
+	sort: 5,
 	nav: [
 		{
-			text: 'Vite',
-			link: 'https://cn.vitejs.dev/',
-			icon: 'https://cn.vitejs.dev/logo.svg',
-			desc: '下一代前端开发与构建工具'
+			text: '无界',
+			link: 'https://wujie-micro.github.io/doc/',
+			icon: 'https://wujie-micro.github.io/doc/wujie.svg',
+			desc: '极致前端微框架'
 		},
 		{
-			text: 'prelineUI',
-			link: 'https://preline.co/',
-			icon: 'https://preline.co/preline-logo.svg',
-			desc: 'tailwind全响应UI'
+			text: 'qiankun',
+			link: 'https://qiankun.umijs.org/zh',
+			icon: 'https://gw.alipayobjects.com/zos/bmw-prod/8a74c1d3-16f3-4719-be63-15e467a68a24/km0cv8vn_w500_h500.png',
+			desc: '阿里微前端解决方案'
 		},
 		{
 			text: 'xy-ui',
 			link: 'https://xy-ui.codelabo.cn/docs/#/',
 			desc: '跨端UI'
-		},
-		{
-			text: 'daisyUI',
-			link: 'https://daisyui.com/?from=thosefree.com&lang=zh_cn',
-			desc: '跨端UI',
-			icon: 'https://daisyui.com/images/default.jpg'
 		},
 		{
 			text: 'Driver.js',
@@ -46,12 +40,6 @@ export default {
 			text: 'Cleave.js',
 			link: 'https://nosir.github.io/cleave.js/',
 			desc: '输入框格式化插件'
-		},
-		{
-			text: 'is.js',
-			link: 'http://is.js.org/',
-			icon: 'http://is.js.org/assets/img/is-js-logo.png',
-			desc: '好用的判断类'
 		},
 		{
 			text: 'egjs',
@@ -105,107 +93,15 @@ export default {
 			desc: '前端录屏工具'
 		},
 		{
-			text: 'tinypng',
-			link: 'https://tinypng.com/',
-			desc: '图片压缩'
-		},
-		{
-			text: 'grabient',
-			link: 'https://www.grabient.com/',
-			icon: 'https://www.grabient.com/favicon-32x32.png',
-			desc: '渐变生成'
-		},
-		{
-			text: '投影生成',
-			link: 'https://www.html.cn/tool/css3Preview/Box-Shadow.html'
-		},
-		{
-			text: '动画工具',
-			link: 'https://www.w3cways.com/css3-animation-tool'
-		},
-		{
 			text: 'Animista',
 			link: 'https://animista.net/',
 			icon: 'https://animista.net/favicon-32x32.png',
 			desc: '一个动画工具'
 		},
 		{
-			text: 'CSS集合',
-			link: 'https://qishaoxuan.github.io/css_tricks/createTriangle/'
-		},
-		{
-			text: 'cubic-bezier',
-			link: 'https://cubic-bezier.com/#0,.95,0,.97',
-			icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAMNJREFUOE9jZFi5s4GBkamegRzw/18jI8Oq3f/J0QvTAzdgjaUeQ8O1ewz8LCwMfKzMDGZC/AzR8hIMAqwsDOxMTAzszExgGgQefP3BoLjtCJgNN6BeS4mh8do9hjf+9gyz7j1lmHLnMcOz7z8JOg5uQIKCFMN8Uy0GxtV7CGpCVgA3IEVRmuHOl28MB16/J8+AO57WDCrbj5KkGSUMvgU5MXCt20e+Af9DXUj2P4oLRg1gYLjvZQNPnqREBRUyE4XZGQD2VmFNx8CBbwAAAABJRU5ErkJggg==',
-			desc: '动画贝塞尔'
-		},
-		{
 			text: 'loading',
 			link: 'https://loading.io/',
 			desc: '各种loading示例'
-		},
-		{
-			text: 'good-storage',
-			link: 'https://www.npmjs.com/package/good-storage',
-			desc: '前端存储库'
-		},
-		{
-			text: '背景平铺',
-			link: 'https://leaverou.github.io/css3patterns/#'
-		},
-		{
-			text: '形状生成',
-			link: 'http://tools.jb51.net/code/css3path'
-		},
-		{
-			text: '文本绕排',
-			link: 'http://csswarp.eleqtriq.com/'
-		},
-		{
-			text: '网格生成工具',
-			link: 'https://cssgrid-generator.netlify.app/',
-			icon: 'https://cssgrid-generator.netlify.app/favicon.ico'
-		},
-		{
-			text: 'grid-layout',
-			link: 'https://grid.layoutit.com/',
-			icon: 'https://grid.layoutit.com/favicon.ico'
-		},
-		{
-			text: 'flex-box学习',
-			link: 'https://darekkay.com/flexbox-cheatsheet/',
-			icon: 'https://darekkay.com/favicon.ico'
-		},
-		{
-			text: 'ImmortalDB',
-			link: 'https://github.com/gruns/ImmortalDB',
-			desc: '前端存储库'
-		},
-		{
-			text: 'echarts',
-			link: 'https://echarts.apache.org/zh/index.html',
-			icon: 'https://fastly.jsdelivr.net/gh/apache/echarts-website@asf-site/zh/images/favicon.png?_v_=20200710_1',
-			desc: '图表库'
-		},
-		{
-			text: 'ant-v',
-			link: 'https://antv.vision/',
-			icon: 'https://antv.vision/icons/icon-48x48.png?v=9772447a8d07a8fe19894b5176c6cb0d'
-		},
-		{
-			text: 'highcharts',
-			link: 'http://www.hcharts.cn/',
-			icon: 'https://s1.jscdn.com.cn/highcharts/images/favicon.ico'
-		},
-		{
-			text: 'echarts图例',
-			link: 'http://www.ppchart.com/#/',
-			icon: 'http://www.ppchart.com/favicon.ico'
-		},
-		{
-			text: 'echarts社区',
-			link: 'https://www.makeapie.cn/echarts',
-			icon: 'https://fastly.jsdelivr.net/gh/apache/echarts-website@asf-site/zh/images/favicon.png?_v_=20200710_1'
 		},
 		{
 			text: 'TweenMax',
@@ -237,22 +133,8 @@ export default {
 			desc: '产品引导库'
 		},
 		{
-			text: 'Animate.css',
-			link: 'https://animate.style/',
-			icon: 'https://animate.style/img/animatecss-opengraph.jpg'
-		},
-		{
 			text: '按钮hover',
 			link: 'https://varin6.github.io/Hover-Buttons/'
-		},
-		{
-			text: 'magic-CSS',
-			link: 'https://www.minimamente.com/project/magic/',
-			icon: 'https://www.minimamente.com/project/magic/assets/images/magic_big.png'
-		},
-		{
-			text: 'bttn.css',
-			link: 'https://bttn.surge.sh/'
 		},
 		{
 			text: 'Swiper',
@@ -368,20 +250,6 @@ export default {
 			text: '17素材',
 			link: 'https://www.17sucai.com/',
 			icon: 'https://www.17sucai.com/statics/images/favicon.ico'
-		},
-		{
-			text: 'H5播放器',
-			link: 'http://chimee.org/',
-			icon: 'http://chimee.org/favicon.ico'
-		},
-		{
-			text: '西瓜播放器',
-			link: 'http://h5player.bytedance.com/en/',
-			icon: '//lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/byted-player-videos/1.0.4/favicon.ico'
-		},
-		{
-			text: 'videoJS',
-			link: 'https://www.cnblogs.com/alicePanZ/articles/5676915.html'
 		},
 		{
 			text: 'SVG代码优化',

@@ -32,7 +32,7 @@ const Menus: React.FC<BM.MenusProps> = props => {
 
 	return (
 		<>
-			<ul>
+			<ul className='BM-flex-1 BM-overflow-y-auto BM-overflow-x-hidden BM-w-full BM-pl-2em beautyScroll'>
 				{navData.map((item, index) => {
 					return (
 						<li className='BM-mb-[0.5em]' onClick={() => setActive(index)} key={index}>
@@ -51,7 +51,7 @@ const Menus: React.FC<BM.MenusProps> = props => {
 				})}
 			</ul>
 			<div className='BM-fixed BM-left-0 BM-right-0 BM-top-0 BM-bottom-0 BM-z-10 BM-bg-[rgba(0,0,0,.3)] BM-backdrop-blur-sm dark:BM-bg-[rgba(255,255,255,0.3)] lg:!BM-hidden' style={{ display: props.sideVisible ? 'block' : 'none' }}>
-				<ul className='BM-text-18 BM-h-full BM-list-none dark:BM-text-darkTextWhite dark:BM-bg-darkWhite BM-w-[300px] BM-bg-white BM-pl-20 BM-pt-50'>
+				<ul className='BM-text-18 BM-h-screen BM-overflow-y-auto beautyScroll BM-list-none dark:BM-text-darkTextWhite dark:BM-bg-darkWhite BM-w-[300px] BM-bg-white BM-pl-20 BM-pt-50'>
 					{navData.map((item, index) => {
 						return (
 							<li className='BM-h-60 BM-cursor-pointer hover:BM-text-main BM-pl-20 BM-mb-[0.5em] BM-relative' onClick={() => {

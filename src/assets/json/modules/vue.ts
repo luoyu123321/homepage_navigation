@@ -1,5 +1,5 @@
 export default {
-	title: 'Vue（3.x）',
+	title: 'Vue',
 	sort: 3,
 	nav: [
 		{
@@ -24,19 +24,13 @@ export default {
 			text: 'Vue-request',
 			link: 'https://next.attojs.com/',
 			icon: 'https://www.attojs.com/logo.png',
-			desc: 'vue3请求库'
+			desc: 'vue请求库'
 		},
 		{
 			text: 'VueUse',
 			link: 'https://vueuse.org/',
 			icon: 'https://vueuse.org/favicon-32x32.png',
-			desc: 'vue3好用的hooks'
-		},
-		{
-			text: 'Axios',
-			link: 'https://www.axios-http.cn/',
-			icon: 'https://www.axios-http.cn/assets/favicon.ico',
-			desc: '请求工具'
+			desc: 'vue-hooks'
 		},
 		{
 			text: 'mitt',
@@ -65,13 +59,13 @@ export default {
 			text: 'element-plus',
 			link: 'https://element-plus.org/zh-CN/',
 			icon: 'https://element-plus.org/images/element-plus-logo-small.svg',
-			desc: 'vue3好用的一款UI'
+			desc: '饿了么vue UI'
 		},
 		{
 			text: 'vant',
 			link: 'https://youzan.github.io/vant/v3/#/zh-CN',
 			icon: 'https://cdn.jsdelivr.net/npm/@vant/assets/logo.png',
-			desc: 'vue3好用的移动端UI'
+			desc: '有赞vue-ui'
 		},
 		{
 			text: 'vant-theme',
@@ -109,10 +103,10 @@ export default {
 			icon: 'http://plain-pot.gitee.io/plain-ui-doc/favicon.ico'
 		},
 		{
-			text: 'ant-D vue3',
+			text: 'ant-D',
 			link: 'https://next.antdv.com/components/overview/',
 			icon: '//aliyuncdn.antdv.com/favicon.ico',
-			desc: '蚂蚁金服的Vue3-ui'
+			desc: '蚂蚁的Vue3-UI'
 		},
 		{
 			text: 'virtual-scroller',
@@ -143,15 +137,6 @@ export default {
 			desc: '一款好用的vue表格'
 		},
 		{
-			text: 'vue3-resource',
-			link: 'https://hu-snail.github.io/vue3-resource/',
-			desc: '超全的前端选型'
-		},
-		{
-			text: '开源选型',
-			link: 'https://open.mizhousoft.com/artifact/list.action?cid=3&fid=500&tid=10'
-		},
-		{
 			text: 'Element-UI',
 			link: 'https://element.eleme.cn/2.13/#/zh-CN/',
 			icon: 'https://element.eleme.cn/favicon.ico'
@@ -165,6 +150,11 @@ export default {
 			text: 'TroisJS',
 			link: 'https://troisjs.github.io/',
 			desc: 'vue3+three.js'
+		},
+		{
+			text: 'vue3工具集',
+			link: 'https://hu-snail.github.io/vue3-resource/',
+			desc: '其他的工具集'
 		}
 	]
 } as BM.JsonList

@@ -1,11 +1,53 @@
 export default {
-	title: '其他',
+	title: '其他工具',
 	sort: 10,
 	nav: [
+		{
+			text: 'apiPost',
+			link: 'https://www.apipost.cn/',
+			icon: 'https://img.cdn.apipost.cn/statics/www/img/favicon.ico',
+			desc: '国内的postman'
+		},
+		{
+			text: 'tinypng',
+			link: 'https://tinypng.com/',
+			desc: '图片压缩'
+		},
+		{
+			text: '草料二维码',
+			link: 'https://cli.im/',
+			desc: '快速生成二维码'
+		},
+		{
+			text: '西瓜播放器',
+			link: 'http://h5player.bytedance.com/en/',
+			icon: '//lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/byted-player-videos/1.0.4/favicon.ico'
+		},
+		{
+			text: 'videoJS',
+			link: 'https://www.cnblogs.com/alicePanZ/articles/5676915.html'
+		},
+		{
+			text: 'squoosh',
+			link: 'https://squoosh.app/',
+			icon: 'https://squoosh.app/c/favicon-c9cf50ef.ico',
+			desc: '图片压缩'
+		},
+		{
+			text: 'FontEditor',
+			link: 'https://kekee000.github.io/fonteditor/#/',
+			desc: '字体编辑器'
+		},
 		{
 			text: '代码片段图片',
 			link: 'https://carbon.now.sh/?bg=rgba(171%2C%20184%2C%20195%2C%201)&t=night-owl&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=var%2520map%2520%253D%2520%257B%250A%2520%2520%252F*%25E5%259C%25B0%25E5%259B%25BE%25E4%25B8%25BB%25E4%25BD%2593*%252F%250A%2520%2520Map%253A%2520undefined%252C%250A%250A%2520%2520%252F*%25E5%2588%259D%25E5%25A7%258B%25E5%258C%2596*%252F%250A%2520%2520init%253A%2520function%2520()%2520%257B%250A%2520%2520%2520%2520this.Map%2520%253D%2520new%2520BMap.Map(%2522mapContener%2522)%253B%250A%2520%2520%2520%2520this.Map.centerAndZoom(new%2520BMap.Point(116.404%252C%252039.915)%252C%252011)%253B%250A%2520%2520%257D%250A%257D%253B',
 			icon: 'https://carbon.now.sh/static/brand/apple-touch-icon.png'
+		},
+		{
+			text: 'cubic-bezier',
+			link: 'https://cubic-bezier.com/#0,.95,0,.97',
+			icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAMNJREFUOE9jZFi5s4GBkamegRzw/18jI8Oq3f/J0QvTAzdgjaUeQ8O1ewz8LCwMfKzMDGZC/AzR8hIMAqwsDOxMTAzszExgGgQefP3BoLjtCJgNN6BeS4mh8do9hjf+9gyz7j1lmHLnMcOz7z8JOg5uQIKCFMN8Uy0GxtV7CGpCVgA3IEVRmuHOl28MB16/J8+AO57WDCrbj5KkGSUMvgU5MXCt20e+Af9DXUj2P4oLRg1gYLjvZQNPnqREBRUyE4XZGQD2VmFNx8CBbwAAAABJRU5ErkJggg==',
+			desc: '动画贝塞尔工具'
 		},
 		{
 			text: 'icomoon',

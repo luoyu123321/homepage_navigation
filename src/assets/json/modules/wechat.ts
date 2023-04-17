@@ -3,7 +3,12 @@ export default {
 	sort: 4,
 	nav: [
 		{
-			text: '开发文档',
+			text: '微信公众平台',
+			link: 'https://mp.weixin.qq.com/',
+			icon: 'https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png'
+		},
+		{
+			text: '微信小程序',
 			link: 'https://developers.weixin.qq.com/miniprogram/dev/framework/',
 			icon: 'https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png'
 		},

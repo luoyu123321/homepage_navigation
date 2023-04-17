@@ -33,31 +33,9 @@ export default {
 			desc: '设计协同平台'
 		},
 		{
-			text: 'apiPost',
-			link: 'https://www.apipost.cn/',
-			icon: 'https://img.cdn.apipost.cn/statics/www/img/favicon.ico',
-			desc: '国内的postman'
-		},
-		{
-			text: '草料二维码',
-			link: 'https://cli.im/',
-			desc: '快速生成二维码'
-		},
-		{
-			text: 'squoosh',
-			link: 'https://squoosh.app/',
-			icon: 'https://squoosh.app/c/favicon-c9cf50ef.ico',
-			desc: '图片压缩'
-		},
-		{
 			text: '腾讯翻译君',
 			link: 'https://fanyi.qq.com/',
 			icon: 'https://stdl.qq.com/stdl/activity/translate_pcweb/imgs/header_logo_31O-BS.png'
-		},
-		{
-			text: '微信公众平台',
-			link: 'https://mp.weixin.qq.com/',
-			icon: 'https://res.wx.qq.com/a/wx_fed/assets/res/OTE0YTAw.png'
 		},
 		{
 			text: '阿里图标库',
@@ -65,15 +43,9 @@ export default {
 			icon: '//img.alicdn.com/imgextra/i4/O1CN01EYTRnJ297D6vehehJ_!!6000000008020-55-tps-64-64.svg'
 		},
 		{
-			text: 'Tailwindcss',
-			link: 'https://tailwindcss.com/',
-			icon: 'https://www.tailwindcss.cn/favicon-32x32.png',
-			desc: '超好用的css框架'
-		},
-		{
-			text: 'FontEditor',
-			link: 'https://kekee000.github.io/fonteditor/#/',
-			desc: '字体编辑器'
+			text: '字节图标库',
+			link: 'https://iconpark.oceanengine.com/home',
+			icon: 'https://lf1-cdn2-tos.bytegoofy.com/bydesign/iconparksite/static/media/logo_with_name.598fc011.svg'
 		}
 	]
 } as BM.JsonList

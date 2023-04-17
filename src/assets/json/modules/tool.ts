@@ -1,7 +1,13 @@
 export default {
-	title: '工具类',
-	sort: 5,
+	title: 'JS工具',
+	sort: 8,
 	nav: [
+		{
+			text: 'Axios',
+			link: 'https://www.axios-http.cn/',
+			icon: 'https://www.axios-http.cn/assets/favicon.ico',
+			desc: '请求工具'
+		},
 		{
 			text: 'big.js',
 			link: 'https://mikemcl.github.io/big.js/',
@@ -42,10 +48,16 @@ export default {
 			desc: 'cookie插件'
 		},
 		{
-			text: 'pouchDB.js',
-			link: 'https://pouchdb.com/learn.html',
-			icon: 'https://pouchdb.com/static/img/logo.svg',
-			desc: 'indexDB库'
-		}
+			text: 'dexie.js',
+			link: 'https://dexie.org/',
+			icon: 'https://dexie.org/assets/images/favicon-yuri.png',
+			desc: 'indexDB工具类'
+		},
+		{
+			text: 'is.js',
+				link: 'http://is.js.org/',
+			icon: 'http://is.js.org/assets/img/is-js-logo.png',
+			desc: '好用的判断类'
+		},
 	]
 } as BM.JsonList
