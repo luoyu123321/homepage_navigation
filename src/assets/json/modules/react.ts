@@ -72,6 +72,12 @@ export default {
 			text: 'react-use',
 			link: 'https://streamich.github.io/react-use/?path=/story/components-usekey--demo',
 			desc: '好用的Hooks库'
+		},
+		{
+			text: 'semiDesign',
+			link: 'https://semi.design/zh-CN/',
+			desc: '抖音前端UI',
+			icon:'https://lf9-static.semi.design/obj/semi-tos/images/favicon.ico'
 		}
 	]
 } as BM.JsonList

@@ -63,7 +63,7 @@ export default {
 		},
 		{
 			text: 'vant',
-			link: 'https://youzan.github.io/vant/v3/#/zh-CN',
+			link: 'https://vant-ui.github.io/vant/#/zh-CN#jie-shao',
 			icon: 'https://cdn.jsdelivr.net/npm/@vant/assets/logo.png',
 			desc: '有赞vue-ui'
 		},
