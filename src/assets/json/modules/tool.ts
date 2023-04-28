@@ -55,9 +55,9 @@ export default {
 		},
 		{
 			text: 'is.js',
-				link: 'http://is.js.org/',
+			link: 'http://is.js.org/',
 			icon: 'http://is.js.org/assets/img/is-js-logo.png',
 			desc: '好用的判断类'
-		},
+		}
 	]
 } as BM.JsonList

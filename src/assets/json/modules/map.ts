@@ -76,6 +76,6 @@ export default {
 			text: 'echarts社区',
 			link: 'https://www.makeapie.cn/echarts',
 			icon: 'https://fastly.jsdelivr.net/gh/apache/echarts-website@asf-site/zh/images/favicon.png?_v_=20200710_1'
-		},
+		}
 	]
 } as BM.JsonList

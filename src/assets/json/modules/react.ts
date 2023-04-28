@@ -77,7 +77,7 @@ export default {
 			text: 'semiDesign',
 			link: 'https://semi.design/zh-CN/',
 			desc: '抖音前端UI',
-			icon:'https://lf9-static.semi.design/obj/semi-tos/images/favicon.ico'
+			icon: 'https://lf9-static.semi.design/obj/semi-tos/images/favicon.ico'
 		}
 	]
 } as BM.JsonList

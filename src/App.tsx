@@ -23,7 +23,7 @@ function Items({ itemData }: { itemData: Array<BM.MenuItem> }) {
 		<main className='BM-bg-white BM-rounded-[20px_20px_0_0] BM-grid BM-gap-20 BM-grid-rows-auto BM-p-20 BM-auto-rows-[176px] BM-grid-cols-[repeat(auto-fill,minmax(160px,1fr))] BM-overflow-y-auto beautyScroll BM-overflow-x-hidden dark:BM-bg-darkWhite' style={{ height: 'calc(100vh - 160px)' }}>
 			{transition((style, item) => (
 				<animated.a target='_blank' href={item.link} className='item hover:BM-drop-shadow-[0_10px_10px_rgba(0,0,0,0.1)] dark:hover:BM-drop-shadow-[0_10px_10px_rgba(15,23,42,0.8)]' style={style} key={item.link}>
-					<Image height={40} width={'80%'} className='BM-rounded-10 BM-object-scale-down BM-object-center' src={item.icon} preview={false} fallback={logo} placeholder={<Image preview={false} src={imgLoading} height={40} width={'100%'} className='BM-object-center'/>} />
+					<Image height={40} width={'80%'} className='BM-rounded-10 BM-object-scale-down BM-object-center' src={item.icon} preview={false} fallback={logo} placeholder={<Image preview={false} src={imgLoading} height={40} width={'100%'} className='BM-object-center' />} />
 					<h1 className='BM-text-333 BM-py-[1em] BM-text-20 dark:BM-text-white'>{item.text}</h1>
 					<p className='BM-text-12 BM-text-999 BM-px-[1em] BM-leading-[1.2em] dark:BM-text-darkTextWhite' style={{ height: item.desc ? 'auto' : '1em' }}>
 						{item.desc}

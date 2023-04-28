@@ -1,6 +1,6 @@
 export default {
 	title: 'vite',
-	sort:6,
+	sort: 6,
 	nav: [
 		{
 			text: 'Vite',

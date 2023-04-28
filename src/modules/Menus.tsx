@@ -54,10 +54,14 @@ const Menus: React.FC<BM.MenusProps> = props => {
 				<ul className='BM-text-18 BM-h-screen BM-overflow-y-auto beautyScroll BM-list-none dark:BM-text-darkTextWhite dark:BM-bg-darkWhite BM-w-[300px] BM-bg-white BM-pl-20 BM-pt-50'>
 					{navData.map((item, index) => {
 						return (
-							<li className='BM-h-60 BM-cursor-pointer hover:BM-text-main BM-pl-20 BM-mb-[0.5em] BM-relative' onClick={() => {
-								setActive(index)
-								props.setSideVisible(false)
-							}} key={index}>
+							<li
+								className='BM-h-60 BM-cursor-pointer hover:BM-text-main BM-pl-20 BM-mb-[0.5em] BM-relative'
+								onClick={() => {
+									setActive(index)
+									props.setSideVisible(false)
+								}}
+								key={index}
+							>
 								<div className='BM-flex BM-items-center BM-h-full BM-relative BM-z-10'>
 									<img src={item.icon} className='BM-w-32 BM-h-32 BM-mr-[1em] BM-object-cover' alt='' />
 									{item.label}
