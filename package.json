@@ -1,6 +1,6 @@
 {
 	"name": "bm_navigate",
-	"version": "4.1.1",
+	"version": "4.1.2",
 	"license": "Apache License 2.0",
 	"author": "robin901118(303278055@qq.com)",
 	"type": "module",
@@ -29,6 +29,6 @@
 		"prettier": "^2.8.7",
 		"tailwindcss": "^3.3.1",
 		"typescript": "^4.9.3",
-		"vite": "^4.2.0"
+		"vite": "^4.3.4"
 	}
 }

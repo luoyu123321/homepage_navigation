@@ -32,7 +32,7 @@ const Menus: React.FC<BM.MenusProps> = props => {
 
 	return (
 		<>
-			<ul className='BM-flex-1 BM-overflow-y-auto BM-overflow-x-hidden BM-w-full BM-pl-2em beautyScroll'>
+			<ul className='BM-flex-1 BM-overflow-y-auto BM-overflow-x-hidden BM-w-full BM-pl-2em beautyScroll BM-py-20'>
 				{navData.map((item, index) => {
 					return (
 						<li className='BM-mb-[0.5em]' onClick={() => setActive(index)} key={index}>

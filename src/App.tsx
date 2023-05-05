@@ -39,7 +39,7 @@ function App() {
 	const [sideVisible, setSideVisible] = useState(false)
 
 	return (
-		<div className='lg:BM-grid lg:BM-grid-cols-[300px_1fr] BM-h-screen BM-bg-1f BM-select-none dark:BM-bg-dark1f'>
+		<div className='lg:BM-grid lg:BM-grid-cols-[300px_1fr] BM-h-screen BM-bg-1f BM-select-none dark:BM-bg-dark1f BM-overflow-y-auto'>
 			<aside className='BM-bg-white BM-text-666 BM-relative dark:BM-bg-darkWhite lg:BM-rounded-[0_20px_0_0] lg:BM-flex lg:BM-flex-col lg:BM-h-screen lg:BM-pb-10 lg:BM-items-center'>
 				<Logo setSideVisible={setSideVisible} />
 				<Menus setItemData={setItemData} sideVisible={sideVisible} setSideVisible={setSideVisible} />
