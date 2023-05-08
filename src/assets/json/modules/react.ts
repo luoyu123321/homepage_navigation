@@ -78,6 +78,18 @@ export default {
 			link: 'https://semi.design/zh-CN/',
 			desc: '抖音前端UI',
 			icon: 'https://lf9-static.semi.design/obj/semi-tos/images/favicon.ico'
+		},
+		{
+			text: 'proComp',
+			link: 'https://procomponents.ant.design/',
+			desc: 'ant-d高阶组件',
+			icon: 'https://gw.alipayobjects.com/zos/rmsportal/rlpTLlbMzTNYuZGGCVYM.png'
+		},
+		{
+			text: 'Recoil',
+			link: 'https://recoiljs.org/zh-hans/',
+			icon: 'https://recoiljs.org/zh-hans/img/logo.svg',
+			desc: '状态管理器'
 		}
 	]
 } as BM.JsonList
