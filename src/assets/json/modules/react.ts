@@ -90,6 +90,18 @@ export default {
 			link: 'https://recoiljs.org/zh-hans/',
 			icon: 'https://recoiljs.org/zh-hans/img/logo.svg',
 			desc: '状态管理器'
+		},
+		{
+			text: 'Jotai',
+			link: 'https://jotai.org/',
+			icon: 'https://jotai.org/favicon.svg',
+			desc: '状态管理器'
+		},
+		{
+			text: 'Next',
+			link: 'https://www.nextjs.cn/',
+			icon: 'https://www.nextjs.cn/static/favicon/favicon-32x32.png',
+			desc: 'SSR框架'
 		}
 	]
 } as BM.JsonList

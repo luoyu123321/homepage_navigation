@@ -46,6 +46,12 @@ export default {
 			text: '字节图标库',
 			link: 'https://iconpark.oceanengine.com/home',
 			icon: 'https://lf1-cdn2-tos.bytegoofy.com/bydesign/iconparksite/static/media/logo_with_name.598fc011.svg'
+		},
+		{
+			text: 'turbo',
+			link: 'https://turbo.build/',
+			icon: 'https://turbo.build/images/docs/repo/repo-hero-logo-dark.svg',
+			desc: '高性能构建系统'
 		}
 	]
 } as BM.JsonList
