@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react'
 import nav from '@/assets/json'
 import { GetNavData } from '@/utils'
+import React, { useEffect, useState } from 'react'
 
 const Menus: React.FC<BM.MenusProps> = props => {
 	const [navData, setNavData] = useState<Array<BM.NavItem>>([])
@@ -17,12 +17,12 @@ const Menus: React.FC<BM.MenusProps> = props => {
 
 	return (
 		<>
-			<ul className='BM-flex-1 BM-overflow-y-auto BM-overflow-x-hidden BM-w-full BM-pl-2em beautyScroll BM-py-20'>
+			<ul className='beautyScroll BM-w-full BM-flex-1 BM-overflow-y-auto BM-overflow-x-hidden BM-py-20 BM-pl-2em'>
 				{navData.map((item, index) => {
 					return (
 						<li className='BM-mb-[0.5em]' onClick={() => setActive(index)} key={index}>
-							<span className='BM-relative BM-z-10 BM-flex BM-items-center BM-h-full'>
-								<img src={item.icon} className='BM-w-32 BM-h-32 BM-mr-[1em] BM-object-cover' alt='' />
+							<span className='BM-relative BM-z-10 BM-flex BM-h-full BM-items-center'>
+								<img src={item.icon} className='BM-mr-[1em] BM-h-32 BM-w-32 BM-object-cover' alt='' />
 								{item.label}
 							</span>
 							<svg fill='none' width='268' height='132' viewBox='0 0 268 132' style={{ display: active === index ? 'block' : 'none' }}>
