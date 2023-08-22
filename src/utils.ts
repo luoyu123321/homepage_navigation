@@ -1,6 +1,6 @@
 import icon3ds from '@/assets/img'
-import random from 'lodash.random'
 import nav from '@/assets/json'
+import random from 'lodash.random'
 
 export function GetNavData() {
 	const slide_item: Array<BM.NavItem> = []

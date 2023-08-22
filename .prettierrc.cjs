@@ -32,5 +32,9 @@ module.exports = {
 	//结束行形式
 	endOfLine: 'lf',
 	//对引用代码进行格式化
-	embeddedLanguageFormatting: 'auto'
+	embeddedLanguageFormatting: 'auto',
+	plugins:[
+		"prettier-plugin-organize-imports",
+		"prettier-plugin-tailwindcss"
+	]
 }

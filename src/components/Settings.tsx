@@ -1,9 +1,9 @@
-import { Button, Drawer, Form, Select, Space, Switch } from 'antd'
-import { useEffect, useState } from 'react'
-import { useAtom } from 'jotai'
-import { appStoreAtom } from '@/store'
-import setting from '@/assets/setting.svg'
 import connect from '@/assets/img/connect.svg'
+import setting from '@/assets/setting.svg'
+import { appStoreAtom } from '@/store'
+import { Button, Drawer, Form, Select, Space, Switch } from 'antd'
+import { useAtom } from 'jotai'
+import { useEffect, useState } from 'react'
 
 function Setting() {
 	const [form] = Form.useForm()
@@ -58,7 +58,7 @@ function Setting() {
 
 	return (
 		<>
-			<div className='BM-w-50 BM-h-50 BM-rounded-full BM-bg-white BM-flex BM-items-center BM-justify-center BM-cursor-pointer hover:BM-bg-[#e5e5e5] dark:BM-bg-darkWhite' onClick={() => setOpen(true)}>
+			<div className='BM-flex BM-h-50 BM-w-50 BM-cursor-pointer BM-items-center BM-justify-center BM-rounded-full BM-bg-white hover:BM-bg-[#e5e5e5] dark:BM-bg-darkWhite' onClick={() => setOpen(true)}>
 				<img src={setting} alt={''} className='BM-w-30' />
 			</div>
 
@@ -77,11 +77,11 @@ function Setting() {
 					</Space>
 				}
 				footer={
-					<a className='BM-h-60 BM-bg-1f BM-rounded-full BM-items-center BM-px-30 BM-text-666 dark:BM-bg-stone-700 dark:BM-text-darkTextWhite BM-flex' href='mailto:303278055@qq.com'>
+					<a className='BM-flex BM-h-60 BM-items-center BM-rounded-full BM-bg-1f BM-px-30 BM-text-666 dark:BM-bg-stone-700 dark:BM-text-darkTextWhite' href='mailto:303278055@qq.com'>
 						<img src={connect} alt='' />
 						<div className='BM-ml-[0.5em]'>
 							<span className='BM-text-16'>联系作者</span>
-							<p className='BM-text-18 BM-mt-5 BM-tracking-wide DIN'>303278055@qq.com</p>
+							<p className='DIN BM-mt-5 BM-text-18 BM-tracking-wide'>303278055@qq.com</p>
 						</div>
 					</a>
 				}

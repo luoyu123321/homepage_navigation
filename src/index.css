@@ -93,18 +93,18 @@ input {
 }
 
 a {
-	@apply BM-no-underline BM-text-inherit;
+	@apply BM-text-inherit BM-no-underline;
 }
 
 aside > ul {
-	@apply BM-text-18 BM-list-none dark:BM-text-darkTextWhite;
+	@apply BM-list-none BM-text-18 dark:BM-text-darkTextWhite;
 }
 
 aside li {
-	@apply BM-h-60 BM-cursor-pointer hover:BM-text-main BM-pl-20 BM-relative;
+	@apply BM-relative BM-h-60 BM-cursor-pointer BM-pl-20 hover:BM-text-main;
 }
 
 aside svg {
-	@apply BM-fill-1f BM-absolute BM-left-0 BM-right-0 BM-top-2/4;
+	@apply BM-absolute BM-left-0 BM-right-0 BM-top-2/4 BM-fill-1f;
 	transform: translate(2px, -50%);
 }

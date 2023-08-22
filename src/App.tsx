@@ -1,7 +1,7 @@
-import { Suspense, lazy } from 'react'
-import { useAtom } from 'jotai'
 import { appStoreAtom } from '@/store'
-import { theme, ConfigProvider } from 'antd'
+import { ConfigProvider, theme } from 'antd'
+import { useAtom } from 'jotai'
+import { lazy, Suspense } from 'react'
 
 const DefaultTheme = lazy(() => import('./theme/default'))
 const AirbnbTheme = lazy(() => import('./theme/airbnb'))
@@ -37,7 +37,7 @@ function App() {
  **/
 function GlobalLoading() {
 	return (
-		<div className='BM-fixed BM-left-0 BM-right-0 BM-w-screen BM-h-screen BM-flex BM-items-center BM-justify-center BM-bg-main'>
+		<div className='BM-fixed BM-left-0 BM-right-0 BM-flex BM-h-screen BM-w-screen BM-items-center BM-justify-center BM-bg-main'>
 			<svg viewBox='0 0 1024 1024' version='1.1' xmlns='http://www.w3.org/2000/svg' width='60' height='60'>
 				<g
 					style={{
