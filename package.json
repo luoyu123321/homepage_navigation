@@ -1,6 +1,6 @@
 {
 	"name": "bm_navigate",
-	"version": "4.1.4",
+	"version": "4.2.0",
 	"license": "Apache License 2.0",
 	"author": "robin901118(303278055@qq.com)",
 	"type": "module",
@@ -10,8 +10,9 @@
 		"prettier": "npx prettier --write ./src"
 	},
 	"dependencies": {
-		"@react-spring/web": "^9.7.2",
+		"@react-spring/web": "^9.7.3",
 		"antd": "^5.4.1",
+		"jotai": "^2.3.1",
 		"lodash.random": "^3.2.0",
 		"normalize.css": "^8.0.1",
 		"react": "^18.2.0",
@@ -26,9 +27,11 @@
 		"autoprefixer": "^10.4.14",
 		"path": "^0.12.7",
 		"postcss": "^8.4.21",
-		"prettier": "^2.8.7",
+		"prettier": "^3.0.2",
+		"prettier-plugin-organize-imports": "^3.2.3",
+		"prettier-plugin-tailwindcss": "^0.5.3",
 		"tailwindcss": "^3.3.1",
 		"typescript": "^4.9.3",
-		"vite": "^4.3.4"
+		"vite": "^4.4.9"
 	}
 }

@@ -10,12 +10,15 @@ declare namespace BM {
 		sort: number
 		nav: MenuItem[]
 	}
-	interface LogoProps {
-		setSideVisible: React.Dispatch<React.SetStateAction<boolean>>
-	}
 	interface MenusProps {
 		setItemData: React.Dispatch<React.SetStateAction<MenuItem[]>>
-		sideVisible: boolean
-		setSideVisible: React.Dispatch<React.SetStateAction<boolean>>
+	}
+	interface NavItem {
+		label: string
+		icon: string
+	}
+	interface SettingsItem {
+		isDark: boolean
+		themeType: 'default' | 'clean'
 	}
 }
