@@ -16,7 +16,7 @@ export default {
 		},
 		{
 			text: 'Ant-design',
-			link: 'https://ant.design/index-cn',
+			link: 'https://ant-design.antgroup.com/index-cn',
 			icon: 'https://gw.alipayobjects.com/zos/antfincdn/UmVnt3t4T0/antd.png',
 			desc: '蚂蚁UI'
 		},

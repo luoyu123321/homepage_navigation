@@ -80,6 +80,8 @@ html {
 body {
 	position: relative;
 	min-height: 100%;
+	min-width: 1100px;
+	user-select: none;
 }
 
 input {
@@ -94,12 +96,8 @@ a {
 	@apply BM-no-underline BM-text-inherit;
 }
 
-.item {
-	@apply BM-h-full BM-bg-1f BM-rounded-20 BM-cursor-pointer BM-flex BM-items-center BM-justify-center BM-flex-col BM-overflow-hidden BM-no-underline dark:BM-bg-darkItem;
-}
-
 aside > ul {
-	@apply BM-text-18 BM-list-none dark:BM-text-darkTextWhite BM-hidden lg:BM-block;
+	@apply BM-text-18 BM-list-none dark:BM-text-darkTextWhite;
 }
 
 aside li {
