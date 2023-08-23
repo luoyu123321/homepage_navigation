@@ -108,3 +108,7 @@ aside svg {
 	@apply BM-absolute BM-left-0 BM-right-0 BM-top-2/4 BM-fill-1f;
 	transform: translate(2px, -50%);
 }
+
+.ant-notification {
+	white-space: pre-wrap !important;
+}

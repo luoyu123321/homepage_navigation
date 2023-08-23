@@ -1,12 +1,14 @@
+import UpdateLog from '@/components/updateLog'
+import EntryComponent from '@/entryComponent'
 import { appStoreAtom } from '@/store'
-import { ConfigProvider, theme } from 'antd'
+import { App, ConfigProvider, theme } from 'antd'
 import { useAtom } from 'jotai'
 import { lazy, Suspense } from 'react'
 
 const DefaultTheme = lazy(() => import('./theme/default'))
 const AirbnbTheme = lazy(() => import('./theme/airbnb'))
 
-function App() {
+function Page() {
 	const [appStore] = useAtom(appStoreAtom)
 	const themeConfig = {
 		clean: <AirbnbTheme />,
@@ -15,17 +17,21 @@ function App() {
 
 	return (
 		<Suspense fallback={<GlobalLoading />}>
-			<ConfigProvider
-				theme={{
-					token: {
-						colorPrimary: '#5354EE',
-						borderRadius: 9999
-					},
-					algorithm: appStore.isDark ? theme.darkAlgorithm : theme.defaultAlgorithm
-				}}
-			>
-				{themeConfig[appStore.themeType]}
-			</ConfigProvider>
+			<App>
+				<ConfigProvider
+					theme={{
+						token: {
+							colorPrimary: '#5354EE',
+							borderRadius: 9999
+						},
+						algorithm: appStore.isDark ? theme.darkAlgorithm : theme.defaultAlgorithm
+					}}
+				>
+					{themeConfig[appStore.themeType]}
+					<EntryComponent />
+					<UpdateLog />
+				</ConfigProvider>
+			</App>
 		</Suspense>
 	)
 }
@@ -53,4 +59,4 @@ function GlobalLoading() {
 	)
 }
 
-export default App
+export default Page
