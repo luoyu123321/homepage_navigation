@@ -1,10 +1,10 @@
 {
 	"name": "bm_navigate",
-	"version": "4.2.1",
+	"version": "4.3.0",
 	"license": "Apache License 2.0",
 	"author": "robin901118(303278055@qq.com)",
 	"type": "module",
-	"updateLog": "1、新增平铺模式。\n 2、删除响应式功能。\n 3、删除搜索历史记录功能。\n 4、优化代码。\n 5、修复bug。",
+	"updateLog": "1、新增楼层主题。",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",

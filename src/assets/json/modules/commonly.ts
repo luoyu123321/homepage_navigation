@@ -9,6 +9,12 @@ export default {
 			desc: 'svelte框架'
 		},
 		{
+			text: 'solid',
+			link: 'https://www.solidjs.com/',
+			icon: 'https://www.solidjs.com/img/favicons/favicon-32x32.png',
+			desc: 'solidJS框架'
+		},
+		{
 			text: '掘金',
 			link: 'https://juejin.im/timeline',
 			icon: 'https://lf3-cdn-tos.bytescm.com/obj/static/xitu_juejin_web//static/favicons/apple-touch-icon.png',

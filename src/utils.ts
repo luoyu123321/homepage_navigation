@@ -14,3 +14,17 @@ export function GetNavData() {
 	})
 	return slide_item
 }
+
+export function GetFullData() {
+	const data: BM.FullData[] = []
+	const clone_icons = JSON.parse(JSON.stringify(icon3ds))
+	nav.forEach((item, index) => {
+		const rd = clone_icons.splice(random(0, clone_icons.length - 1), 1)
+		data.push({
+			label: item.title,
+			icon: rd[0],
+			children: item.nav
+		})
+	})
+	return data
+}

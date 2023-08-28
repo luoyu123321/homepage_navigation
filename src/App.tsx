@@ -7,12 +7,22 @@ import { lazy, Suspense } from 'react'
 
 const DefaultTheme = lazy(() => import('./theme/default'))
 const AirbnbTheme = lazy(() => import('./theme/airbnb'))
+const FloorTheme = lazy(() => import('./theme/floor'))
 
 function Page() {
 	const [appStore] = useAtom(appStoreAtom)
-	const themeConfig = {
-		clean: <AirbnbTheme />,
-		default: <DefaultTheme />
+
+	const getTheme = (type: BM.SettingsItem['themeType']) => {
+		switch (type) {
+			case 'default':
+				return <DefaultTheme />
+
+			case 'clean':
+				return <AirbnbTheme />
+
+			case 'floor':
+				return <FloorTheme />
+		}
 	}
 
 	return (
@@ -27,7 +37,7 @@ function Page() {
 						algorithm: appStore.isDark ? theme.darkAlgorithm : theme.defaultAlgorithm
 					}}
 				>
-					{themeConfig[appStore.themeType]}
+					{getTheme(appStore.themeType)}
 					<EntryComponent />
 					<UpdateLog />
 				</ConfigProvider>

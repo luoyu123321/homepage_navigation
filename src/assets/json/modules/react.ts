@@ -29,7 +29,7 @@ export default {
 		{
 			text: 'a-hooks',
 			link: 'https://ahooks.js.org/zh-CN',
-			icon: 'https://ahooks.js.org/zh-CN/logo.svg',
+			icon: 'https://ahooks.js.org/simple-logo.svg',
 			desc: '实用的reactHooks'
 		},
 		{
