@@ -15,20 +15,16 @@ export default {
 			desc: '阿里微前端解决方案'
 		},
 		{
-			text: 'xy-ui',
-			link: 'https://xy-ui.codelabo.cn/docs/#/',
-			desc: '跨端UI'
+			text: 'QuarkDesign',
+			link: 'https://vue-quarkd.hellobike.com/#/',
+			icon: 'https://vue-quarkd.hellobike.com/assets/favicon.7b83b3c2.ico',
+			desc: '基于webComp组件库'
 		},
 		{
 			text: 'Driver.js',
-			link: 'https://kamranahmed.info/driver.js/',
-			icon: 'https://kamranahmed.info/driver.js/images/driver.png',
+			link: 'https://driver.employleague.cn/',
+			icon: 'https://driver.employleague.cn/assets/img/driver.png',
 			desc: '交互引导工具'
-		},
-		{
-			text: 'lulu UI',
-			link: 'https://l-ui.com/',
-			desc: 'webComponent组件库'
 		},
 		{
 			text: 'better-scroll',

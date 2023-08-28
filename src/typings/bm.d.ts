@@ -19,6 +19,9 @@ declare namespace BM {
 	}
 	interface SettingsItem {
 		isDark: boolean
-		themeType: 'default' | 'clean'
+		themeType: 'default' | 'clean' | 'floor'
+	}
+	interface FullData extends NavItem {
+		children: MenuItem[]
 	}
 }

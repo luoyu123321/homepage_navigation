@@ -117,7 +117,8 @@ function Setting() {
 							style={{ width: '100%' }}
 							options={[
 								{ value: 'default', label: '默认' },
-								{ value: 'clean', label: '平铺' }
+								{ value: 'clean', label: '平铺' },
+								{ value: 'floor', label: '楼层' }
 							]}
 						/>
 					</Form.Item>

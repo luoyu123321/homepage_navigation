@@ -42,7 +42,8 @@ module.exports = {
 				'dark1f':'#0F172A',
 				'darkWhite':'#1E293B',
 				'darkTextWhite':'#8C9AAF',
-				'darkItem':'#2D4258'
+				'darkItem':'#2D4258',
+				'darkItemHover':'#27394e',
 			},
 			fontSize: () => cloneDeep(PresetFontSizeConfig),
 			borderRadius: () => cloneDeep(PresetRadiusConfig),
