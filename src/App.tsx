@@ -8,6 +8,7 @@ import { lazy, Suspense } from 'react'
 const DefaultTheme = lazy(() => import('./theme/default'))
 const AirbnbTheme = lazy(() => import('./theme/airbnb'))
 const FloorTheme = lazy(() => import('./theme/floor'))
+const DesktopTheme = lazy(() => import('./theme/desktop'))
 
 function Page() {
 	const [appStore] = useAtom(appStoreAtom)
@@ -22,6 +23,9 @@ function Page() {
 
 			case 'floor':
 				return <FloorTheme />
+
+			case 'desktop':
+				return <DesktopTheme />
 		}
 	}
 

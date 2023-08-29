@@ -5,7 +5,7 @@ import { Button, Drawer, Form, Select, Space, Switch } from 'antd'
 import { useAtom } from 'jotai'
 import { useEffect, useState } from 'react'
 
-function Setting() {
+function Setting({ noBg = false }: { noBg?: boolean }) {
 	const [form] = Form.useForm()
 	const [open, setOpen] = useState(false)
 	const [appStore, setAppStore] = useAtom(appStoreAtom)
@@ -58,7 +58,7 @@ function Setting() {
 
 	return (
 		<>
-			<div className='BM-flex BM-h-50 BM-w-50 BM-cursor-pointer BM-items-center BM-justify-center BM-rounded-full BM-bg-white hover:BM-bg-[#e5e5e5] dark:BM-bg-darkWhite' onClick={() => setOpen(true)}>
+			<div className={'BM-flex BM-h-50 BM-w-50 BM-cursor-pointer BM-items-center BM-justify-center BM-rounded-full ' + (noBg ? '' : 'BM-bg-white hover:BM-bg-[#e5e5e5] dark:BM-bg-darkWhite')} onClick={() => setOpen(true)}>
 				<img src={setting} alt={''} className='BM-w-30' />
 			</div>
 
@@ -116,9 +116,10 @@ function Setting() {
 						<Select
 							style={{ width: '100%' }}
 							options={[
-								{ value: 'default', label: '默认' },
-								{ value: 'clean', label: '平铺' },
-								{ value: 'floor', label: '楼层' }
+								{ value: 'default', label: '默认模式' },
+								{ value: 'clean', label: '平铺模式' },
+								{ value: 'floor', label: '楼层模式' },
+								{ value: 'desktop', label: '桌面模式' }
 							]}
 						/>
 					</Form.Item>
