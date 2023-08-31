@@ -1,12 +1,12 @@
-import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import tailwindcss from 'tailwindcss'
 import autoprefixer from 'autoprefixer'
 import { resolve } from 'path'
+import tailwindcss from 'tailwindcss'
+import { defineConfig } from 'vite'
 
 const pathResolve = dir => resolve(__dirname, '.', dir)
 export default defineConfig({
-	base:'./',
+	base: './',
 	plugins: [react()],
 	resolve: {
 		alias: {
@@ -17,7 +17,7 @@ export default defineConfig({
 	css: {
 		postcss: {
 			plugins: [
-				tailwindcss,
+				tailwindcss as any,
 				autoprefixer({
 					overrideBrowserslist: ['last 2 versions']
 				})

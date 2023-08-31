@@ -6,7 +6,7 @@ import Settings from '@/components/Settings'
 import { GetFullData } from '@/utils'
 import { animated, useScroll } from '@react-spring/web'
 import { FloatButton, Image } from 'antd'
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 
 const bgSrc = 'https://api.kdcc.cn'
 function DesktopTheme() {
