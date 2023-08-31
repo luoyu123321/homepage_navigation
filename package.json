@@ -1,10 +1,10 @@
 {
 	"name": "bm_navigate",
-	"version": "4.4.0",
+	"version": "4.4.1",
 	"license": "Apache License 2.0",
 	"author": "robin901118(303278055@qq.com)",
 	"type": "module",
-	"updateLog": "1、新增桌面主题。2、logo组件重定向到gitee仓库",
+	"updateLog": "1、修复vite配置里ts类型错误的bug。\n2、升级jotai。\n3、升级antd。",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
@@ -12,8 +12,8 @@
 	},
 	"dependencies": {
 		"@react-spring/web": "^9.7.3",
-		"antd": "^5.4.1",
-		"jotai": "^2.3.1",
+		"antd": "^5.8.5",
+		"jotai": "^2.4.0",
 		"lodash.random": "^3.2.0",
 		"normalize.css": "^8.0.1",
 		"react": "^18.2.0",
