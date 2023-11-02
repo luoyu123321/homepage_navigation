@@ -4,7 +4,7 @@
 	"license": "Apache License 2.0",
 	"author": "robin901118(303278055@qq.com)",
 	"type": "module",
-	"updateLog": "1、修复vite配置里ts类型错误的bug。\n2、升级jotai。\n3、升级antd。",
+	"updateLog": "1、升级jotai。\n2、新增书签。",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
