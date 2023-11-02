@@ -1,6 +1,6 @@
 {
 	"name": "bm_navigate",
-	"version": "4.4.1",
+	"version": "4.4.2",
 	"license": "Apache License 2.0",
 	"author": "robin901118(303278055@qq.com)",
 	"type": "module",
@@ -13,7 +13,7 @@
 	"dependencies": {
 		"@react-spring/web": "^9.7.3",
 		"antd": "^5.8.5",
-		"jotai": "^2.4.0",
+		"jotai": "^2.5.0",
 		"lodash.random": "^3.2.0",
 		"normalize.css": "^8.0.1",
 		"react": "^18.2.0",

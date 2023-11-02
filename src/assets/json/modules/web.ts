@@ -3,6 +3,12 @@ export default {
 	sort: 5,
 	nav: [
 		{
+			text: 'AutoAnimate',
+			link: 'https://auto-animate.formkit.com/',
+			icon: 'https://auto-animate.formkit.com/assets/favicon.beba5cda.svg',
+			desc: '一行代码运行动画'
+		},
+		{
 			text: '无界',
 			link: 'https://wujie-micro.github.io/doc/',
 			icon: 'https://wujie-micro.github.io/doc/wujie.svg',
