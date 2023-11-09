@@ -1,4 +1,4 @@
-import { notification } from '@/entryComponent'
+import { Notification } from '@douyinfe/semi-ui'
 import { useEffect } from 'react'
 //@ts-ignore
 import packageJson from '/package.json'
@@ -9,10 +9,17 @@ function UpdateLog() {
 	useEffect(() => {
 		const cache = localStorage.getItem(storageKey)
 		if (!cache || packageJson.version !== cache) {
-			notification.open({
-				message: `🎉 v${packageJson.version}更新内容 🎉`,
-				description: packageJson.updateLog,
-				duration: null
+			//目前会报ReactDOM.render的错误，官方建议不理会
+			Notification.open({
+				title: `🎉 v${packageJson.version}更新内容 🎉`,
+				content: (
+					<>
+						{packageJson.updateLog.split('</br>').map((item: string) => (
+							<div key={item}>{item}</div>
+						))}
+					</>
+				),
+				duration: 0
 			})
 			localStorage.setItem(storageKey, packageJson.version)
 		}

@@ -1,19 +1,21 @@
 {
 	"name": "bm_navigate",
-	"version": "4.4.1",
+	"version": "5.0.0",
 	"license": "Apache License 2.0",
 	"author": "robin901118(303278055@qq.com)",
 	"type": "module",
-	"updateLog": "1、修复vite配置里ts类型错误的bug。\n2、升级jotai。\n3、升级antd。",
+	"updateLog": "1、新增无限嵌套文件夹功能。</br>2、修改原始数据结构。</br>3、全新UI体验。",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
 		"prettier": "npx prettier --write ./src"
 	},
 	"dependencies": {
+		"@douyinfe/semi-ui": "^2.46.0",
+		"@icon-park/react": "^1.4.2",
 		"@react-spring/web": "^9.7.3",
-		"antd": "^5.8.5",
-		"jotai": "^2.4.0",
+		"antd": "^5.11.0",
+		"jotai": "^2.5.1",
 		"lodash.random": "^3.2.0",
 		"normalize.css": "^8.0.1",
 		"react": "^18.2.0",
@@ -31,6 +33,7 @@
 		"prettier": "^3.0.2",
 		"prettier-plugin-organize-imports": "^3.2.3",
 		"prettier-plugin-tailwindcss": "^0.5.3",
+		"sass": "^1.69.5",
 		"tailwindcss": "^3.3.1",
 		"typescript": "^4.9.3",
 		"vite": "^4.4.9"

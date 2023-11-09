@@ -1,51 +1,13 @@
 import UpdateLog from '@/components/updateLog'
-import EntryComponent from '@/entryComponent'
-import { appStoreAtom } from '@/store'
-import { App, ConfigProvider, theme } from 'antd'
-import { useAtom } from 'jotai'
 import { lazy, Suspense } from 'react'
 
 const DefaultTheme = lazy(() => import('./theme/default'))
-const AirbnbTheme = lazy(() => import('./theme/airbnb'))
-const FloorTheme = lazy(() => import('./theme/floor'))
-const DesktopTheme = lazy(() => import('./theme/desktop'))
 
 function Page() {
-	const [appStore] = useAtom(appStoreAtom)
-
-	const getTheme = (type: BM.SettingsItem['themeType']) => {
-		switch (type) {
-			case 'default':
-				return <DefaultTheme />
-
-			case 'clean':
-				return <AirbnbTheme />
-
-			case 'floor':
-				return <FloorTheme />
-
-			case 'desktop':
-				return <DesktopTheme />
-		}
-	}
-
 	return (
 		<Suspense fallback={<GlobalLoading />}>
-			<App>
-				<ConfigProvider
-					theme={{
-						token: {
-							colorPrimary: '#5354EE',
-							borderRadius: 9999
-						},
-						algorithm: appStore.isDark ? theme.darkAlgorithm : theme.defaultAlgorithm
-					}}
-				>
-					{getTheme(appStore.themeType)}
-					<EntryComponent />
-					<UpdateLog />
-				</ConfigProvider>
-			</App>
+			<DefaultTheme />
+			<UpdateLog />
 		</Suspense>
 	)
 }
@@ -57,7 +19,7 @@ function Page() {
  **/
 function GlobalLoading() {
 	return (
-		<div className='BM-fixed BM-left-0 BM-right-0 BM-flex BM-h-screen BM-w-screen BM-items-center BM-justify-center BM-bg-main'>
+		<div className='fixed left-0 right-0 flex h-screen w-screen items-center justify-center bg-main'>
 			<svg viewBox='0 0 1024 1024' version='1.1' xmlns='http://www.w3.org/2000/svg' width='60' height='60'>
 				<g
 					style={{

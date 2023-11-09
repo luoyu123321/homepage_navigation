@@ -1,17 +1,14 @@
 import logo from '@/assets/logo.svg'
-//@ts-ignore
-import packageJson from '/package.json'
 
 function Logo() {
 	return (
-		<a href='https://gitee.com/robin901118/homepage_navigation' target='_blank' className='BM-sticky BM-top-0 BM-flex BM-h-80 BM-items-center BM-justify-start BM-rounded-[0_20px_0_0]'>
-			<img src={logo} className='BM-mr-10 BM-w-30' alt='' />
-			<span className='BM-text-26 BM-text-333'>
-				<b className='DIN BM-align-[2px] BM-font-bold BM-text-main'>BM</b>
-				<span className='BM-align-[2px] BM-font-thin dark:BM-text-white'>快捷导航</span>
-				<sub className='DIN BM-ml-[0.5em] BM-align-[2px] BM-text-18 BM-text-main'>v{packageJson.version}</sub>
+		<div className='flex h-80 items-center'>
+			<img src={logo} className='mr-10 w-30' alt='' />
+			<span className='text-333 truncate text-26'>
+				<b className='DIN align-[2px] font-bold text-main'>BM</b>
+				<span className='align-[2px] font-thin dark:text-white'>快捷导航</span>
 			</span>
-		</a>
+		</div>
 	)
 }
 
