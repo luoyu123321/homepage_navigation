@@ -24,7 +24,6 @@ function cloneDeep(obj) {
 module.exports = {
 	darkMode: 'class',
 	content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-	prefix: 'BM-',
 	corePlugins: {
 		preflight: false
 	},
@@ -32,18 +31,11 @@ module.exports = {
 		//基于默认配置的继承样式
 		extend: {
 			colors: {
-				666: '#666',
-				333: '#333',
-				999: '#999',
-				"1f":'#F0F4F7',
 				"main":'#5354EE',
-				"mHover":'#4345d9',
-				"w50":'rgba(255,255,255,0.5)',
-				'dark1f':'#0F172A',
-				'darkWhite':'#1E293B',
-				'darkTextWhite':'#8C9AAF',
-				'darkItem':'#2D4258',
-				'darkItemHover':'#27394e',
+				"bgLight":'#F8FAFC',
+				"bgDark":"#16161a",
+				"bgDark-2":"#232429",
+				"borderDark":"#35353a"
 			},
 			fontSize: () => cloneDeep(PresetFontSizeConfig),
 			borderRadius: () => cloneDeep(PresetRadiusConfig),
