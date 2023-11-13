@@ -5,7 +5,7 @@ export default {
 	children: [
 		{
 			type: 1,
-			text: 'Axios',
+			label: 'Axios',
 			link: 'https://www.axios-http.cn/',
 			icon: 'https://www.axios-http.cn/assets/favicon.ico',
 			desc: '请求工具'
