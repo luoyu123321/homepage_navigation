@@ -54,12 +54,6 @@ export default {
 		},
 		{
 			type: 1,
-			label: 'Vue-demi',
-			link: 'https://github.com/vueuse/vue-demi',
-			desc: '同时生成vue3和vue2代码的框架'
-		},
-		{
-			type: 1,
 			label: 'vuepress',
 			link: 'https://v2.vuepress.vuejs.org/zh/',
 			icon: 'https://v2.vuepress.vuejs.org/images/hero.png',
@@ -116,12 +110,6 @@ export default {
 		},
 		{
 			type: 1,
-			label: 'Plain UI',
-			link: 'http://plain-pot.gitee.io/plain-ui-doc/#home%2Fintroduce.entire',
-			icon: 'http://plain-pot.gitee.io/plain-ui-doc/favicon.ico'
-		},
-		{
-			type: 1,
 			label: 'ant-D',
 			link: 'https://next.antdv.com/components/overview/',
 			icon: '//aliyuncdn.antdv.com/favicon.ico',
@@ -130,7 +118,7 @@ export default {
 		{
 			type: 1,
 			label: 'virtual-scroller',
-			link: 'https://akryum.github.io/vue-virtual-scroller/#/',
+			link: 'https://vue-virtual-scroller-demo.netlify.app/',
 			icon: 'https://staging-cn.vuejs.org/logo.svg',
 			desc: '无限滚动，性能最好的插件'
 		},
@@ -138,13 +126,14 @@ export default {
 			type: 1,
 			label: 'vcalendar',
 			link: 'https://vcalendar.netlify.com/',
-			icon: 'https://vcalendar.netlify.app/hero.png',
+			icon: 'https://vcalendar.netlify.app/favicon.png',
 			desc: '日历插件'
 		},
 		{
 			type: 1,
 			label: 'vue-draggable',
 			link: 'https://sortablejs.github.io/vue.draggable.next/#/handle',
+			icon: 'https://sortablejs.github.io/vue.draggable.next/favicon.ico',
 			desc: '拖拽插件'
 		},
 		{

@@ -5,10 +5,37 @@ export default {
 	children: [
 		{
 			type: 1,
+			label: 'Umi',
+			link: 'https://umijs.org/',
+			icon: 'https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg',
+			desc: 'react-企业级框架'
+		},
+		{
+			type: 1,
 			label: 'AutoAnimate',
 			link: 'https://auto-animate.formkit.com/',
 			icon: 'https://auto-animate.formkit.com/assets/favicon.beba5cda.svg',
 			desc: '一行代码运行动画'
+		},
+		{
+			type: 1,
+			label: '🦕 any-rule',
+			link: 'https://any86.github.io/any-rule/',
+			icon: 'https://any86.github.io/any-rule/favicon.ico',
+			desc: '很多实用的正则'
+		},
+		{
+			type: 1,
+			label: 'TinyMCE',
+			link: 'https://www.tiny.cloud/tinymce/',
+			icon: 'https://www.tiny.cloud/favicon-32x32.png',
+			desc: '富文本编辑器'
+		},
+		{
+			type: 1,
+			label: 'any-touch',
+			link: 'https://any86.github.io/any-touch/#/',
+			desc: '收拾库'
 		},
 		{
 			type: 1,
@@ -167,8 +194,8 @@ export default {
 		{
 			type: 1,
 			label: 'Swiper',
-			link: 'http://www.swiper.com.cn/',
-			icon: 'https://swiperjs.com/images/share-banner-new.png'
+			link: 'https://swiperjs.com/',
+			icon: 'https://swiperjs.com/images/favicon.png'
 		},
 		{
 			type: 1,
@@ -246,19 +273,6 @@ export default {
 		},
 		{
 			type: 1,
-			label: 'wangEditor',
-			link: 'https://www.wangeditor.com/v5/',
-			icon: 'https://www.wangeditor.com/favicon.ico',
-			desc: '好用的富文本插件'
-		},
-		{
-			type: 1,
-			label: 'quilljs',
-			link: 'https://quilljs.com/docs/quickstart/',
-			icon: 'https://quilljs.com/assets/images/favicon.ico'
-		},
-		{
-			type: 1,
 			label: 'Mock.js',
 			link: 'http://mockjs.com/',
 			icon: 'http://mockjs.com/assets/img/logo-2.svg',
@@ -288,22 +302,6 @@ export default {
 		},
 		{
 			type: 1,
-			label: 'JQ22',
-			link: 'https://www.jq22.com/'
-		},
-		{
-			type: 1,
-			label: 'dowebok',
-			link: 'http://www.dowebok.com/'
-		},
-		{
-			type: 1,
-			label: '17素材',
-			link: 'https://www.17sucai.com/',
-			icon: 'https://www.17sucai.com/statics/images/favicon.ico'
-		},
-		{
-			type: 1,
 			label: 'SVG代码优化',
 			link: 'https://jakearchibald.github.io/svgomg/?utm_source=next.36kr.com'
 		},
@@ -322,19 +320,6 @@ export default {
 			type: 1,
 			label: '快速生成正则',
 			link: 'https://github.com/Silence520/regexp'
-		},
-		{
-			type: 1,
-			label: '🦕 any-rule',
-			link: 'https://any86.github.io/any-rule/',
-			icon: 'https://any86.github.io/any-rule/favicon.ico',
-			desc: '很多实用的正则'
-		},
-		{
-			type: 1,
-			label: '犸良',
-			link: 'https://design.alipay.com/emotion',
-			icon: 'https://gw.alipayobjects.com/mdn/rms_966c97/afts/img/A*5N6wSI7g83IAAAAAAAAAAAAAARQnAQ'
 		},
 		{
 			type: 1,

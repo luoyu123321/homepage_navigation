@@ -40,13 +40,6 @@ export default {
 		},
 		{
 			type: 1,
-			label: 'redux',
-			link: 'https://www.reduxjs.cn/',
-			icon: 'https://www.reduxjs.cn/img/redux-logo-landscape.png',
-			desc: 'react状态管理器'
-		},
-		{
-			type: 1,
 			label: 'arco-design',
 			link: 'https://arco.design/react/docs/start',
 			icon: 'https://unpkg.byted-static.com/latest/byted/arco-config/assets/favicon.ico',
@@ -58,13 +51,6 @@ export default {
 			link: 'https://arco.design/mobile/react',
 			icon: 'https://unpkg.byted-static.com/latest/byted/arco-config/assets/favicon.ico',
 			desc: '字节移动端-UI'
-		},
-		{
-			type: 1,
-			label: 'Umi',
-			link: 'https://umijs.org/',
-			icon: 'https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg',
-			desc: 'react-企业级框架'
 		},
 		{
 			type: 1,
@@ -120,6 +106,20 @@ export default {
 			link: 'https://www.nextjs.cn/',
 			icon: 'https://www.nextjs.cn/static/favicon/favicon-32x32.png',
 			desc: 'SSR框架'
+		},
+		{
+			type: 1,
+			label: 'React-Contexify',
+			link: 'https://fkhadra.github.io/react-contexify/',
+			icon: 'https://fkhadra.github.io/react-contexify/img/favicon.ico',
+			desc: '右键菜单插件'
+		},
+		{
+			type: 1,
+			label: 'React-DnD',
+			link: 'https://react-dnd.github.io/react-dnd/about',
+			icon: 'https://react-dnd.github.io/react-dnd/icons/icon-48x48.png',
+			desc: 'React拖拽插件'
 		}
 	]
 } as BM.Item

@@ -27,7 +27,8 @@ export default {
 		{
 			type: 1,
 			label: 'CSS集合',
-			link: 'https://qishaoxuan.github.io/css_tricks/createTriangle/'
+			link: 'https://qishaoxuan.github.io/css_tricks/createTriangle/',
+			icon: 'https://qishaoxuan.github.io/css_tricks/images/favicon.png'
 		},
 		{
 			type: 1,
