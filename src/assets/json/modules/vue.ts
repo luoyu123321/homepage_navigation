@@ -172,6 +172,12 @@ export default {
 			label: 'vue3工具集',
 			link: 'https://hu-snail.github.io/vue3-resource/',
 			desc: '其他的工具集'
+		},
+		{
+			type: 1,
+			label: 'vue-draggable-plus',
+			link: 'https://alfred-skyblue.github.io/vue-draggable-plus/en/',
+			desc: '拖拽插件'
 		}
 	]
 } as BM.Item

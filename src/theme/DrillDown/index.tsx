@@ -1,40 +1,12 @@
 import FullData from '@/assets/json'
-import Logo from '@/components/Logo'
-import { Breadcrumb, Button, Select, Tooltip } from '@douyinfe/semi-ui'
-import { Home, LeftOne, ThumbsUp } from '@icon-park/react'
+import Items from '@/components/Items'
+import { Breadcrumb } from '@douyinfe/semi-ui'
+import { Home, LeftOne } from '@icon-park/react'
 import { useEffect, useState } from 'react'
-import BaiduSearch from './modules/BaiduSearch'
-import DarkBtn from './modules/DarkBtn'
-import Items from './modules/Items'
 //@ts-ignore
 import packageJson from '/package.json'
 
-function Header() {
-	return (
-		<header className='flex h-80 items-center justify-between border-b border-b-transparent px-20 dark:border-b-borderDark dark:bg-bgDark-2' style={{ borderBottomStyle: 'solid' }}>
-			<div className='flex items-center'>
-				<div className='mr-10'>
-					<Logo />
-				</div>
-				<BaiduSearch />
-			</div>
-			<div className='flex items-center space-x-10'>
-				<Tooltip content='觉得不错？点个赞支持一下！' position='left'>
-					<Button icon={<ThumbsUp theme='outline' />} onClick={() => window.open('https://gitee.com/robin901118/homepage_navigation', '_blank')} type='tertiary' size='large' />
-				</Tooltip>
-				<DarkBtn />
-				<Select defaultValue='default' style={{ width: 120 }} size='large'>
-					<Select.Option value='default'>默认主题</Select.Option>
-					<Select.Option value='ulikecam' disabled={true}>
-						敬请期待
-					</Select.Option>
-				</Select>
-			</div>
-		</header>
-	)
-}
-
-function DefaultTheme() {
+function DrillDown() {
 	//当前页面的书签
 	const [currentData, setCurrentData] = useState<BM.Item[]>([])
 	//面包屑数据
@@ -77,8 +49,7 @@ function DefaultTheme() {
 	}
 
 	return (
-		<div className='flex h-screen flex-col bg-bgLight dark:bg-bgDark'>
-			<Header />
+		<>
 			{!!breadData.length && (
 				<div className='center group fixed left-10 top-2/4 z-10 h-40 w-40 -translate-y-2/4 cursor-pointer rounded-full border border-solid border-transparent bg-slate-300 text-20 text-white hover:w-auto hover:bg-slate-400 dark:border-borderDark dark:bg-bgDark-2' onClick={removeBreadData}>
 					<LeftOne theme='filled' />
@@ -112,8 +83,8 @@ function DefaultTheme() {
 				</Breadcrumb>
 				<span className='text-12 text-slate-600 dark:text-white'>当前版本：{packageJson.version}</span>
 			</div>
-		</div>
+		</>
 	)
 }
 
-export default DefaultTheme
+export default DrillDown
