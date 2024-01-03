@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 //@ts-ignore
 import packageJson from '/package.json'
 
-function UpdateLog() {
+function UpdateNotification() {
 	const storageKey = 'BM_version'
 
 	useEffect(() => {
@@ -27,4 +27,4 @@ function UpdateLog() {
 	return <></>
 }
 
-export default UpdateLog
+export default UpdateNotification
