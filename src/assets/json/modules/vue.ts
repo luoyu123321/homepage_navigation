@@ -125,8 +125,8 @@ export default {
 		{
 			type: 1,
 			label: 'vcalendar',
-			link: 'https://vcalendar.netlify.com/',
-			icon: 'https://vcalendar.netlify.app/favicon.png',
+			link: 'https://vcalendar.io/',
+			icon: 'https://vcalendar.io/favicon.png',
 			desc: '日历插件'
 		},
 		{

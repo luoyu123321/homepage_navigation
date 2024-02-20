@@ -1,10 +1,10 @@
 {
 	"name": "bm_navigate",
-	"version": "5.0.2",
+	"version": "5.0.3",
 	"license": "Apache License 2.0",
 	"author": "robin901118(303278055@qq.com)",
 	"type": "module",
-	"updateLog": "更新了一些书签",
+	"updateLog": "修复一些bug",
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc && vite build",
