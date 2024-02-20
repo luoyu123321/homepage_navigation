@@ -2,10 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/*美化滚动条*/
-.beautyScroll::-webkit-scrollbar {
-    width: 0;
-}
 .item {
-    @apply h-full bg-white rounded-20 cursor-pointer flex items-center justify-center flex-col overflow-hidden no-underline dark:bg-darkItem;
+    @apply flex h-full cursor-pointer flex-col items-center justify-center rounded-6 border border-solid border-slate-200 text-slate-700;
+    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.1));
 }

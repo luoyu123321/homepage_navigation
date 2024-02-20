@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cca7a5b1-5111-44d8-9a2d-de3fc1ba8df4" name="变更" comment="5.0.2&#10;整理书签">
+      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/(site)/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/baiduSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/darkBtn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/globalLoading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/supportBtn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/homepage_navigation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/[type]/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Aside.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/LinkItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Logo.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Menu.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/global.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/auxiliary.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/auxiliary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/commonly.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/commonly.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/css.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/css.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/map.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/other.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/other.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/react.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/react.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/tool.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/tool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/vite.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/vite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/vue.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/web.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/web.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/wechat.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/wechat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+        <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="5.1.0" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2NuNwNlseGnzRhuZp4jS3kc9Xfc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "NextJS版",
+    "last_opened_file_path": "G:/新建文件夹/homepage_navigation/app",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "pnpm",
+    "prettierjs.PrettierConfiguration.Package": "G:\\新建文件夹\\homepage_navigation\\node_modules\\prettier",
+    "settings.editor.selected.configurable": "settings.typescriptcompiler",
+    "ts.external.directory.path": "D:\\WebStorm 2023.1.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\新建文件夹\homepage_navigation\app" />
+      <recent name="G:\新建文件夹\homepage_navigation" />
+      <recent name="G:\新建文件夹\homepage_navigation\src\components\Items" />
+      <recent name="G:\新建文件夹\homepage_navigation\src\assets\img" />
+      <recent name="G:\新建文件夹\homepage_navigation\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\新建文件夹\homepage_navigation\public" />
+      <recent name="G:\新建文件夹\homepage_navigation\src\components" />
+      <recent name="G:\新建文件夹\homepage_navigation\src\theme\default\modules" />
+      <recent name="G:\新建文件夹\homepage_navigation\src\theme" />
+      <recent name="G:\新建文件夹\homepage_navigation\src\theme\default" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="prettier" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="prettier" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.prettier" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.prettier" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="cca7a5b1-5111-44d8-9a2d-de3fc1ba8df4" name="变更" comment="" />
+      <created>1680510244390</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680510244390</updated>
+      <workItem from="1680510248207" duration="2392000" />
+      <workItem from="1680569045041" duration="652000" />
+      <workItem from="1680600087297" duration="722000" />
+      <workItem from="1681176547929" duration="676000" />
+      <workItem from="1681179475502" duration="10108000" />
+      <workItem from="1681195716572" duration="17258000" />
+      <workItem from="1681291323754" duration="5147000" />
+      <workItem from="1681376805930" duration="2032000" />
+      <workItem from="1681437842145" duration="1777000" />
+      <workItem from="1681439631976" duration="65000" />
+      <workItem from="1681439779132" duration="2333000" />
+      <workItem from="1681444098637" duration="11305000" />
+      <workItem from="1681692295996" duration="9027000" />
+      <workItem from="1681801497763" duration="1672000" />
+      <workItem from="1681809248201" duration="687000" />
+      <workItem from="1682322138819" duration="1024000" />
+      <workItem from="1682406519962" duration="651000" />
+      <workItem from="1682472802290" duration="34000" />
+      <workItem from="1682667806102" duration="1391000" />
+      <workItem from="1683161463891" duration="603000" />
+      <workItem from="1683257526419" duration="4686000" />
+      <workItem from="1683535688919" duration="2788000" />
+      <workItem from="1683873321254" duration="767000" />
+      <workItem from="1684134480826" duration="21000" />
+      <workItem from="1684377166027" duration="198000" />
+      <workItem from="1685693022470" duration="2497000" />
+      <workItem from="1687224681059" duration="7983000" />
+      <workItem from="1687240710702" duration="1553000" />
+      <workItem from="1687243067719" duration="428000" />
+      <workItem from="1687244504602" duration="6895000" />
+      <workItem from="1687657635098" duration="907000" />
+      <workItem from="1687659283989" duration="9145000" />
+      <workItem from="1687742143049" duration="9202000" />
+      <workItem from="1692061864438" duration="628000" />
+      <workItem from="1692062508573" duration="15599000" />
+      <workItem from="1692148789579" duration="10297000" />
+      <workItem from="1692234993234" duration="38261000" />
+      <workItem from="1692597534585" duration="27074000" />
+      <workItem from="1692697147828" duration="2148000" />
+      <workItem from="1692770577666" duration="7791000" />
+      <workItem from="1692840964262" duration="8501000" />
+      <workItem from="1693190791514" duration="1316000" />
+      <workItem from="1693193744918" duration="12465000" />
+      <workItem from="1693272355139" duration="7860000" />
+      <workItem from="1693294335305" duration="4760000" />
+      <workItem from="1693465428135" duration="7435000" />
+      <workItem from="1694135532715" duration="10355000" />
+      <workItem from="1698905027313" duration="9144000" />
+      <workItem from="1698972056488" duration="10286000" />
+      <workItem from="1699232282858" duration="21252000" />
+      <workItem from="1699318643946" duration="17247000" />
+      <workItem from="1699405001915" duration="5413000" />
+      <workItem from="1699411373819" duration="16741000" />
+      <workItem from="1699492691156" duration="14091000" />
+      <workItem from="1699579810572" duration="7433000" />
+      <workItem from="1699841353251" duration="5127000" />
+      <workItem from="1699924371559" duration="1082000" />
+      <workItem from="1699925581937" duration="12000" />
+      <workItem from="1700011812196" duration="74000" />
+      <workItem from="1700028279917" duration="7154000" />
+      <workItem from="1700098382092" duration="2548000" />
+      <workItem from="1700185950707" duration="96000" />
+      <workItem from="1704263772175" duration="843000" />
+      <workItem from="1704781090860" duration="89000" />
+      <workItem from="1705979885346" duration="120000" />
+      <workItem from="1708391547007" duration="8926000" />
+    </task>
+    <task id="LOCAL-00001" summary="初始化4.0分支">
+      <created>1681179926423</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681179926423</updated>
+    </task>
+    <task id="LOCAL-00002" summary="初始化4.0分支">
+      <created>1681179940619</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681179940619</updated>
+    </task>
+    <task id="LOCAL-00003" summary="初始化4.0分支">
+      <created>1681180021888</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681180021888</updated>
+    </task>
+    <task id="LOCAL-00004" summary="完成4.0">
+      <created>1681265113708</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681265113708</updated>
+    </task>
+    <task id="LOCAL-00005" summary="更新readme">
+      <created>1681265232916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681265232916</updated>
+    </task>
+    <task id="LOCAL-00006" summary="新增item展示动画&#10;新增ico&#10;修改部分菜单">
+      <created>1681347693063</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681347693063</updated>
+    </task>
+    <task id="LOCAL-00007" summary="格式化代码&#10;打包">
+      <created>1681347960769</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681347960769</updated>
+    </task>
+    <task id="LOCAL-00008" summary="格式化代码&#10;打包">
+      <created>1681348423072</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681348423072</updated>
+    </task>
+    <task id="LOCAL-00009" summary="4.0.1&#10;修复搜索历史不可点击的bug">
+      <created>1681349154668</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681349154668</updated>
+    </task>
+    <task id="LOCAL-00010" summary="4.0.2&#10;优化动画掉帧问题&#10;删除nanoid插件&#10;优化部分代码">
+      <created>1681378206057</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1681378206057</updated>
+    </task>
+    <task id="LOCAL-00011" summary="4.0.2&#10;优化动画掉帧问题&#10;删除nanoid插件&#10;优化部分代码">
+      <created>1681378221017</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1681378221017</updated>
+    </task>
+    <task id="LOCAL-00012" summary="4.0.3&#10;提取声明类型为全局类型">
+      <created>1681440854347</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681440854347</updated>
+    </task>
+    <task id="LOCAL-00013" summary="备份">
+      <created>1681456644386</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681456644386</updated>
+    </task>
+    <task id="LOCAL-00014" summary="备份">
+      <created>1681456670746</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681456670746</updated>
+    </task>
+    <task id="LOCAL-00015" summary="fix https://gitee.com/robin901118/homepage_navigation/issues/I6W4ND">
+      <created>1681693873493</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1681693873493</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix https://gitee.com/robin901118/homepage_navigation/issues/I6W4ND">
+      <created>1681696070872</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681696070872</updated>
+    </task>
+    <task id="LOCAL-00017" summary="4.1.0&#10;调整分类，修复样式">
+      <created>1681701257317</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1681701257317</updated>
+    </task>
+    <task id="LOCAL-00018" summary="4.1.0&#10;调整分类，修复样式">
+      <created>1681701329497</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1681701329497</updated>
+    </task>
+    <task id="LOCAL-00019" summary="4.1.1&#10;更新部分链接">
+      <created>1682667842716</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1682667842716</updated>
+    </task>
+    <task id="LOCAL-00020" summary="4.1.1&#10;更新部分链接">
+      <created>1682667971123</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1682667971123</updated>
+    </task>
+    <task id="LOCAL-00021" summary="4.1.2&#10;修复左侧菜单样式遮挡&#10;修复搜索记录按回车键无法叠加记录的bug&#10;修复搜索记录在暗黑模式下是小的问题&#10;升级vite到最新版本">
+      <created>1683267677667</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1683267677667</updated>
+    </task>
+    <task id="LOCAL-00022" summary="4.1.3&#10;新增若干链接">
+      <created>1683536038499</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1683536038499</updated>
+    </task>
+    <task id="LOCAL-00023" summary="4.1.4&#10;新增链接">
+      <created>1685693390868</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1685693390868</updated>
+    </task>
+    <task id="LOCAL-00024" summary="next版本demo">
+      <created>1692062309188</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1692062309188</updated>
+    </task>
+    <task id="LOCAL-00025" summary="4.2.0&#10;新增平铺风格&#10;删除响应式功能&#10;删除搜索历史记录功能&#10;升级部分依赖包&#10;优化代码&amp;修复bug">
+      <created>1692690356245</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1692690356245</updated>
+    </task>
+    <task id="LOCAL-00026" summary="修改README.md">
+      <created>1692690925590</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1692690925590</updated>
+    </task>
+    <task id="LOCAL-00027" summary="格式化代码">
+      <created>1692692569400</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1692692569400</updated>
+    </task>
+    <task id="LOCAL-00028" summary="4.2.1&#10;新增升级日志弹窗">
+      <created>1692772782344</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1692772782344</updated>
+    </task>
+    <task id="LOCAL-00029" summary="4.2.1&#10;新增升级日志弹窗">
+      <created>1692772851395</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1692772851395</updated>
+    </task>
+    <task id="LOCAL-00030" summary="4.3.0&#10;新增楼层模式">
+      <created>1693208608439</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1693208608439</updated>
+    </task>
+    <task id="LOCAL-00031" summary="4.4.0&#10;1、新增桌面主题。&#10;2、logo组件重定向到gitee仓库">
+      <created>1693298468188</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1693298468188</updated>
+    </task>
+    <task id="LOCAL-00032" summary="4.4.1&#10;1、修复vite配置里ts类型错误的bug。&#10;2、升级jotai。&#10;3、升级antd。">
+      <created>1693469398857</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1693469398857</updated>
+    </task>
+    <task id="LOCAL-00033" summary="4.4.2&#10;升级jotai&#10;新增书签">
+      <created>1698905967059</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1698905967059</updated>
+    </task>
+    <task id="LOCAL-00034" summary="4.4.2&#10;升级jotai&#10;新增书签">
+      <created>1698906019832</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1698906019832</updated>
+    </task>
+    <task id="LOCAL-00035" summary="5.0.0&#10;全新版本体验">
+      <created>1699499598428</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1699499598428</updated>
+    </task>
+    <task id="LOCAL-00036" summary="5.0.1&#10;整理书签">
+      <created>1699843779653</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1699843779653</updated>
+    </task>
+    <task id="LOCAL-00037" summary="5.0.2&#10;整理书签">
+      <created>1704264212594</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1704264212594</updated>
+    </task>
+    <task id="LOCAL-00038" summary="5.0.2&#10;整理书签">
+      <created>1708391754339</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1708391754339</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="更新readme" />
+    <MESSAGE value="新增item展示动画&#10;新增ico&#10;修改部分菜单" />
+    <MESSAGE value="格式化代码&#10;打包" />
+    <MESSAGE value="4.0.1&#10;修复搜索历史不可点击的bug" />
+    <MESSAGE value="4.0.2&#10;优化动画掉帧问题&#10;删除nanoid插件&#10;优化部分代码" />
+    <MESSAGE value="4.0.3&#10;提取声明类型为全局类型" />
+    <MESSAGE value="备份" />
+    <MESSAGE value="fix https://gitee.com/robin901118/homepage_navigation/issues/I6W4ND" />
+    <MESSAGE value="4.1.0&#10;调整分类，修复样式" />
+    <MESSAGE value="4.1.1&#10;更新部分链接" />
+    <MESSAGE value="4.1.2&#10;修复左侧菜单样式遮挡&#10;修复搜索记录按回车键无法叠加记录的bug&#10;修复搜索记录在暗黑模式下是小的问题&#10;升级vite到最新版本" />
+    <MESSAGE value="4.1.3&#10;新增若干链接" />
+    <MESSAGE value="4.1.4&#10;新增链接" />
+    <MESSAGE value="next版本demo" />
+    <MESSAGE value="4.2.0&#10;新增平铺风格&#10;删除响应式功能&#10;删除搜索历史记录功能&#10;升级部分依赖包&#10;优化代码&amp;修复bug" />
+    <MESSAGE value="修改README.md" />
+    <MESSAGE value="格式化代码" />
+    <MESSAGE value="4.2.1&#10;新增升级日志弹窗" />
+    <MESSAGE value="4.3.0&#10;新增楼层模式" />
+    <MESSAGE value="4.4.0&#10;1、新增桌面主题。&#10;2、logo组件重定向到gitee仓库" />
+    <MESSAGE value="4.4.1&#10;1、修复vite配置里ts类型错误的bug。&#10;2、升级jotai。&#10;3、升级antd。" />
+    <MESSAGE value="4.4.2&#10;升级jotai&#10;新增书签" />
+    <MESSAGE value="5.0.0&#10;全新版本体验" />
+    <MESSAGE value="5.0.1&#10;整理书签" />
+    <MESSAGE value="5.0.2&#10;整理书签" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.0.2&#10;整理书签" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
