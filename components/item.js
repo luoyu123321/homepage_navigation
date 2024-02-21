@@ -36,7 +36,7 @@ export default function (props) {
 					)
 				} else {
 					return (
-						<Link href={item.path}>
+						<Link href={item.path} style={{display:'block'}}>
 							<animated.div className={className} style={style}>
 								<Image src={require('@/public/folder.svg').default} alt={''} sizes={'40px,auto'} style={{ width: '40px', height: 'auto' }} />
 								<h6 className='text-16 mt-10 font-normal'>{item.label}</h6>

@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cca7a5b1-5111-44d8-9a2d-de3fc1ba8df4" name="变更" comment="6.0.0">
+    <list default="true" id="cca7a5b1-5111-44d8-9a2d-de3fc1ba8df4" name="变更" comment="6.0.1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/item.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/item.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/_next/static/4M44NbBgZ4epZMlfvA9bD/_buildManifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/_next/static/4M44NbBgZ4epZMlfvA9bD/_ssgManifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/_next/static/chunks/app/[id]/page-9a9fed8f3525c589.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/_next/static/chunks/app/layout-1f500e4405c554c0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/_next/static/chunks/app/page-ce7990bc9fd474eb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/_next/static/chunks/webpack-b05c86c91fbb5e3c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/_next/static/css/3bdd4a28e43a096b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/_next/static/KEaoFaPouf35SSqZQPKMk/_buildManifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/_next/static/KEaoFaPouf35SSqZQPKMk/_ssgManifest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/_next/static/chunks/app/[id]/page-9ce204ce646b9adf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/_next/static/chunks/app/page-d375f23d3758f661.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/auxiliary.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/auxiliary.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/auxiliary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/auxiliary.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/css.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/css.html" afterDir="false" />
@@ -516,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708497084381</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="6.0.1">
+      <created>1708505931620</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1708505931620</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,7 +540,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="新增item展示动画&#10;新增ico&#10;修改部分菜单" />
     <MESSAGE value="格式化代码&#10;打包" />
     <MESSAGE value="4.0.1&#10;修复搜索历史不可点击的bug" />
     <MESSAGE value="4.0.2&#10;优化动画掉帧问题&#10;删除nanoid插件&#10;优化部分代码" />
@@ -560,7 +564,8 @@
     <MESSAGE value="5.0.1&#10;整理书签" />
     <MESSAGE value="5.0.2&#10;整理书签" />
     <MESSAGE value="6.0.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.0.0" />
+    <MESSAGE value="6.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.0.1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
