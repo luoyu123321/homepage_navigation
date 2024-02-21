@@ -10,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html>
-			<body className='bg-bgLight dark:bg-bgDark flex flex-col min-h-screen'>
+			<body className='bg-bgLight dark:bg-bgDark flex min-h-screen flex-col'>
 				<AntdRegister>
 					<Header />
 					{children}
