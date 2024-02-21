@@ -5,33 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cca7a5b1-5111-44d8-9a2d-de3fc1ba8df4" name="变更" comment="6.0.0">
-      <change afterPath="$PROJECT_DIR$/app/[id]/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/antdRegister.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/item.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/myImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/folder.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(site)/page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/darkBtn.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/darkBtn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/auxiliary.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/auxiliary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/commonly.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/commonly.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/css.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/css.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/other.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/other.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/react.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/react.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/tool.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/tool.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/vite.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/vite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/web.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/web.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/wechat.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/wechat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,9 +122,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.prettier" />
         <item itemvalue="npm.dev" />
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.prettier" />
       </list>
