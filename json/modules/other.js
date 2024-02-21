@@ -3,100 +3,115 @@ export default {
 	title: "BM-其他工具",
 	description: "前端开发其他工具",
 	keywords: "BM快捷导航,前端导航,前端开发工具,前端开发插件,h5开发插件",
-	icon:'/10.png',
-	index:11,
-	path:'/other',
 	nav: [
 		{
-			text: 'apiPost',
+			label: 'apiPost',
 			link: 'https://www.apipost.cn/',
 			icon: 'https://img.cdn.apipost.cn/statics/www/img/favicon.ico',
-			desc: '国内的postman'
+			desc: '国内的postman',
+			type: 1
 		},
 		{
-			text: 'tinypng',
+			label: 'tinypng',
 			link: 'https://tinypng.com/',
-			desc: '图片压缩'
+			desc: '图片压缩',
+			type: 1
 		},
 		{
-			text: '草料二维码',
+			label: '草料二维码',
 			link: 'https://cli.im/',
-			desc: '快速生成二维码'
+			desc: '快速生成二维码',
+			type: 1
 		},
 		{
-			text: '西瓜播放器',
+			label: '西瓜播放器',
 			link: 'http://h5player.bytedance.com/en/',
-			icon: '//lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/byted-player-videos/1.0.4/favicon.ico'
+			icon: '//lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/byted-player-videos/1.0.4/favicon.ico',
+			type: 1
 		},
 		{
-			text: 'videoJS',
-			link: 'https://www.cnblogs.com/alicePanZ/articles/5676915.html'
+			label: 'videoJS',
+			link: 'https://www.cnblogs.com/alicePanZ/articles/5676915.html',
+			type: 1
 		},
 		{
-			text: 'squoosh',
+			label: 'squoosh',
 			link: 'https://squoosh.app/',
 			icon: 'https://squoosh.app/c/favicon-c9cf50ef.ico',
-			desc: '图片压缩'
+			desc: '图片压缩',
+			type: 1
 		},
 		{
-			text: 'FontEditor',
+			label: 'FontEditor',
 			link: 'https://kekee000.github.io/fonteditor/#/',
-			desc: '字体编辑器'
+			desc: '字体编辑器',
+			type: 1
 		},
 		{
-			text: '代码片段图片',
+			label: '代码片段图片',
 			link: 'https://carbon.now.sh/?bg=rgba(171%2C%20184%2C%20195%2C%201)&t=night-owl&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fm=Hack&fs=14px&lh=133%25&si=false&es=1x&wm=false&code=var%2520map%2520%253D%2520%257B%250A%2520%2520%252F*%25E5%259C%25B0%25E5%259B%25BE%25E4%25B8%25BB%25E4%25BD%2593*%252F%250A%2520%2520Map%253A%2520undefined%252C%250A%250A%2520%2520%252F*%25E5%2588%259D%25E5%25A7%258B%25E5%258C%2596*%252F%250A%2520%2520init%253A%2520function%2520()%2520%257B%250A%2520%2520%2520%2520this.Map%2520%253D%2520new%2520BMap.Map(%2522mapContener%2522)%253B%250A%2520%2520%2520%2520this.Map.centerAndZoom(new%2520BMap.Point(116.404%252C%252039.915)%252C%252011)%253B%250A%2520%2520%257D%250A%257D%253B',
-			icon: 'https://carbon.now.sh/static/brand/apple-touch-icon.png'
+			icon: 'https://carbon.now.sh/static/brand/apple-touch-icon.png',
+			type: 1
 		},
 		{
-			text: 'cubic-bezier',
+			label: 'cubic-bezier',
 			link: 'https://cubic-bezier.com/#0,.95,0,.97',
 			icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAMNJREFUOE9jZFi5s4GBkamegRzw/18jI8Oq3f/J0QvTAzdgjaUeQ8O1ewz8LCwMfKzMDGZC/AzR8hIMAqwsDOxMTAzszExgGgQefP3BoLjtCJgNN6BeS4mh8do9hjf+9gyz7j1lmHLnMcOz7z8JOg5uQIKCFMN8Uy0GxtV7CGpCVgA3IEVRmuHOl28MB16/J8+AO57WDCrbj5KkGSUMvgU5MXCt20e+Af9DXUj2P4oLRg1gYLjvZQNPnqREBRUyE4XZGQD2VmFNx8CBbwAAAABJRU5ErkJggg==',
-			desc: '动画贝塞尔工具'
+			desc: '动画贝塞尔工具',
+			type: 1
 		},
 		{
-			text: 'icomoon',
+			label: 'icomoon',
 			link: 'https://icomoon.io/',
-			icon: 'https://icomoon.io/img/icon96.png'
+			icon: 'https://icomoon.io/img/icon96.png',
+			type: 1
 		},
 		{
-			text: '制作ico',
+			label: '制作ico',
 			link: 'http://www.bitbug.net/',
-			icon: '//www.bitbug.net/favicon.ico'
+			icon: '//www.bitbug.net/favicon.ico',
+			type: 1
 		},
 		{
-			text: '小徽标生成',
+			label: '小徽标生成',
 			link: 'https://shields.io/category/build/',
-			icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAABE0lEQVR4AWJkAIKkpCQ7TU3NySIiIlosQMCABejbMWAFf//8YXj77vWn27duZWVGz1nKGBYWZiQkJHSIkZGRmwEPCMxiwAt+/fz3/86VL8EAbuiiAKEoiMLwGcHdCQMBiUAlurDErmJ75tmKP8A3oiJyuF6vAxglws+0C5pv81GJaJdzhlWMMJssaaXM3C0CpmSDLAQtgH3BiCIVB2NRMKWEIoXQMBiLgjHGP9nQ+6ZPLgqGgs9xriDovX8A6Jjgw8ZyIigzn5xz+yZ+6O/tsz7Hy8tb/PLlywPAHMOFT/G3LwRc95fxPyerQCojuKwLDLQAGjoJWIzpAw1mw6bB0guHSYyMDBysnO/5hUTTGvM3rQEAI8qCnLiY3O4AAAAASUVORK5CYII='
+			icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAABE0lEQVR4AWJkAIKkpCQ7TU3NySIiIlosQMCABejbMWAFf//8YXj77vWn27duZWVGz1nKGBYWZiQkJHSIkZGRmwEPCMxiwAt+/fz3/86VL8EAbuiiAKEoiMLwGcHdCQMBiUAlurDErmJ75tmKP8A3oiJyuF6vAxglws+0C5pv81GJaJdzhlWMMJssaaXM3C0CpmSDLAQtgH3BiCIVB2NRMKWEIoXQMBiLgjHGP9nQ+6ZPLgqGgs9xriDovX8A6Jjgw8ZyIigzn5xz+yZ+6O/tsz7Hy8tb/PLlywPAHMOFT/G3LwRc95fxPyerQCojuKwLDLQAGjoJWIzpAw1mw6bB0guHSYyMDBysnO/5hUTTGvM3rQEAI8qCnLiY3O4AAAAASUVORK5CYII=',
+			type: 1
 		},
 		{
-			text: '变量声明',
+			label: '变量声明',
 			link: 'https://unbug.github.io/codelf/',
-			icon: 'https://unbug.github.io/codelf/images/codelf_logo.f4ae25bd.png'
+			icon: 'https://unbug.github.io/codelf/images/codelf_logo.f4ae25bd.png',
+			type: 1
 		},
 		{
-			text: '短链生成',
+			label: '短链生成',
 			link: 'https://dwz.cn/',
-			icon: 'https://dwz.cn/static/img/favicon.ico'
+			icon: 'https://dwz.cn/static/img/favicon.ico',
+			type: 1
 		},
 		{
-			text: '百度脑图',
+			label: '百度脑图',
 			link: 'http://naotu.baidu.com/',
-			icon: 'https://naotu.baidu.com/favicon.ico'
+			icon: 'https://naotu.baidu.com/favicon.ico',
+			type: 1
 		},
 		{
-			text: 'JEST测试',
+			label: 'JEST测试',
 			link: 'https://jestjs.io/zh-Hans/',
-			icon: 'https://jestjs.io/zh-Hans/img/jest.png'
+			icon: 'https://jestjs.io/zh-Hans/img/jest.png',
+			type: 1
 		},
 		{
-			text: '智图',
+			label: '智图',
 			link: 'http://zhitu.isux.us/',
-			icon: 'https://zhitu.isux.us/assets/img/logo-s.ico'
+			icon: 'https://zhitu.isux.us/assets/img/logo-s.ico',
+			type: 1
 		},
 		{
-			text: '占位图',
-			link: 'https://tool.lu/imageholder/'
+			label: '占位图',
+			link: 'https://tool.lu/imageholder/',
+			type: 1
 		}
 	]
 }

@@ -2,6 +2,7 @@
 import { Button } from '@douyinfe/semi-ui'
 import { Brightness, Moon } from '@icon-park/react'
 import { useEffect, useState } from 'react'
+import Link from 'next/link'
 
 export default function () {
 	const [darkState, setDarkState] = useState(0)

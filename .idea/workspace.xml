@@ -4,54 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cca7a5b1-5111-44d8-9a2d-de3fc1ba8df4" name="变更" comment="5.0.2&#10;整理书签">
-      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/(site)/page.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/baiduSearch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/darkBtn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/globalLoading.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/supportBtn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next.config.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/homepage_navigation.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/[type]/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/favicon.ico" beforeDir="false" />
+    <list default="true" id="cca7a5b1-5111-44d8-9a2d-de3fc1ba8df4" name="变更" comment="6.0.0">
+      <change afterPath="$PROJECT_DIR$/app/[id]/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/antdRegister.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/page.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/item.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/myImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/folder.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(site)/page.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Aside.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/LinkItem.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Logo.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Menu.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/global.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/auxiliary.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/auxiliary.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/commonly.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/commonly.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/css.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/css.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/map.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/other.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/other.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/react.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/react.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/tool.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/tool.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/vite.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/vite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/vue.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/web.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/web.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/json/modules/wechat.ts" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/wechat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/darkBtn.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/darkBtn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/auxiliary.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/auxiliary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/commonly.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/commonly.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/css.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/css.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/map.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/map.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/other.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/other.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/react.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/react.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/tool.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/tool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/vite.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/vite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/vue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/web.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/web.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/wechat.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/wechat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +42,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="CSS File" />
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -100,39 +80,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "NextJS版",
-    "last_opened_file_path": "G:/新建文件夹/homepage_navigation/app",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "pnpm",
-    "prettierjs.PrettierConfiguration.Package": "G:\\新建文件夹\\homepage_navigation\\node_modules\\prettier",
-    "settings.editor.selected.configurable": "settings.typescriptcompiler",
-    "ts.external.directory.path": "D:\\WebStorm 2023.1.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;NextJS版&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/新建文件夹/homepage_navigation/public&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;pnpm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;G:\\新建文件夹\\homepage_navigation\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.typescriptcompiler&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\WebStorm 2023.1.2\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\新建文件夹\homepage_navigation\public" />
       <recent name="G:\新建文件夹\homepage_navigation\app" />
       <recent name="G:\新建文件夹\homepage_navigation" />
       <recent name="G:\新建文件夹\homepage_navigation\src\components\Items" />
       <recent name="G:\新建文件夹\homepage_navigation\src\assets\img" />
-      <recent name="G:\新建文件夹\homepage_navigation\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\新建文件夹\homepage_navigation\pages" />
       <recent name="G:\新建文件夹\homepage_navigation\public" />
       <recent name="G:\新建文件夹\homepage_navigation\src\components" />
       <recent name="G:\新建文件夹\homepage_navigation\src\theme\default\modules" />
       <recent name="G:\新建文件夹\homepage_navigation\src\theme" />
-      <recent name="G:\新建文件夹\homepage_navigation\src\theme\default" />
     </key>
   </component>
   <component name="RunManager" selected="npm.dev">
@@ -249,7 +229,8 @@
       <workItem from="1704263772175" duration="843000" />
       <workItem from="1704781090860" duration="89000" />
       <workItem from="1705979885346" duration="120000" />
-      <workItem from="1708391547007" duration="8926000" />
+      <workItem from="1708391547007" duration="17381000" />
+      <workItem from="1708476143783" duration="11013000" />
     </task>
     <task id="LOCAL-00001" summary="初始化4.0分支">
       <created>1681179926423</created>
@@ -517,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708391754339</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="6.0.0">
+      <created>1708409517625</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1708409517625</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -536,7 +524,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="更新readme" />
     <MESSAGE value="新增item展示动画&#10;新增ico&#10;修改部分菜单" />
     <MESSAGE value="格式化代码&#10;打包" />
     <MESSAGE value="4.0.1&#10;修复搜索历史不可点击的bug" />
@@ -561,7 +548,8 @@
     <MESSAGE value="5.0.0&#10;全新版本体验" />
     <MESSAGE value="5.0.1&#10;整理书签" />
     <MESSAGE value="5.0.2&#10;整理书签" />
-    <option name="LAST_COMMIT_MESSAGE" value="5.0.2&#10;整理书签" />
+    <MESSAGE value="6.0.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.0.0" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

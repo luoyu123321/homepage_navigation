@@ -1,5 +1,6 @@
 import './globals.css'
 import ico from '@/public/favicon.ico'
+import AntdRegister from './antdRegister'
 import Header from '@/components/header'
 
 export const metadata = {
@@ -9,9 +10,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html>
-			<body>
-				<Header />
-				{children}
+			<body className='bg-bgLight dark:bg-bgDark flex flex-col min-h-screen'>
+				<AntdRegister>
+					<Header />
+					{children}
+				</AntdRegister>
 			</body>
 		</html>
 	)

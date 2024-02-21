@@ -1,5 +1,4 @@
 import auxiliary from './modules/auxiliary'
-import commonly from './modules/commonly'
 import css from './modules/css'
 import map from './modules/map'
 import other from './modules/other'
@@ -10,9 +9,8 @@ import vue from './modules/vue'
 import web from './modules/web'
 import wechat from './modules/wechat'
 
-export default {
+const data = {
 	auxiliary,
-	commonly,
 	css,
 	map,
 	other,
@@ -23,3 +21,12 @@ export default {
 	web,
 	wechat
 }
+export const menus = Object.keys(data).map(key => {
+	return {
+		label: data[key].label,
+		path: `/${key}`,
+		key,
+		type: 2
+	}
+})
+export default data

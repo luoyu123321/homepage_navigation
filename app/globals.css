@@ -1,8 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.item {
-    @apply flex h-full cursor-pointer flex-col items-center justify-center rounded-6 border border-solid border-slate-200 text-slate-700;
-    filter: drop-shadow(0 10px 10px rgba(0, 0, 0, 0.1));
-}

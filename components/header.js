@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function () {
 	return (
-		<header className='dark:border-b-borderDark dark:bg-bgDark-2 flex h-80 items-center justify-between border-b border-b-transparent px-20' style={{ borderBottomStyle: 'solid' }}>
+		<header className='dark:border-b-borderDark dark:bg-bgDark-2 flex h-80 items-center justify-between border-b border-b-transparent px-20 sticky top-0 z-10 bg-bgLight' style={{ borderBottomStyle: 'solid' }}>
 			<div className='flex flex-1 items-center'>
 				<div className='mr-10'>
 					<div className='flex h-80 items-center'>
