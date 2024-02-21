@@ -22,7 +22,7 @@ export default function (props) {
 		}
 	})
 	//通用样式
-	const className = Style.item + ' bg-white/60 hover:bg-white dark:bg-bgDark-2 dark:border-borderDark dark:text-white dark:hover:bg-black'
+	const className = Style.item + ' block bg-white/60 hover:bg-white dark:bg-bgDark-2 dark:border-borderDark dark:text-white dark:hover:bg-black'
 
 	return (
 		<>
