@@ -5,6 +5,13 @@ export default {
 	keywords: "BM快捷导航,前端导航,js技术库,javascript插件,js插件,js特效库,javascript特效库,h5插件,h5特效",
 	nav: [
 		{
+			label: 'Radash',
+			link: 'https://radash-docs.vercel.app/docs/getting-started',
+			icon: 'https://radash-docs.vercel.app/docs/logo-light.png',
+			desc: '比lodash更好用的工具类',
+			type: 1
+		},
+		{
 			label: 'Axios',
 			link: 'https://www.axios-http.cn/',
 			icon: 'https://www.axios-http.cn/assets/favicon.ico',

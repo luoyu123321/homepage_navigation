@@ -6,34 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="cca7a5b1-5111-44d8-9a2d-de3fc1ba8df4" name="变更" comment="6.0.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/item.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/_next/static/KEaoFaPouf35SSqZQPKMk/_buildManifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/_next/static/KEaoFaPouf35SSqZQPKMk/_ssgManifest.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/_next/static/chunks/app/[id]/page-9ce204ce646b9adf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/_next/static/chunks/app/page-d375f23d3758f661.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/auxiliary.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/auxiliary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/auxiliary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/auxiliary.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/css.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/css.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/css.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/css.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/index.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/index.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/map.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/map.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/map.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/other.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/other.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/other.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/other.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/react.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/react.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/react.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/react.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/tool.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/tool.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/tool.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/tool.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/vite.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/vite.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/vite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/vite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/vue.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/vue.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/vue.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/vue.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/web.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/web.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/web.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/web.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/wechat.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/wechat.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/wechat.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/wechat.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/commonly.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/commonly.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/json/modules/tool.js" beforeDir="false" afterPath="$PROJECT_DIR$/json/modules/tool.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +64,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;NextJS版&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/新建文件夹/homepage_navigation/public&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/demo/兴启&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -150,8 +126,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.prettier" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
         <item itemvalue="npm.prettier" />
@@ -233,6 +209,10 @@
       <workItem from="1705979885346" duration="120000" />
       <workItem from="1708391547007" duration="17381000" />
       <workItem from="1708476143783" duration="11013000" />
+      <workItem from="1708562800044" duration="1298000" />
+      <workItem from="1708565021565" duration="53000" />
+      <workItem from="1709707322437" duration="965000" />
+      <workItem from="1712454379169" duration="1544000" />
     </task>
     <task id="LOCAL-00001" summary="初始化4.0分支">
       <created>1681179926423</created>

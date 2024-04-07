@@ -22,7 +22,7 @@ export default [
 	},
 	{
 		label: '知乎',
-		link: 'https://www.zhihu.com/signin?next=%2F',
+		link: 'https://www.zhihu.com',
 		icon: 'https://static.zhihu.com/heifetz/assets/apple-touch-icon-152.a53ae37b.png',
 		desc: '有问题，上知乎',
 		type:1
