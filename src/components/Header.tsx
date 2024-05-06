@@ -19,11 +19,11 @@ function Header() {
 				<BaiduSearch />
 			</div>
 			<div className='flex items-center space-x-10'>
-				<Tooltip content='觉得不错？点个赞支持一下！' position='left'>
+				{/* <Tooltip content='觉得不错？点个赞支持一下！' position='left'>
 					<Button icon={<ThumbsUp theme='outline' />} onClick={() => window.open('https://gitee.com/robin901118/homepage_navigation', '_blank')} type='tertiary' size='large' />
-				</Tooltip>
+				</Tooltip> */}
 				<DarkBtn />
-				<Select defaultValue={currentTheme} style={{ width: 120 }} size='large' optionList={themeOptionsAtom} onChange={e => setCurrentTheme(e as string)} />
+				{/* <Select defaultValue={currentTheme} style={{ width: 120 }} size='large' optionList={themeOptionsAtom} onChange={e => setCurrentTheme(e as string)} /> */}
 			</div>
 		</header>
 	)

@@ -27,7 +27,7 @@ function Page() {
 				<Header />
 				{currentMutual(storeMutual)}
 			</div>
-			<UpdateNotification />
+			{/* <UpdateNotification /> */}
 		</Suspense>
 	)
 }
