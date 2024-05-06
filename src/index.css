@@ -71,7 +71,7 @@ html {
 body {
 	position: relative;
 	min-height: 100%;
-	min-width: 1100px;
+	/* min-width: 1100px; */
 	user-select: none;
 }
 input {
