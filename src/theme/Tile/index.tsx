@@ -1,7 +1,6 @@
 import FullData from '@/assets/json'
 import Items from '@/components/Items'
 import { useEffect, useState } from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 
 function Tile() {
