@@ -3,6 +3,7 @@ import UpdateNotification from '@/components/UpdateNotification'
 import { themeStore } from '@/store'
 import { useAtomValue } from 'jotai'
 import { lazy, Suspense } from 'react'
+import Drilldown from './theme/DrillDown'
 
 const DrillDown = lazy(() => import('./theme/DrillDown'))
 const Tile = lazy(() => import('./theme/Tile'))
@@ -22,13 +23,16 @@ function Page() {
 	}
 	const storeMutual = useAtomValue(themeStore)
 	return (
-		<Suspense fallback={<GlobalLoading />}>
+		<>
+		{/* <Suspense fallback={<GlobalLoading />}> */}
 			<div className='flex h-screen flex-col bg-bgLight dark:bg-bgDark'>
 				<Header />
-				{currentMutual(storeMutual)}
+				<Drilldown />
+				{/* {currentMutual(storeMutual)} */}
 			</div>
 			{/* <UpdateNotification /> */}
-		</Suspense>
+		{/* </Suspense> */}
+		</>
 	)
 }
 
